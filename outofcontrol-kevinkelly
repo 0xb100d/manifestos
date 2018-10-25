@@ -1,0 +1,962 @@
+https://kk.org/mt-files/books-mt/ooc-mf.pdf
+Chapter 12 (pg 176-197)
+E-Money
+ Crypto-anarchy: encryption always wins
+In Tim May’s eyes a digital tape is a weapon as potent and subversive as a shouldermounted
+Stinger missile. May (fortyish, trim beard, ex-physicist) holds up a $9.95 digital
+audio tape, or DAT. The cassette—just slightly fatter than an ordinary cassette—contains
+a copy of Mozart equivalent in fidelity to a conventional digital compact disc. DAT
+can hold text as easily as music. If the data is smartly compressed, one DAT purchased
+at K-Mart can hold about 10,000 books in digital form.
+One DAT can also completely cloak a smaller library of information interleaved
+within the music. Not only can the data be securely encrypted within a digital tape, but
+the library’s existence on the tape would be invisible even to powerful computers. In the
+scheme May promotes, a computer hard disk’s-worth of coded information could be
+made to disappear inside an ordinary digital tape of Michael Jackson’s Thriller.
+The vanishing act works as follows. DAT records music in 16 binary digits, but that
+precision is beyond perception. The difference contained in the 16th bit of the signal is
+too small to be detected by the human ear. An engineer can substitute a long message—a
+book of diagrams, a pile of data spreadsheets (in encrypted form)—into the positions
+of the 16th bits of music. Anyone playing the tape would hear Michael Jackson crooning
+in the exact digital quality they would hear on a purchased Thriller tape. Anyone
+examining the tape with a computer would see only digital music. Only by matching an
+Tim May, cypherpunk.
+177
+untampered-with tape with the encrypted one bit by bit on a computer could someone
+detect the difference. Even then, the random-looking differences would appear to be
+noise acquired while duping a digital tape through an analog CD player (as is normally
+done). Finally, this “noise” would have to be decrypted (not likely) to prove that it was
+something other than noise.
+“What this means,” says May, “is that already it is totally hopeless to stop the flow
+of bits across borders. Because anyone carrying a single music cassette bought in a
+store could carry the entire computerized files of the stealth bomber, and it would be
+completely and totally imperceptible.” One tape contains disco music. The other tape
+contains disco and the essential blueprints of a key technology.
+Music isn’t the only way to hide things, either. “I’ve done this with photos, “ says
+May. “I take a digitized photo posted on the Net, download it into Adobe Photoshop,
+and then strip an encrypted message into the least significant bit in each pixel. When I
+repost the image, it is essentially indistinguishable from the original.”
+The other thing May is into is wholly anonymous transactions. If one takes the
+encryption methods developed by military agencies and transplants them into the vast
+terrain of electronic networks, very powerful—and very unbreakable—technologies of
+anonymous dealing become possible. Two complete strangers could solicit or supply
+information to each other, and consummate the exchange with money, without the least
+chance of being traced. That’s something that cannot be securely done with phones and
+the post office now.
+It’s not just spies and organized crime who are paying attention. Efficient means
+of authentication and verification, such as smart cards, tamper-proof networks, and
+micro-size encryption chips, are driving the cost of ciphers down to the consumer level.
+Encryption is now affordable for the everyman.
+The upshot of all this, Tim believes, is the end of corporations in their current form
+and the beginning of more sophisticated, untaxed black markets. Tim calls this movement
+Crypto Anarchy. “I have to tell you I think there is a coming war between two
+forces,” Tim May confides to me. “One force wants full disclosure, an end to secret dealings.
+That’s the government going after pot smokers and controversial bulletin boards.
+The other force wants privacy and civil liberties. In this war, encryption wins. Unless the
+government is successful in banning encryption, which it won’t be, encryption always
+wins.”
+A couple of years ago May wrote a manifesto to alert the world to the advent of
+widespread encryption. In this electronic broadside published on the Net, he warned of
+the coming “specter of crypto anarchy”:
+...The State will of course try to slow or halt the spread of this technology, citing
+national security concerns, use of the technology by drug dealers and tax evaders, and
+fears of societal disintegration. Many of these concerns will be valid; crypto anarchy will
+allow national secrets to be traded freely and will allow illicit and stolen materials to be
+traded. An anonymous computerized market will even make possible abhorrent markets
+for assassinations and extortion. Various criminal and foreign elements will be active users
+of CryptoNet. But this will not halt the spread of crypto anarchy.
+Just as the technology of printing altered and reduced the power of medieval guilds
+and the social power structure, so too will cryptologic methods fundamentally alter the
+nature of corporations and of government interference in economic transactions. Combined
+with emerging information markets, crypto anarchy will create a liquid market for
+any and all material which can be put into words and pictures. And just as a seemingly
+minor invention like barbed wire made possible the fencing-off of vast ranches and
+farms, thus altering forever the concepts of land and property rights in the frontier West,
+so too will the seemingly minor discovery out of an arcane branch of mathematics come 
+178
+to be the wire clippers which dismantle the barbed wire around intellectual property.
+The manifesto was signed:
+Timothy C. May, Crypto Anarchy: encryption, digital money, anonymous networks,
+digital pseudonyms, zero knowledge, reputations, information markets, black markets,
+collapse of government.
+I asked Tim May, a retired Intel physicist, to explain the connection between
+encryption and the collapse of society as we know it. May explained, “Medieval guilds
+would monopolize information. When someone tried to make leather or silver outside
+the guilds, the King’s men came in and pounded on them because the guild paid a levy
+to the King. What broke the medieval guilds was printing; someone could publish a
+treatise on how to tan leather. In the age of printing, corporations arose to monopolize
+certain expertise like gunsmithing, or making steel. Now encryption will cause the
+erosion of the current corporate monopoly on expertise and proprietary knowledge.
+Corporations won’t be able to keep secrets because of how easy it will be to sell information
+on the nets.”
+The reason crypto anarchy hasn’t broken out yet, according to May, is that the
+military has a monopoly on the key knowledge of encryption—just as the Church once
+tried to control printing. With few exceptions, encryption technology has been invented
+by and for the world’s military organizations. To say that the military is secretive about
+this technology would be an understatement. Very little developed by the U.S. National
+Security Agency (NSA)—whose mandate it is to develop crypto systems—has ever
+trickled down for civilian use, unlike technologies spun off from the rest of the military/
+industrial alliance.
+But who needs encryption, anyway? Only people with something to hide, perhaps.
+Spies, criminals, and malcontents. People whose appetite for encryption may be thwarted
+righteously, effectively, and harshly.
+The ground shifted two decades ago when the information age arrived, and intelligence
+became the chief asset of corporations. Intelligence was no longer the monopoly
+of the Central Intelligence Agency, but the subject of seminars for CEOs. Spying meant
+corporate spying. Illicit transfer of corporate know-how, rather than military plans,
+became the treasonous information the state had to worry about.
+In addition, within the last decade, computers became fast and cheap; enciphering
+no longer demanded supercomputers and the superbudgets need to run them. A generic
+brand PC picked up at a garage sale could handle the massive computations that decent
+encryption schemes consumed. For small companies running their entire business on
+PCs, encryption was a tool they wanted on their hard disks.
+And now, within the last few years, a thousand electronic networks have blossomed
+into one highly decentralized network of networks. A network is a distributed thing without
+a center of control, and with few clear boundaries. How do you secure something
+without boundaries? Certain types of encryption, it turns out, are an ideal way to bring
+security to a decentralized system while keeping the system flexible. Rather than trying
+to seal out trouble with a rigid wall of security, networks can tolerate all kinds of crap if
+a large portion of its members use peer-to-peer encryption.
+Suddenly, encryption has become incredibly useful to ordinary people who have
+“nothing to hide” but their privacy. Peer-to-peer encryption, sown into the Net, linked
+with electronic payments, tied into everyday business deals, becomes just another business
+tool like fax machines or credit cards.
+Just as suddenly, tax-paying citizens—whose dollars funded the military ownership
+of this technology—want the technology back.
+But the government (at least the U.S. government) may not give encryption back 
+179
+to the people for a number of antiquated reasons. So, in the summer of 1992, a loose
+federation of creative math hackers, civil libertarians, free-market advocates, genius
+programmers, renegade cryptologists, and sundry other frontier folk, began creating,
+assembling, or appropriating encryption technology to plug into the Net. They called
+themselves “cypherpunks.”
+On a couple of Saturdays in the fall of 1992, I joined Tim May and about 15 other
+crypto-rebels for their monthly cypherpunk meeting held near Palo Alto, California. The
+group meets in a typically nondescript office complex full of small hi-tech start-up companies.
+It could be anywhere in Silicon Valley. The room has corporate gray carpeting
+and a conference table. The moderator for this meeting, Eric Hughes, tries to quiet the
+cacophony of loud, opinionated voices. Hughes, with sandy hair halfway down his back,
+grabs a marker and scribbles the agenda on a whiteboard. The items he writes down
+echo Tim May’s digital card: reputations, PGP encryption, anonymous re-mailer update,
+and the Diffie-Hellmann key exchange paper.
+After a bit of gossip the group gets down to business. It’s class time. One member,
+Dean Tribble, stands up front to report on his research on digital reputations. If you are
+trying to do business with someone you know only as a name introducing some e-mail,
+how can you be sure they are legit? Tribble suggests that you can buy a reputation from
+a “trust escrow”—a company similar to a title or bond company that would guarantee
+someone for a fee. He explains the lesson from game theory concerning iterated negotiation
+games, like the Prisoner’s Dilemma; how payoffs shift when playing the game over
+and over instead of just once, and how important reputations become in iterated relationships.
+The potential problems of buying and selling reputations online are chewed
+on, and suggestions of new directions for research are made, before Tribble sits down
+and another member stands to give a brief talk. Round the table it goes.
+Arthur Abraham, dressed in heavy studded black leather, reviews a recent technical
+paper on encryption. Abraham flicks on an overhead projector, whips out some transparencies
+painted with equations, and walks the group through the mathematical proof.
+It is clear that the math is not easy for most. Sitting around the table are programmers
+(many self-taught), engineers, consultants—all very smart—but only a single member
+is equipped with a background in mathematics. “What do you mean by that?” questions
+one quiet fellow as Abraham talks. “Oh, I see, you forgot the modulus,” chimes in
+another guy. “Is that ‘a to the x’ or ‘a to the y’? The amateur crypto-hackers challenge
+each statement, asking for clarification, mulling it over until each understands. The
+hacker mind, the programmer’s drive to whittle things down to an elegant minimum,
+to seek short cuts, confronts the academic stance of the paper. Pointing to a large hunk
+of one equation, Dean asks, “Why not just scrap all this?” A voice from back: “That’s a
+great question, and I think I know why not.” So the voice explains. Dean nods. Arthur
+looks around to be sure everyone got it. Then he goes on to the next line in the paper;
+those who understand help out those who don’t. Soon the room is full of people saying,
+“Oh, that means you can serve this up on a network configuration! Hey, cool!” And
+another tool for distributed computing is born; another component is transferred from
+the shroud of military secrecy to the open web of the Net; and another brick is set into
+the foundation of network culture.
+The main thrust of the group’s efforts takes place in the virtual online space of the
+Cypherpunk electronic mailing list. A growing crowd of crypto-hip folks from around
+the world interact daily via an Internet “mailing list.” Here they pass around code-inprogress
+as they attempt to implement ideas on the cheap (such as digital signatures), or
+discuss the ethical and political implications of what they are doing. Some anonymous
+subset of them has launched the Information Liberation Front. The ILF locates schol-
+180
+arly papers on cryptology appearing in very expensive (and very hard-to-find) journals,
+scans them in by computer, and “liberates” them from their copyright restrictions by
+posting the articles anonymously to the Net.
+Posting anything anonymously to the Net is quite hard: the nature of the Net is to
+track everything infallibly, and to duplicate items promiscuously. It is theoretically trivial
+to monitor transmission nodes in order to backtrack a message to its source. In such a
+climate of potential omniscience, the crypto-rebels yearn for true anonymity.
+I confess my misgivings about the potential market for anonymity to Tim: “Seems
+like the perfect thing for ransom notes, extortion threats, bribes, blackmail, insider
+trading, and terrorism.” “Well,” Tim answers, “what about selling information that
+isn’t viewed as legal, say about pot growing, do-it-yourself abortion, cryonics, or even
+peddling alternative medical information without a license? What about the anonymity
+wanted for whistleblowers, confessionals, and dating personals?”
+Digital anonymity is needed, the crypto-rebels feel, because anonymity is as important
+a civil tool as authentic identification is. Pretty good anonymity is offered by
+the post office; you don’t need to give a return address and the post office doesn’t verify
+it if you do. Telephones (without caller ID) and telegrams are likewise anonymous to
+a rough degree. And everyone has a right (upheld by the Supreme Court) to distribute
+anonymous handbills and pamphlets. Anonymity stirs the most fervor among those who
+spend hours each day in networked communications. Ted Kaehler, a programmer at
+Apple Computer, believes that “our society is in the midst of a privacy crisis.” He sees
+encryption as an extension of such all-American institutions as the Post Office: “We have
+always valued the privacy of the mails. Now for the first time, we don’t have to trust in it;
+we can enforce it.” John Gilmore, a crypto-freak who sits on the board of the Electronic
+Frontier Foundation, says, “We clearly have a societal need for anonymity in our basic
+communications media.”
+A pretty good society needs more than just anonymity. An online civilization requires
+online anonymity, online identification, online authentication, online reputations,
+online trust holders, online signatures, online privacy, and online access. All are essential
+ingredients of any open society. The cypherpunk’s agenda is to build the tools that provide
+digital equivalents to the interpersonal conventions we have in face-to-face society,
+and hand them out for free. By the time they are done, the cypherpunks hope to have
+given away free digital signatures, as well as the opportunity for online anonymity.
+To create digital anonymity, the cypherpunks have developed about 15 prototype
+versions of an anonymous re-mailer that would, when fully implemented, make it impossible
+to determine the source of an e-mail message, even under intensive monitoring of
+communication lines. One stage of the re-mailer works today. When you use it to mail
+to Alice, she gets a message from you that says it is from “nobody.” Unraveling where it
+came from is trivial for any computer capable of monitoring the entire network—a feat
+few can afford. But to be mathematically untraceable, the re-mailers have to work in a
+relay of at least two (more is better)—one re-mailer handing off a message to the next
+re-mailer, diluting information about its source to nothing as it is passed along.
+Eric Hughes sees a role for digital pseudonymity—your identity is known by some
+but not by others. When cloaked pseudonymously “you could join a collective to purchase
+some information and decrease your actual cost by orders of magnitude—that is,
+until it is almost free.” A digital co-op could form a private online library and collectively
+purchase digital movies, albums, software, and expensive newsletters, which they would
+“lend” to each other over the net. The vendor selling the information would have absolutely
+no way of determining whether he was selling to one person or 500. Hughes sees
+these kinds of arrangements peppering an information-rich society as “increasing the 
+181
+margins where the poor can survive.”
+“One thing for sure,” Tim says, “long-term, this stuff nukes tax collection.” I
+venture the rather lame observation that this may be one reason the government isn’t
+handing the technology back. I also offer the speculation that an escalating arms race
+with a digital IRS might evolve. For every new avenue the digital underground invents to
+disguise transactions, the digital IRS will counter with a surveillance method. Tim poohpoohs
+the notion. “Without a doubt, this stuff is unbreakable. Encryption always wins.”
+John Gilmore shows of document secured under a Freedom of Information Act request.
+182
+And this is scary because pervasive encryption removes economic activity—one
+driving force of our society—from any hope of central control. Encryption breeds outof-controllness.
+ The fax effect and the law of increasing returns
+Encryption always wins because it follows the logic of the Net. A given public-key
+encryption key can eventually be cracked by a supercomputer working on the problem
+long enough. Those who have codes they don’t want cracked try to stay ahead of the
+supercomputers by increasing the length of their keys (the longer a key, the harder it is to
+crack)—but at the cost of making the safeguard more unwieldy and slow to use. However,
+any code can be deciphered given enough time or money. As Eric Hughes often
+reminds fellow cypherpunks, “Encryption is economics. Encryption is always possible,
+just expensive.” It took Adi Shamir a year to break a 120-digit key using a network of
+distributed Sun workstations working part-time. A person could use a key so long that
+no supercomputer could crack it for the foreseeable future, but it would be awkward to
+use in daily life. A building-full of NSA’s specially hot-rodded supercomputers might take
+a day to crack a 140-digit code today. But that is a full day of big iron to open just one
+lousy key!
+Cypherpunks intend to level the playing field against centralized computer resources
+with the Fax Effect. If you have the only fax machine in the world it is worth nothing.
+But for every other fax installed in the world, your fax machine increases in value. In
+fact, the more faxes in the world, the more valuable everybody’s fax becomes. This is the
+logic of the Net, also known as the law of increasing returns. It goes contrary to classical
+economic theories of wealth based on equilibratory tradeoff. These state that you
+can’t get something from nothing. The truth is, you can. (Only now are a few radical
+economics professors formalizing this notion.) Hackers, cypherpunks, and many hi-tech
+entrepreneurs already know that. In network economics, more brings more. This is why
+giving things away so often works, and why the cypherpunks want to pass out their tools
+gratis. It has less to do with charity than with the clear intuition that network economics
+reward the more and not the less—and you can seed the “more” at the start by giving
+the tools away. (The cypherpunks also talk about using the economics of the Net for the
+reverse side of encryption: to crack codes. They could assemble a people’s supercomputer
+by networking together a million Macintoshes, each one computing a coordinated
+little part of a huge, distributed decryption program. In theory, such a decentralized parallel
+computer would in sum be the most powerful computer we can now imagine—far
+greater than the centralized NSA’s.)
+The idea of choking Big Brother with a deluge of petty, heavily encrypted messages
+so tickles the imagination of crypto-rebels that one of them came up with a freeware
+version of a highly regarded public-key encryption scheme. The software is called PGP,
+for Pretty Good Privacy. The code has been passed out on the nets for free and made
+available on disks. In certain parts of the Net it is quite common to see messages encrypted
+with PGP, with a note that the sender’s public-key is “available upon request.”
+PGP is not the only encryption freeware. On the Net, cypherpunks can grab
+RIPEM, an application for privacy-enhanced mail. Both PGP and RIPEM are based
+on RSA, a patented implementation of encryption algorithms. But while RIPEM is
+distributed as public domain software by the RSA company itself, Pretty Good Privacy 
+183
+software is home-brew code concocted by a crypto-rebel named Philip Zimmermann.
+Because Pretty Good Privacy uses RSA’s patented math, it’s outlaw-ware.
+RSA was developed at MIT—partly with federal funds—but was later licensed to
+the academic researchers who invented it. The researchers published their crypto-methods
+before they filed for patents out of fear that the NSA would hold up the patents
+or even prevent the civilian use of their system. In the US, inventors have a year after
+publication to file patents. But the rest of the world requires patents before publication,
+so RSA could secure only U.S. patents on its system. PGP’s use of RSA’s patented
+mathematics is legitimate overseas. But PGP is commonly exchanged in the no-place
+of the Net (what country’s jurisdiction prevails in cyberspace?) where the law on intellectual
+property is still a bit murky and close to the beginnings of crypto anarchy. Pretty
+Good Privacy deals with this legal tar baby by notifying its American users that it is their
+responsibility to secure from RSA a license for use of PGP’s underlying algorithm. (Sure.
+Right.)
+Zimmermann claims he released the quasi-legal PGP into the world because he
+was concerned that the government would reclaim all public-key encryption technology,
+including RSA’s. RSA can’t stop distribution of existing versions of PGP because
+once something goes onto the Net, it never comes back. But it’s hard for RSA to argue
+damages. Both the outlawed PGP and the officially sanctioned RIPEM infect the Net to
+produce the Fax Effect. PGP encourages consumer use of encryption—the more use, the
+better for everyone in the business. Pretty Good Privacy is freeware; like most freeware,
+its users will sooner or later graduate to commercially supported stuff. Only RSA offers
+the license for that at the moment. Economically, what could be better for a patent
+holder than to have a million people use the buddy system to teach themselves about the
+intricacies and virtues of your product (as pirated and distributed by others), and then
+wait in line to buy your stuff when they want the best?
+The Fax Effect, the rule of freeware upgrade, and the power of distributed intelligence
+are all part of an emerging network economics. Politics in a network economy will
+also definitely require the kind of tools the cypherpunks are playing with. Glenn Tenney,
+chairman of the annual Hackers’ Conference, ran for public office in California last
+year using the computer networks for campaigning, and came away with a realistic grasp
+of how they will shape politics. He notes that digital techniques for establishing trust
+are needed for electronic democracy. He writes online, “Imagine if a Senator responds
+to some e-mail, but someone alters the response and then sends it on to the NY Times?
+Authentication, digital signatures, etc., are essential for protection of all sides.” Encryption
+and digital signatures are techniques to expand the dynamics of trust into a new
+territory. Encryption cultivates a “web of trust,” says Phil Zimmermann, the very web
+that is the heart of any society or human network. The short form of the cypherpunk’s
+obsession with encryption can be summarized as: Pretty good privacy means pretty good
+society.
+One of the consequences of network economics, as facilitated by ciphers and digital
+technology, is the transformation of what we mean by pretty good privacy. Networks
+shift privacy from the realm of morals to the marketplace; privacy becomes a commodity.
+A telephone directory has value because of the energy it saves a caller in finding a
+particular phone number. When telephones were new, having an individual number to
+list in a directory was valuable to the lister and to all other telephone users. But today,
+in a world full of easily obtained telephone numbers, an unlisted phone number is more
+valuable to the unlisted (who pay more) and to the phone company (who charge more).
+Privacy is a commodity to be priced and sold.
+184
+Most privacy transactions will soon take place in the marketplace rather than in
+government offices because a centralized government is handicapped in a distributed,
+open-weave network, and can no longer guarantee how things are connected or not connected.
+Hundreds of privacy vendors will sell bits of privacy at market rates. You hire
+Little Brother, Inc., to demand maximum payment from junk mail and direct marketers
+when you sell your name, and to monitor uses of that information as it tends to escape
+into the Net. On your behalf, Little Brother, Inc., negotiates with other privacy vendors
+for hired services such as personal encrypters, absolutely unlisted numbers, bozo filters
+(to hide the messages from known “bozos”), stranger ID screeners (such as caller ID on
+phones that only accept calls from certain numbers), and hired mechanical agents (called
+network “knowbots”) to trace addresses, and counter-knowbots that unravel traces of
+your own activities.
+Privacy is a type of information that has its polarity reversed; I imagine it as anti-information.
+The removal of a bit of information from a system can be seen as the reproduction
+of a corresponding bit of anti-information. In a world flooded with information
+ceaselessly replicating itself to the edges of the Net, the absence or vaporization of a bit
+of information becomes very valuable, especially if that absence can be maintained. In a
+world where everything is connected to everything—where connection and information
+and knowledge are dirt cheap—then disconnection and anti-information and no-knowledge
+become expensive. When bandwidth becomes free and entire gigabytes of information
+are swapped around the clock, what you don’t want to communicate becomes the
+most difficult chore. Encryption systems and their ilk are technologies of disconnection.
+They somewhat tame the network’s innate tendency to connect and inform without
+discrimination.
+ Superdistribution
+We manage the disconnection of domestic utilities, such as water or electricity,
+through metering. But metering is neither obvious nor easy. Thomas Edison’s dazzling
+electrical gizmos were of little use to anyone until people had easy access to electricity in
+their factories and homes. So at the peak of his career Edison diverted his attention away
+from designing electrical devices to focus on the electrical delivery network itself. At first,
+very little was settled about how electricity should be created (DC or AC?), carried, or
+billed. For billing, Edison favored the approach that most information providers today
+favor: charge a flat fee. Readers pay the same for a newspaper no matter how much of it
+they read. Ditto for cable TV, books and computer software. All are priced flat for all you
+can use.
+Edison pushed a flat fee for electricity—a fixed amount if you are connected,
+nothing if you aren’t—because he felt that the costs of accounting for differential usage
+would exceed the cost of variances in electricity usage. But mostly Edison was stymied
+about how to meter electricity. For the first six months of his General Electric Lighting
+Company in New York City, customers paid a flat fee. To Edison’s chagrin, that didn’t
+work out economically. Edison was forced to come up with a stop-gap solution. His
+remedy, an electrolytic meter, was erratic and impractical. It froze in winter, it sometimes
+ran backwards, and customers couldn’t read it (nor did they trust the company’s meter
+readers). It wasn’t until a decade after municipal electrical networks were up and running
+that another inventor came up with a reliable watt-hour meter. Now we can hardly 
+185
+imagine buying electricity any other way.
+A hundred years later the information industry still lacks an information meter.
+George Gilder, hi-tech gadfly, puts the problem this way: “Rather than having to pay for
+the whole reservoir every time you are thirsty, what you want is to only pay for a glass of
+water.”
+Indeed, why buy an ocean of information when all you want is a drink? No reason
+at all, if you have an information meter. Entrepreneur Peter Sprague believes he has just
+invented one. “We use encryption to force the metering of information,” says Sprague.
+His spigot is a microchip that doles out small bits of information from a huge pile of
+encrypted data. Instead of selling a CD-ROM crammed with a hundred thousand pages
+of legal documents for $2,000, Sprague invented a ciphering device that would dispense
+the documents off the CD-ROM at $1 per page. A user only pays for what she uses and
+can use only what she pays for.
+Sprague’s way of selling information per page is to make each page unreadable until
+decrypted. Working from a catalog of contents, a user selects a range of information
+to browse. She reads the abstracts or summaries and is charged a minuscule amount.
+Then she selects a full text, which is decrypted by her dispenser. Each act of decryption
+rings up a small charge (maybe 50 cents). The charge is tallied by a metering chip in her
+dispenser that deducts the amount from a prepaid account (also stored on the metering
+chip), much as a postage meter deducts credit while dispensing postage tapes. When the
+CD-ROM credit runs out, she calls a central office, which replenishes her account via
+an encrypted message sent on a modem line running into her computer’s metering chip.
+Her dispenser now has $300 credit to spend on information by the page, by the paragraph,
+or by the stock price, depending on how fine the vendor is cutting it.
+What Sprague’s encryption metering device does is decouple information’s fabulous
+ease in being copied from its owner’s need to have it selectively disconnected. It lets
+information flow freely and ubiquitously—like water through a town’s plumbing—by
+metering it out in usable chunks. Metering converts information into a utility.
+The cypherpunks note, quite correctly, that this will not stop hackers from siphoning
+off free information. The Videocipher encryption system, used to meter satellite-delivered
+TV programs such as HBO and Showtime, was compromised within weeks of its
+introduction. Despite claims by the meter’s manufacturer that the encrypto-metering
+chip was unhackable, big moneymaking scams capitalized on hacks around the codes.
+(The scams were set up on Indian reservations—but that’s a whole ’nother story). Pirates
+would find a descrambler box with a valid subscription—in a hotel room, for instance—
+and then clone the identity into other chips. A consumer would send their box to the
+reservation for “repairs” and it would come back with a new chip cloned with the identity
+of the hotel box. The broadcasting system couldn’t perceive clones in the audience.
+In short, the system was hacked not by cracking the code but by subverting places where
+the code tied into the other parts of the system.
+No system is hack-proof. But disruptions of an encrypted system require deliberate
+creative energy. Information meters can’t stop thievery or hacking, but meters can counteract
+the effects of lazy mooching and the natural human desire to share. The Videocipher
+satellite TV system eliminates user piracy on a mass scale—the type of piracy that
+plagued the satellite TV outback before scrambling and that still plagues the lands of
+software and photocopying. Encryption makes pirating a chore and not something that
+any slouch with a blank disk can do. Satellite encryption works overall because encryption
+always wins.
+Peter Sprague’s crypto-meter permits Alice to make as many copies of the encrypted
+CD-ROMs as she likes, since she pays for only what she uses. Crypto-metering, in 
+186
+essence, disengages the process of payment from the process of duplication.
+Using encryption to force the metering of information works because it does not
+constrain information’s desire to reproduce. All things being equal, a bit of information
+will replicate through an available network until it fills that network. With an animate
+drive, every fact naturally proliferates as many times as possible. The more fit—the more
+interesting or useful—a fact is, the wider it spreads. A pretty metaphor compares the
+spread of genes through a population with the similar spread of ideas, or memes, in a
+population. Both genes and memes depend on a network of replicating machines—cells
+or brains or computer terminals. A network in this general sense is a swarm of flexibly
+interconnected nodes each of which can copy (either exactly or with variation) a message
+taken from another node. A population of butterflies and a flurry of e-mail messages
+have the same mandate: replicate or die. Information wants to be copied.
+Our digital society has built a supernetwork of copiers out of hundreds of millions
+of personal faxes, library photocopiers, and desktop hard disks. It is as if our information
+society is one huge aggregate copying machine. But we won’t let this supermachine copy.
+Much to everyone’s surprise, information created in one corner finds its way into all the
+other corners rather quickly. Because our previous economy was built upon scarcity of
+goods, we have so far fought the natural fecundity of information by trying to control
+every act of replication as it occurs. We take a massively parallel copy machine and try
+to stifle most acts of reproduction. As in other puritanical regimes, this doesn’t work.
+Information wants to be copied.
+“Free the bits!” shouts Tim May. This sense of the word “free” shifts Stewart
+Brand’s oft-quoted maxim, “Information wants to be free”—as in “without cost”—to the
+more subtle “without chains or imprisonment.” Information wants to be free to wander
+and reproduce. Success, in a networked world of decentralized nodes, belongs to those
+plans that do not resist either the replication or roaming urges of information.
+Sprague’s encrypted meter capitalizes on the distinction between pay and copy. “It
+is easy to make software count how many times it has been invoked, but hard to make
+it count how many times it has been copied,” says software architect Brad Cox. In a message
+broadcast on the Internet, Cox writes:
+Software objects differ from tangible objects in being fundamentally unable to monitor
+their copying but trivially able to monitor their use....So why not build an information
+age market economy around this difference between manufacturing-age and information-age
+goods? If revenue collection were based on monitoring the use of software
+inside a computer, vendors could dispense with copy protection altogether.
+Cox is a software developer specializing in object-oriented programming. In addition
+to the previously mentioned virtue of reduced bugs which OOP delivers, it offers
+two other magnificent improvements over conventional software. First, OOP provides
+the user with applications that are more fluid, more interoperable with various tasks—
+sort of like a house with movable “object” furniture instead of house saddled with
+built-in furniture. Second, OOP provides software developers the ability to “reuse” modules
+of software, whether they wrote the modules themselves or purchased them from
+someone else. To build a database, an OOP designer like Cox takes a sort routine, a field
+manager, a form generator, an icon handler, etc., and assembles the program instead of
+rewriting a working whole from scratch. Cox developed a set of cool OOP objects that
+he sold to Steve Jobs to use in his Next machine, but selling small bits of modular code as
+a regular business has been slow. It is similar to trying to peddle limericks one by one. To
+recoup the great cost of writing an individual object by selling it outright would garner
+too few sales, but selling it by copy is too hard to monitor or control. But if objects could
+generate revenue each time a user activated one, then an author could make a living 
+187
+creating them.
+While contemplating the possible market for OOP objects that were sold on a “per
+use” plan, Cox uncovered the natural grain in networked intelligence: Let the copies
+flow, and pay per use. He says, “The premise is that copy protection is exactly the wrong
+idea for intangible, easily copied goods such as software. You want information-age
+goods to be freely distributed and freely acquired via whatever distribution means you
+want. You are positively encouraged to download software from networks, give copies to
+your friends, or send it as junk mail to people you’ve never met. Broadcast my software
+from satellites. Please!”
+Cox adds (in echo of Peter Sprague, although surprisingly the two are unfamiliar
+with each other’s work), “This generosity is possible because the software is actually
+‘meterware.’ It has strings attached that make revenue collection independent of how
+the software was distributed.”
+“The approach is called superdistribution,” Cox says, using a term given by Japanese
+researchers to a similar method they devised to track the flow of software through a
+network. Cox: “Like superconductivity, it lets information flow freely, without resistance
+from copy protection or piracy.”
+The model is the successful balance of copyright and use rights worked out by the
+music and radio industries. Musicians earn money not only by selling customers a copy
+of their work but by selling broadcast stations a “use” of their music. The copies are supplied
+free, sent to radio stations in a great unmonitored flood by the musicians’ agents.
+The stations sort through this tide of free music, paying royalties only for the music they
+broadcast, as metered (statistically) by two agencies representing musicians, ASCAP and
+BMI.
+JEIDA, a Japanese consortium of computer manufacturers, developed a chip and
+a protocol that allows each Macintosh on a network to freely replicate software while
+metering use rights. According to Ryoichi Mori, the head of JEIDA, “Each computer is
+thought of as a station that broadcasts, not the software itself, but the use of the software,
+to an audience of a single ‘listener.’” Each time your Mac “plays” a piece of software
+or a software component from among thousands freely available, it triggers a royalty.
+Commercial radio and TV provide an “existence proof ” of a working superdistribution
+system in which the copies are disseminated free and the stations only pay for what they
+use. Musicians would be quite happy if one radio station made copies of their tapes and
+distributed them to other stations (“Free the bits!”) because it increases the likelihood of
+some station using their music.
+JEIDA envisions software percolating through large computer networks unencumbered
+by restrictions on copying or mobility. Like Cox, Sprague, and the cypherpunks,
+JEIDA counts on public-key encryption to keep these counts private and untampered as
+they are transmitted to the credit center. Peter Sprague says plainly, “Encrypted metering
+is an ASCAP for intellectual property.”
+Cox’s electronically disseminated pamphlet on superdistribution sums up the virtues
+very nicely:
+Whereas software’s ease of replication is a liability today, superdistribution makes it an
+asset. Whereas software vendors must spend heavily to overcome software’s invisibility,
+superdistribution thrusts software out into the world to serve as its own advertisement.
+A hoary ogre known as the Pay-Per-View Problem haunts the information economy.
+In the past this monster ate billions of dollars in failed corporate attempts to sell movies,
+databases, or music recordings on a per view or per use basis. The ogre still lives. The
+problem is, people are reluctant to pay in advance for information they haven’t seen
+because of their hunch that they might not find it useful. They are equally unwilling to 
+188
+pay after they have seen it because their hunch usually proves correct: they could have
+lived without it. Can you imagine being asked to pay after you’ve seen a movie? Medical
+knowledge is the only type of information that can be easily sold sight unseen because
+the buyers believe they can’t live without it.
+The ogre is usually slain with sampling. Moviegoers are persuaded to pay beforehand
+by lapel-grabbing trailers. Software is loaned among friends for trial; books and
+magazines are browsed in the bookstore.
+The other way to slay the problem is by lowering the price of admission. Newspapers
+are cheap; we pay before looking. The ingenious thing about information metering
+is that it delivers two solutions: it provides a spigot to record how much data is used, and
+it provides a spigot that can be turned down to a cheap trickle. Encryption-metering
+chops big expensive data hunks into small inexpensive doses of data. People will readily
+pay for bits of cheap information before viewing, particularly if the payment invisibly
+deducts itself from an account.
+The fine granularity of information-metering gets Peter Sprague excited. When
+asked for an example of how fine it could get, he volunteers one so fast it’s obvious that
+he has been giving it some thought: “Say you want to write obscene limericks from your
+house in Telluride, Colorado. If you could write one obscene limerick a day, we can
+probably find 10,000 people in the world who want to pay 10 cents a day to get it. We’ll
+collect $365,000 per year and pay you $120,000, and then you can ski for the rest of
+your life.” In no other kind of marketplace would one measly limerick, no matter how
+bawdy and clever, be worth selling on its own. Maybe a book of them—an ocean of limericks—but
+not one. Yet in an electronic marketplace, a single limerick—the information
+equivalent of a stick of gum—is worth producing and offering for sale.
+Sprague ticks off a list of other fine-grained items that might be traded in such a
+marketplace. He catalogs what he’d pay for right now: “I want the weather in Prague for
+25 cents per month, I want my stocks updated for 50 cents a stock, I want the Dines Letter
+for $12 a week, I want the congestion report from O’Hare Airport updated continuously
+because I’m always getting stuck in Chicago, so I’ll pay a buck per month for that, and I
+want ‘Hagar the Horrible’ cartoon for a nickel a day.” Each of these products is currently
+either given away scattershot or peddled in the aggregate very expensively. Sprague’s
+electronically mediated marketplace would “unbundle” the data and deliver a narrowly
+selected piece of information to your desktop or mobile palmtop for a reasonable price.
+Encryption would meter it out, preventing you from filching other tiny bits of data that
+would hardly be worth protecting (or selling) in other ways. In essence, the ocean of
+information flows through you, but you only pay for what you drink.
+At the moment, this particular technology of disconnection exists as a $95 circuit
+board that can slide into a personal computer and plug into a phone line. To encourage
+established computer manufacturers such as Hewlett-Packard to hardwire a similar
+board into units coming off their assembly line, Sprague’s company, Waves, Inc., offers
+manufacturers a percentage of the revenue the encryption system generates. Their first
+market is lawyers, “because,” he says, “lawyers spend $400 a month on information
+searches.” Sprague’s next step is to compress the encrypto-metering circuits and the
+modem down into a single $20 microchip that can be tucked into beepers, video recorders,
+phones, radios, and anything else that dispenses information. Ordinarily, this vision
+might be dismissed as the pipe dream of a starry-eyed junior inventor, but Peter Sprague
+is chairman and founder of National Semiconductor, one of the major semiconducter
+manufacturers in the world. He is sort of a Henry Ford of silicon chips. A cypherpunk,
+not. If anyone knows how to squeeze a revolutionary economy onto the head of a pin, it
+might be him.
+Anything holding an electric charge w ill hold a fiscal charge
+This anticipated information economy and network culture still lacks one vital
+component—an ingredient that, once again, is enabled by encryption, and a key element
+that, once again, only long-haired crypto-rebels are experimenting with: electronic cash.
+We already have electronic money. It flows daily in great invisible rivers from bank
+vault to bank vault, from broker to broker, from country to country, from your employer
+to your bank account. One institution alone, the Clearing House Interbank Payment
+System, currently moves an average of a trillion dollars (a million millions) each day via
+wire and satellite.
+But that river of numbers is institutional electronic money, as remote from electronic
+cash as mainframes are from PCs. When pocket cash goes digital—demassified into data
+in the same transformation that institutional money underwent—we’ll experience the
+deepest consequences of an information economy. Just as computing machines did not
+reorganize society until individuals plugged into them outside of institutions, the full
+effects of an electronic economy will have to wait until everyday petty cash (and check)
+transactions of individuals go digital.
+We have a hint of digital cash in credit cards and ATMs. Like most of my generation,
+I get the little cash I use at an ATM, not having been inside a bank in years. On
+average, I use less cash every month. High-octane executives fly around the country
+purchasing everything on the go—meals, rooms, cabs, supplies, presents—carrying no
+more than $50 in their wallets. Already, the cashless society is real for some.
+Today in the U.S., credit card purchases are used for one-tenth of all consumer
+payments. Credit card companies salivate while envisioning a near future where people
+routinely use their cards for “virtually every kind of transaction.” Visa U.S.A. is experimenting
+with card-based electronic money terminals (no slip to sign) at fast-food shops
+and grocery stores. Since 1975, Visa has issued over 20 million debit cards that deduct
+money from one’s bank account. In essence, Visa moved ATMs off of bank walls and
+onto the front counters of stores.
+The conventional view of cashless money thus touted by banks and most futurists is
+not much more than a pervasive extension of the generic credit card system now operating.
+Alice has an account at National Trust Me Bank. The bank issues her one of their
+handy-dandy smart cards. She goes to an ATM and loads the wallet-size debit card with
+$300 cash deducted from her checking account. She can spend her $300 from the card
+at any store, gas station, ticket counter, or phone booth that has a Trust Me smart-card
+slot.
+What’s wrong with this picture? Most folks would prefer this system over passing
+around portraits of dead presidents. Or over indebtedness to Visa or MasterCard. But
+this version of the cashless concept slights both user and merchant; therefore it has slept
+on the drawing boards for years, and will probably die there.
+Foremost among the debit (or credit) card’s weaknesses is its nasty habit of leaving
+every merchant Alice buys from—newsstand to nursery—with a personalized history
+of her purchases. The record of a single store is not worrisome. But each store’s file of
+Alice’s spending is indexed with her bank account number or Social Security number.
+That makes it all too easy, and inevitable, for her spending histories to be combined,
+store to store, into an exact, extremely desirable marketing profile of her. Such a mon-
+190
+etary dossier holds valuable information (not to mention private data) about her. She has
+no control over this information and derives no compensation for it.
+Second, the bank is obliged to hand out whiz-bang smart cards. Banks being the legendary
+cheapskates they are, you know who is going to pay for them, at bank rates. Alice
+will also have to pay the bank for the transaction costs of using the money card.
+Third, merchants pay the system a small percentage whenever a debit card is used.
+This eats into their already small profits and discourages vendors from soliciting the
+card’s use for small purchases.
+Fourth, Alice can only use her money at establishments equipped with slots that
+accept Trust Me’s proprietary technology. This hardware quarantine has been a prime
+factor in the nonhappening of this future. It also eliminates person-to-person payments
+(unless you want to carry a slot around for others to poke into). Furthermore, Alice can
+only refill her card (essentially purchase money) at an official Trust Me ATM branch.
+This obstacle could be surmounted by a cooperative network of banks using a universal
+slot linked into an internet of all banks; a hint of such a network already exists.
+The alternative to debit card cash is true digital cash. Digital cash has none of the
+debit or credit card’s drawbacks. True digital cash is real money with the nimbleness of
+electricity and the privacy of cash. Payments are accountable but unlinkable. The cash
+does not demand proprietary hardware or software. Therefore, money can be received
+or transferred from and to anywhere, including to and from other individuals. You don’t
+need to be a store or institution to get paid in nonpaper money. Anyone connected can
+collect. And any company with the right reputation can “sell” electronic money refills, so
+the costs are at market rates. Banks are only peripherally involved. You use digital cash to
+order a pizza, pay for a bridge toll, or reimburse a friend, as well as to pay the mortgage,
+if you want. It is different from plain old electronic money in that it can be anonymous
+and untraceable except by the payer. It is fueled by encryption.
+The method, technically known as blinded digital signatures, is based on a variant
+of a proven technology called public-key encryption. Here’s how it works at the consumer
+level. You use a digicash card to pay Joe’s Meat Market for a prime roast. The
+merchant can verify (by examining the digital signature of the bank issuing the money)
+that he was paid with money that had not been “spent” before. Yet, he’ll have no record
+of who paid him. After the transaction, the bank has a verifiable account that you spent
+$7, and spent it only once, and that Joe’s Meat Market did indeed receive $7. But those
+two sides of the transaction are not linked and cannot be reconstructed unless you the
+payer enable them to be. It seems illogical at first that such blind but verifiable transactions
+can occur, but the integrity of their “disconnection” is pretty watertight.
+Digital cash can replace every use of pocket cash except flipping a coin. You have
+a complete record of all your payments and to whom they were made. “They” have a
+record of being paid but not by whom they were made. The reliability of both impeccably
+accurate accounting and 100 percent anonymity is ranked mathematically “unconditional”—without
+exceptions.
+The privacy and agility of digital cash stems from a simple and clever technology.
+When I ask a digicash card entrepreneur if I could see one of his smart cards, he says
+that he is sorry. He thought he had put one in his wallet but can’t find it. It looks like a
+regular credit card, he says, showing me his very small collection of them. It looks like...
+why, here it is! He slips out a blank, very thin, flexible card. The plastic rectangle holds
+math money. In one corner is a small gold square the size of a thumbnail. This is a computer.
+The CPU, no larger than a soggy cornflake, contains a limited amount of cash,
+say, $500 or 100 transactions, whichever comes first. This one, made by Cylink, contains
+a coprocessor specifically designed to handle public-key encryption mathematics. On 
+191
+the tiny computer’s gold square are six very minute surface contacts which connect to an
+online computer when the card is inserted into a slot.
+Less smart cards (they don’t do encryption) are big in Europe and Japan, where 61
+million of them are already in use. Japan is afloat in a primitive type of electronic currency—prepaid
+magnetic phone cards. The Japanese national phone company, NTT,
+has so far sold 330 million (some 10 million per month) of them. Forty percent of the
+French carry smart cards in their wallets today to make phone calls. New York City
+recently introduced a cashless phone card for a few of its 58,000 public phone booths.
+New York is motivated not by futurism but by thieves. According to The New York Times,
+“Every three minutes, a thief, a vandal, or some other telephone thug breaks into a coin
+box or yanks a handset from a socket. That’s more than 175,000 times a year,” and costs
+the city $10 million annually for repairs. The disposable phone card New York uses is
+not very smart, but it’s adequate. It employs an infrared optical memory, common in
+European phone cards, which is hard to counterfeit in small quantities but cheap to
+manufacture in large numbers.
+In Denmark, smart cards substitute for the credit cards the Danes never got. So
+everyone who would tote a credit card in America, packs a smart debit card in Denmark.
+Danish law demanded two significant restrictions: (1) that there be no minimum purchase
+amount; (2) that there be no surcharge for the card’s use. The immediate effect was
+that the cards began to replace cash in everyday use even more than checks and credit
+cards have replaced cash in the States. The popularity of these cards is their undoing
+because unlike cheap, decentralized phone cards, these cards rely on real-time interactions
+with banks. They are overloading the Danish banking system, hogging phone lines
+as the sale of each piece of candy is transmitted to the central bank, flooding the system
+with transactions that cost more than they are worth.
+David Chaum, a Berkeley cryptographer now living in Holland, has a solution.
+Chaum, head of the cryptography group at the center for Mathematics and Computer
+Science in Amsterdam, has proposed a mathematical code for a distributed, true digital
+cash system. In his solution, everyone carries around a refillable smart card that packs
+anonymous cash. This digicash seamlessly intermingles with electronic cash from home,
+company, or government. And it works offline, freeing the phone system.
+Chaum looks like a Berkeley stereotype: gray beard, full mane of hair tied back in
+a professional ponytail, tweed jacket, sandals. As a grad student, Chaum got interested
+in the prospects and problems of electronic voting. For his thesis he worked on the idea
+of a digital signature that could not be faked, an essential tool for fraud-proof electronic
+elections. From there his interest drifted to the similar problem in computer network
+communications: how can you be sure a document is really from whom it claims to be
+from? At the same time he wondered: how can you keep certain information private and
+untraceable? Both directions—security and privacy—led to cryptography and a Ph.D. in
+that subject.
+Sometime in 1978, Chaum says, “I had this flash of inspiration that it was possible
+to make a database of people so that someone could not link them all together, yet you
+could prove everything about them was correct. At the time, I was trying to convince
+myself that it was not possible, but I saw a loophole, how you might do it and I thought,
+gee....But it wasn’t until 1984 or ’85 that I figured out how to actually do that. ”
+“Unconditional untraceability” is what Chaum calls his innovation. When this
+code is integrated with the “practically unbreakable security” of a standard public-key
+encryption code, the combined encryption scheme can provide anonymous electronic
+money, among other things. Chaum’s encrypted cash (to date none of the other systems
+anywhere are encrypted) offers several important practical improvements in a card-based 
+192
+electronic currency.
+First, it offers the bonafide privacy of material cash. In the past, if you bought a
+subversive pamphlet from a merchant for a dollar, he had a dollar that was definitely
+a dollar and could be paid to anyone else; but he had no record of who gave him that
+dollar or any way to provably reconstruct who gave it to him. In Chaum’s digital cash,
+the merchant likewise gets a digital dollar transferred from your card (or from an online
+account), and the bank can prove that indeed he definitely has one dollar there and no
+more and no less, but no one (except you if you want) can prove where that dollar came
+from.
+One minor caveat: the smart-card versions of cash implemented so far are, alas, as
+vulnerable and valuable as cash if lost or stolen. However, encrypting them with a PIN
+password would make them substantially more secure, though also slightly more hassle
+to use. Chaum predicts that users of digicash will use short (4-digit) PINs (or none at all)
+for minor transactions and longer passwords for major ones. Speculating a bit, Chaum
+David Chaum in his Berkeley home.
+193
+says, “To protect herself from a robber who might force her to give up her passwords at
+gunpoint, Alice could use a ‘duress code’ that would cause the card to appear to operate
+normally, while hiding its more valuable assets.”
+Second, Chaum’s card-based system works offline. It does not require instant verification
+via phone lines as credit cards do, so the costs are minimal and perfect for the
+numerous small-time cash transactions people want them for—parking meters, restaurant
+meals, bus rides, phone calls, groceries. Transaction records are ganged together
+and zapped once a day, say, to the central accountant computer.
+During this day’s delay, it would theoretically be possible to cheat. Electronic money
+systems dealing in larger amounts, running online in almost real time, have a smaller
+window for cheating—the instant between sending and receiving—but the minute opportunity
+is still there. While it is not theoretically possible to break the privacy aspect
+of digital cash (who paid whom) if you were desperate enough for small cash, you could
+break the security aspect—has this money been spent?—with supercomputers. By breaking
+the RSA public-key code, you could use the compromised key to spend money more
+than once. That is, until the data was submitted to the bank and they caught you. For
+in a delicious quirk, Chaum’s digital cash is untraceable except if you try to cheat by
+spending money more than once. When that happens, the extra bit of information the
+twice-spent money now carries is enough to trace the payer. So electronic money is as
+anonymous as cash, except for cheaters!
+Because of its cheaper costs, the Danish government is making plans to switch from
+the Dencard to the Dencoin, an offline system suited to small change. The computational
+overhead needed to run a system like this is nano-small. Each encrypted transaction
+on a smart card consumes only 64 bytes. (The previous sentence contains 67 bytes.) A
+household’s yearly financial record of all income and all expenditure would easily fit on
+one hi-density floppy disk. Chaum calculates that the existing mainframe computers in
+banks would have more-than-adequate computational horsepower to handle digital cash.
+The encryption safeguards of an offline system would reduce much of the transactional
+computation that occurs online over phone lines (for ATMs and credit card checks),
+enabling the same banking computers to cover the increase in electronic cash. Even if
+we assume that Chaum guessed wrong about the computational demands of a scaled-up
+system, and he is off by a factor of ten, computer speed is accelerating so fast that this
+defers the feasibility of using existing bank power by only a few years.
+In variations on Chaum’s basic design, people may also have computer appliances
+at home, loaded with digital cash software, which allow them to pay other individuals,
+and get paid, over phone lines. This would be e-money on the networks. Attached to
+your e-mail message to your daughter is an electronic $100 bill. She may use that cash
+to purchase via e-mail an airplane ticket home. The airline sends the cash to one of
+their vendors, the flight’s meal caterer. In Chaum’s system nobody has any trace of the
+money’s path. E-mail and digital cash are a match made in heaven. Digital cash could
+fail in real life, but it is almost certain to flourish in the nascent network culture.
+I asked Chaum what banks think of digital cash. His company has visited or been
+visited by most of the big players. Do they say, gee, this threatens our business? Or do
+they say, hmm, this strengthens us, makes us more efficient? Chaum: “Well, it ranges. I
+find the corporate planners in $1,000 suits and private dining halls are more interested
+in it than the lower-level systems guys because the planners’ job is to look to the future.
+Banks don’t go about building stuff themselves. They have their systems guys buy stuff
+from vendors. My company is the first vendor of electronic money. I have a very extensive
+portfolio of patents on electronic money, in the U.S., Europe, and elsewhere.” Some
+of Chaum’s crypto-anarcho friends still give him a hard time about taking out patents on 
+194
+this work. Chaum tells me in defense, “It turns out that I was in the field very early so I
+wiped out all the basic problems. So most of the new work now [in encrypted electronic
+money] are extensions and applications of the basic work I did. The thing is, banks don’t
+want to invest into something that is unprotected. Patents are very helpful in making
+electronic money happen.”
+Chaum is an idealist. He sees security and privacy as a tradeoff. His larger agenda
+is providing tools for privacy in a networked world so that privacy can be balanced with
+security. In the economics of networks, costs are disproportionately dependent on the
+number of other users. To get the Fax Effect going, you need a critical mass of early
+adopters. Once beyond the threshold, the event is unstoppable because it is self-reinforcing.
+Electronic cash shows all the signs of having a lower critical mass threshold than
+other implementations of data privacy. Chaum is betting that an electronic cash system
+inside an e-mail network, or a card-based electronic cash for a local public transportation
+network, has the lowest critical mass of all.
+The most eager current customers for digital cash are European city officials. They
+see card-based digital cash as the next step beyond magnetic fast-passes now issued regularly
+by most cities’ bus and subway departments. One card is filled with as much bus
+money as you want. But there are added advantages: the same card could fit into parking
+meters when you did drive or be used on trains for longer-distance travel.
+Urban planners love the idea of automatic tolls charging vehicles for downtown
+entry or crossing a bridge without having the car stop or slow down. Bar-code lasers can
+identify moving cars on the road, and drivers will accept purchasing vouchers. What’s
+holding up a finer-grain toll system is the Orwellian fear that “they will have a record of
+my car’s travels.” Despite that fear, automatic tolls that record car identities are already
+operating in Oklahoma, Louisiana, and Texas. Three states in the busy Northeast
+have agreed to install one compatible system starting with experimental setups on two
+Manhattan/New Jersey bridges. In this system, a tiny card-size radio taped to the car
+windshield transmits signals to the toll gate which deducts the toll from your account at
+the gate (not from the card). Similar equipment running on the Texas turnpike system
+is 99.99 percent reliable. These proven toll mechanisms could easily be modified to
+Chaum’s untraceable encrypted payments, and true electronic cash, if people wanted.
+In this way the same cash card that pays for public transportation can also be used
+to cover fees for private transportation. Chaum relates that in his experience with European
+cities, the Fax Effect—the more people online, the more incentive to join—takes
+hold, quickly drawing other uses. Officials from the phone company get wind of what’s
+up and make it known that they would like to use the card to rid themselves of a nasty
+plague called “coins” that bog public phones down. Newspaper vendors call to inquire if
+they can use the card.... Soon the economics of networks begin to take over.
+Ubiquitous digital cash dovetails well with massive electronic networks. It’s a pretty
+sound bet that the Internet will be the first place that e-money will infiltrate deeply. Money
+is another type of information, a compact type of control. As the Net expands, money
+expands. Wherever information goes, money is sure to follow. By its decentralized,
+distributed nature, encrypted e-money has the same potential for transforming economic
+structure as personal computers did for overhauling management and communication
+structure. Most importantly, the privacy/security innovations needed for e-money are
+instrumental in developing the next level of adaptive complexity in an information-based
+society. I’d go so far as to say that truly digital money—or, more accurately, the economic
+mechanics needed for truly digital cash—will rewire the nature of our economy, communications,
+and knowledge. 
+195
+ Peer-to-peer finance with nanobucks
+The consequential effects of digital money upon the hive mind of our network
+economy are already underway. Five we can expect are:
+• Increased velocity. When money is disembodied—removed from any material basis at
+all—it speeds up. It travels farther, faster. Circulating money faster has an effect similar
+to circulating more money. When satellites went up, enabling near-the-speed-of-light,
+round-the-clock world stock trade, they expanded the amount of global money by 5 percent.
+Digital cash used on a large scale will further accelerate money’s velocity.
+• Continuity. Money that is composed of gold, precious materials, or paper comes in
+fixed units that are paid at fixed times. The ATM spits out $20 bills; that’s it. You pay the
+phone company once a month even though you use the phone everyday. This is batchmode
+money. Electronic money is continuous-flow. It allows recurring expenses to be
+paid, in Alvin Toffler’s phrase, by “bleeding electronically from one’s bank account in
+tiny droplets, on a minute-by-minute basis.” Your e-money account pays for each phone
+call as soon as you hang up, or—how about this?—as you are talking. Payment coincides
+with use. Together with its higher velocity, continuous electronic money can approach
+near instantaneity. This puts a crimp on banks which derive a lot of their current profit
+on the “float”—which instantaneity erases.
+• Unlimited fungibility. Finally, really plastic money. Once completely disembodied, digitized
+money escapes from a single transmission form and merrily migrates to whatever
+medium is handiest. Separate billing fades away. Accounts can be interleaved with the
+object or service itself. The bill for a video comes incorporated into the video. Invoices
+reside alongside of bar codes and can be paid with the zap of a laser. Anything that can
+hold an electronic charge can hold a fiscal charge. Foreign currencies become a matter
+of changing a symbol. Money is as malleable as digitized information. This makes it all
+the easier to monetize exchanges and interactions that were never part of an economy
+before. It opens the floodgates of commerce onto the Net.
+• Accessibility. Until now, sophisticated manipulations of money have been the private
+domain of professional financial institutions—a financial priesthood. But just as a million
+Macs broke the monopoly of the high priests guarding access to mainframe computers,
+so e-money will break the monopoly of financial Brahmins. Imagine if you could charge
+(and get) interest on any money due you by dragging an icon over that electronic invoice.
+Imagine if you could factor in the “interest due” icon and give it variable interest, ballooning
+as it aged. Or maybe you would charge interest by the minute if you sent a
+payment in early. Or program your personal computer to differentially pay bills depending
+on the prime rate—programmed bill-trading for amateurs. Or perhaps you would
+engineer your computer to play with exchange rates, paying bills in whatever currency
+is least valuable at the time. All manner of clever financial instruments will surface once
+the masses can drink from the same river of electronic money as the pros. To the list of
+things to hack, we may now add finance. We are headed toward programmed capitalism.
+• Privatization. The ease with which e-money is caught, flung, and shaped makes it
+ideal for private currencies. The 214 billion yen tied up by Japan’s NTT’s phone cards
+is one limited type of private currency. The law of the Net is: he who owns a computer
+not only owns a printing press, but also a mint, when that computer is linked to e-money.
+Para-currencies can pop up anywhere there is trust (and fail there, too).
+196
+Historically, most modern barter networks rapidly slide into exchanges of real currency;
+one could expect the same in electronic barter clubs, but the blinding efficiency
+of an e-money system may not tend that way. The $350 billion tax question is whether
+para-currency networks would ever rise above unofficial status.
+The minting and issuing of currency has been one of the few remaining functions
+of government that the private sector has not encroached upon. E-money will lower
+this formidable barrier. By doing so it will provide a powerful tool to private governance
+systems, such as might be established by renegade ethnic groups, or the “edge cities”
+proliferating near the world’s megacities. The use of institutional electronic money transfers
+to launder money on a global scale is already out of anyone’s control.
+ Fear of underwire economies
+The nature of e-money —invisible, lightning quick, cheap, globally penetrating—is
+likely to produce indelible underground economies, a worry way beyond mere laundering
+of drug money. In the net-world, where a global economy is rooted in distributed
+knowledge and decentralized control, e-money is not an option but a necessity. Paracurrencies
+will flourish as the network culture flourishes. An electronic matrix is destined
+to be an outback of hardy underwire economies. The Net is so amicable to electronic cash
+that once established interstitially in the Net’s links, e-money is probably ineradicable.
+In fact, the legality of anonymous digital cash is in limbo from the start. There are
+now strict limits to the size of transactions U.S. citizens can make with physical cash;
+try depositing $10,000 in greenbacks in a bank. At what amount will the government
+limit anonymous digital cash? The drift of all governments is to demand fuller and fuller
+disclosures of financial transactions (to make sure they get their cut of tax) and to halt
+unlawful transactions (as in the War on Drugs). The prospect of allowing untraceable
+commerce to bloom on a federally subsidized network would probably have the U.S.
+government seriously worried if they were thinking about it. But they aren’t. A cashless
+society smells like stale science-fiction, and the notion reminds every bureaucrat drowning
+in paper of the unfulfilled predictions of a paperless society. Eric Hughes, maintainer
+of the cypherpunks’ mailing list, says, “The Really Big Question is, how large can the
+flow of money on the nets get before the government requires reporting of every small
+transaction? Because if the flows can get large enough, past some threshold, then there
+might be enough aggregate money to provide an economic incentive for a transnational
+service to issue money, and it wouldn’t matter what one government does.”
+Hughes envisions multiple outlets for electronic money springing up all over the
+global net. The vendors would act like traveler’s check companies. They would issue
+e-money for, say, a 1 percent surcharge. You could then spend Internet Express Checks
+wherever anyone accepts them. But somewhere on the global Net, underwire economies
+would dawn, perhaps sponsored by the governments of struggling developing countries.
+Like the Swiss banks of old, these digital banks would offer unreported transactions.
+Paying in online Nigerian nairas from a house in Connecticut would be no more difficult
+than using U.S. dollars. “The interesting market experiment,” Hughes says, “is to see
+what the difference in the charge for anonymous money is, once the market equalizes. I
+bet it’ll be on the order of 1–3 percent higher, with an upper limit of about 10 percent.
+That amount will be the first real measure of what financial privacy is worth. It might
+also be the case that anonymous money will be the only kind of money. ”
+197
+Usable electronic money may be the most important outcome of a sudden grassroots
+takeover of the formerly esoteric and forbidden field of codes and ciphers. Everyday
+e-money is one novel use for encryption that never would have occurred to the military.
+There are certainly many potential uses of encryption that the cypherpunks’ own
+ideological leanings blind them to, and that will have to wait until encryption technology
+enters the mainstream—as it certainly will.
+To date encryption has birthed the following: digital signatures, blind credentials
+(you have a diploma that says, yes, you have a Ph.D., yet no one can link that diploma
+with the other diploma in your name from traffic school), anonymous e-mail, and electronic
+money. These species of disconnection thrive as networks thrive.
+Encryption wins because it is the necessary counterforce to the Net’s runaway
+tendency to link. Left to itself, the Net will connect everyone to everyone, everything to
+everything. The Net says, “Just connect.” The cipher, in contrast, says, “Disconnect.”
+Without some force of disconnection, the world would freeze up in an overloaded tangle
+of unprivate connections and unfiltered information.
+I’m listening to the cypherpunks not because I think that anarchy is a solution to
+anything but because it seems to me that encryption technology civilizes the grid-locking
+avalanche of knowledge and data that networked systems generate. Without this taming
+spirit, the Net becomes a web that snares its own life. It strangles itself by its own prolific
+connections. A cipher is the yin for the network’s yang, a tiny hidden force that is able to
+tame the explosive interconnections born of decentralized, distributed systems.
+Encryption permits the requisite out-of-controllness that a hive culture demands in
+order to keep nimble and quick as it evolves into a deepening tangle.

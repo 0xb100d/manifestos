@@ -1,0 +1,969 @@
+this one is new, but gives a pretty compelling overview for the need for electronic cash and could be a nice introduction to the book.
+
+coincenter.org
+The Case for Electronic Cash:
+Why Private Peer-to-Peer Payments are
+Essential to an Open Society
+Jerry Brito
+February 2019
+Jerry Brito, The Case for Electronic Cash: Why Private Peer-to-Peer Payments are Essential
+to an Open Society, Coin Center Report, Feb. 2019, available at
+https://coincenter.org/entry/the-case-for-electronic-cash
+Abstract
+Cash is more than a method of payment. It is a fundamental tool for individual privacy and
+autonomy, and it is necessary for an open society. This paper shows that a cashless economy is
+a surveillance economy. It also argues that removing the option to freely transact without
+intermediation greatly limits our economic self-determination, placing our economic lives in
+the hands of financial institutions and governments. This paper presents several case studies
+demonstrating the dangers of a completely intermediated payments system and concludes that
+electronic cash is a tool that should not only be tolerated, but fostered and celebrated.
+Author
+Jerry Brito
+Executive Director
+Coin Center
+jerry@coincenter.org
+About Coin Center
+Coin Center is a non-profit research and advocacy center focused on the public policy issues
+facing open blockchain technologies such as Bitcoin. Our mission is to build a better
+understanding of these technologies and to promote a regulatory climate that preserves the
+freedom to innovate using blockchain technologies. We do this by producing and publishing
+policy research from respected academics and experts, educating policymakers and the media
+about blockchain technology, and by engaging in advocacy for sound public policy.
+Acknowledgements
+Thank you to Andrea Castillo who provided invaluable research assistance, and to my Coin
+Center colleagues Neeraj Agrawal, James Foust, Robin Weisman, and Peter Van Valkenburgh
+for indispensable discussions and comments on early drafts of this paper. Sincere thanks to
+those who provided comments on a draft of this paper, including Brandon G. Goodell, Jason
+Somensatto (0x Project), Alexander Zaidelson (Beam), Elena Nadolinski (Beanstalk), Ron
+Bernstein (Coinbase), Rainey Reitman & Jamie Lee Williams (Electronic Frontier Foundation),
+Silke Elrifai (Gnosis), Daniel Lehnberg (Grin), Alex Gladstein (Human Rights Foundation),
+Steven Waterhouse (Orchid Labs), Marvin Ammori (Protocol Labs), Alan Curtis (Radar), Zooko
+Wilcox (Zcash), and Josh Cincinnati (Zcash Foundation). Special thanks to Shane Glynn, Joshua
+Goldbard, and Nathana Sharma (MobileCoin) for helping organize a workshop for this paper.
+1
+Introduction
+Completely anonymous cryptocurrency is an experimental new technology that is being
+perfected by the day. While it is tempting to only focus on the opportunities it presents to
+criminals and its inevitable illicit uses, more important is what it represents for the law abiding
+citizens that make up the vast majority of society. Not only do its benefits outweigh its costs,
+electronic cash is indeed essential to sustaining a liberal open society.
+In a world without cash (a bearer and peer-to-peer form of money) all transactions must be
+necessarily intermediated by financial institutions. Intermediated transactions are by their
+nature subject to surveillance and control. If third-party financial institutions must be part of
+all transactions, then they will be privy to the intimate details of everyone’s financial life. They
+can also choose to disallow certain transactions and potentially even certain persons from
+transacting.
+Intermediation has many benefits, including efficiency and convenience. Used responsibly, the
+information gleaned from the privileged position of financial intermediary can also allow one
+to better extend credit, prevent fraud, and help the authorities fight crime. But as this paper
+will show, it can also be abused spectacularly by corporations and governments. If there is no
+way to avoid intermediation, then individuals will have no way to preserve their privacy or their
+autonomy.
+Cash is an ancient technology that allows us to avoid intermediation and thus to preserve the
+values necessary for the individual liberty and human dignity. While we are a long way from a
+cashless and completely intermediated existence, at least in the United States, this paper will
+also show that there is a concerted effort to eliminate cash that has been quite successful in
+other parts of the world.
+This paper will argue that cash is essential to an open society. It is an escape valve in our
+increasingly intermediated and therefore surveilled world. We do not argue that cash should be
+the only option for transactions, or even the option one should choose most of the time. But it
+should be an option. Without it, there is no choice but to have one’s every purchase be watched
+and recorded and the information used without one’s consent. Without cash there is no
+exit—no chance for the kind of dignity-preserving privacy that undergirds an open society.
+Cash is also necessary to retain agency and autonomy. Autonomy can be understood as the
+power to make decisions for oneself without interference from others. It’s the ability to try
+things one’s way, to succeed and be rewarded, or to make mistakes and learn from them. As
+with personal privacy, without individual autonomy there can be no meaningful open society.
+It is therefore imperative that we preserve our ability to use it. Yet that is not enough. As we
+move to an increasingly online world in which physical cash is not practical for many
+transactions, we must also develop and foster electronic cash that is as privacy-preserving and
+2
+permissionless as physical cash. While this will have costs as well as benefits, we argue that the
+way to address the costs is not to prohibit electronic cash, but instead to regulate its use no
+differently than physical cash for which there is a robust regime.
+What is Cash
+Cash is not simply money. The word cash typically refers to money in the form of coins and
+paper notes. It is distinct from other forms of money, such as demand deposits, which is money
+held in bank accounts and from which one can pay using a check. Paper notes and coins, on the
+other hand, are bearer instruments. That means that whoever has physical possession of the
+tokens—in this case, the notes or coins—is presumed to be the owner of the money, and
+ownership is transferred by simply handing over physical possession of the token.
+Cash transactions are peer-to-peer. Transferring ownership of a house, a car, a stock or bond
+registered in one’s name, or even money in one’s bank account, requires the involvement of a
+third party, such as a bank, a stock transfer agent, or a local register of deeds. A cash
+transaction, on the other hand, happens only between the two parties to the transaction. I hand
+you a $100 note, and that’s all there is to it.
+The bearer and peer-to-peer nature of cash means that transactions require little or no trust.
+You may still want to verify that the cash in hand is not counterfeit, but there is no trust in 1
+third parties necessary for the transaction. In contrast, when you accept a check, you trust that
+the bank is solvent and will honor the order to pay.
+Because it is bearer and peer-to-peer, cash is also permissionless. This means that one does not
+need authorization from, or an account with, any institution in order to transact with others.
+This is important for many persons who cannot easily open such an account, perhaps because
+they don’t have steady income, a good credit history, a government ID, or a permanent address.
+In some countries, like Saudi Arabia, women are not allowed to open accounts. Cash is an open 2
+access system in which anyone—banked or unbanked—can participate without having to seek
+the permission of financial gatekeepers.
+Because cash is permissionless, it is censorship resistant. You can use cash to contribute to an
+unpopular cause or to purchase goods or services that are legal but socially or culturally taboo.
+Of course, it can also be used to buy an illicit goods or services. While you may be punished
+after the fact for engaging in an illegal transaction, there is no third-party gatekeeper that can
+1 The U.S. Treasury Department estimates that about only one note in every 10,000 is counterfeit. U.S.
+Treasury Department, “The Use and Counterfeiting of United States Currency Abroad, Part 3,” final
+report to Congress (Sep. 2006)
+https://www.federalreserve.gov/boarddocs/rptcongress/counterfeit/counterfeit2006.pdf.
+2 Margaret Coker, “How Guardianship Laws Still Control Saudi Women,” New York Times (Jun. 22, 2018)
+https://www.nytimes.com/2018/06/22/world/middleeast/saudi-women-guardianship.html.
+3
+prevent the transaction because transactions are peer-to-peer. This even includes the very
+governments that may be issuing the cash notes.
+Finally, cash is private. Because cash is peer-to-peer, there need not be more witnesses to a
+transaction than its participants. Sometimes the case that only one party to a transaction is
+witness to it, such as when one drops a bill into a church’s donation box. There also need not be
+any record made of the transaction, since possession of the cash is what matters, and not any
+ledger entry.
+So, cash is a bearer, peer-to-peer, permissionless, and privacy-preserving form of money. It is
+an ancient technology with striking features, yet there is a movement afoot to eliminate it.
+The Cashless Society
+It is easy to take cash for granted. When people think of money, they imagine colorful paper
+notes even though the vast majority of global money stock is composed of electronic entries in
+bank ledgers, not physical cash. The ability to use an ATM to convert some of those ledger 3
+entries into paper that can then be used to pay at a newsstand—privately and
+permissionlessly—is as second nature as breathing. Yet there’s no reason why that has to be the
+case.
+Sweden, for example, is fast becoming a cashless society. According to its central bank, cash
+transactions accounted for only 2% of the value of all payments made in 2015, and that figure is
+expected to drop to 0.5% by 2020. A majority of bank branches in Sweden no longer keep cash 4
+on hand and ATMs are increasingly rare. Other Nordic countries, like Norway, Denmark, 5 6 7
+3 The Federal Reserve releases regular reports on the amount and breakdown of the monetary base in the
+United States. Its most recent release reports a seasonally adjusted M2 of $14.27 trillion in October of
+2018, $1.62 trillion of which was physical cash in public circulation. That means that only around 11
+percent of money is physical cash in the United States. See Board of Governors of the Federal Reserve
+System, “Money Stock and Debt Measures - H.6 Release,” Data Report (Nov. 29, 2018)
+https://www.federalreserve.gov/releases/h6/current/h6.pdf. To get an idea of the international picture,
+we can look at statistics compiled by the Bank for International Settlements. The annual “red book”
+publication from the Committee on Payments and Market Infrastructures reports $4.7 trillion in
+banknotes and coins in circulation among 24 major economies in 2016. This is roughly 8.95 percent of
+those nations’ $60.7 trillion in combined GDP that same year. See Committee on Payments and Market
+Infrastructures, “Statistics on payment, clearing and settlement systems in the CPMI countries - Figures
+for 2016,” Comparative Tables 1 and 2, Data Report (Dec. 15, 2017): pgs. 420-422,
+https://www.bis.org/cpmi/publ/d172.htm.
+4 John Henley, “Sweden leads the race to become cashless society,” The Guardian (Jun. 4, 2016)
+https://www.theguardian.com/business/2016/jun/04/sweden-cashless-society-cards-phone-apps-leading
+-europe.
+5 Id.; also: Patrick Jenkins, “‘We don’t take cash’: is this the future of money?” Financial Times (May 9,
+2018) https://www.ft.com/content/9fc55dda-5316-11e8-b24e-cad6aa67e23e.
+4
+Iceland, and Finland are similarly situated. South Korea targets 2020 for phasing out paper 8 9
+notes and coins.
+10
+Citizens in these countries rely on card and mobile payments systems owned and operated by
+banks and financial technology (fintech) firms. These companies have an interest in promoting
+an increasingly cashless society. Every cash transaction is a transaction that takes place outside
+of the infrastructure that they own and on which they take a fee. Additionally, cash 11
+management is a not an insignificant cost for financial institutions.
+12
+Firms such as Visa have launched advertising and media campaigns to urge consumers to give
+up cash for card payments. Other campaigns are targeted at merchants. In one, Visa offered 13
+$10,000 to restaurants and food trucks that committed to stop accepting cash. As Visa UK put 14
+it, these campaigns are part of a “long term strategy to make cash ‘peculiar’ by 2020.”15
+Central banks also have an interest in eliminating cash. Doing so would grow the monetary
+policy tools at their disposal. If there are no bearer notes and all money is in the form of
+deposits, then it is easier to impose negative interest rates across the whole economy. The Bank
+6 Will Martin, “Fewer than 10% of people in Norway use cash— and a senior official thinks it could
+disappear completely within a decade,” Business Insider (Apr. 25, 2018)
+https://www.businessinsider.com/norway-first-cashless-society-2018-4.
+7 “Denmark will eventually be cash-free: expert,” The Local DK (Aug. 14, 2018)
+https://www.thelocal.dk/20180814/denmark-will-eventually-be-cash-free-expert.
+8 Anna Kuzmina, “Cashless Iceland,” Medium (Sept. 17, 2018)
+https://medium.com/what-the-money/cashless-iceland-f77147c9b253.
+9 “Bank of Finland predicts country will be cash-free by 2029,” Yle Uutiset Online (Feb. 21, 2016)
+https://yle.fi/uutiset/osasto/news/bank_of_finland_predicts_country_will_be_cash-free_by_2029/8689417.
+10 Patrick Jenkins, “‘We don’t take cash’: is this the future of money?” Financial Times (May 9, 2018)
+https://www.ft.com/content/9fc55dda-5316-11e8-b24e-cad6aa67e23e.
+11 Brett Scott, “The War on Cash,” TheLong+Short (Aug. 19, 2016)
+https://thelongandshort.org/society/war-on-cash.
+12 Patrick Jenkins, “‘We don’t take cash’: is this the future of money?” Financial Times (May 9, 2018)
+https://www.ft.com/content/9fc55dda-5316-11e8-b24e-cad6aa67e23e.
+13 Brett Scott, “The War on Cash,” TheLong+Short (Aug. 19, 2016)
+https://thelongandshort.org/society/war-on-cash.
+14 Jackie Wattles, “Visa offers restaurants $10,000...if they stop accepting cash,” CNN Business (Jul. 14,
+2017)
+https://money.cnn.com/2017/07/14/news/companies/visa-no-cash-restaurant-initiative/index.html.
+15 “Visa Europe launches ‘Cashfree and Proud’ campaign,” Visa Europe (Mar. 21, 2016)
+https://www.visa.co.uk/newsroom/visa-europe-launches-cashfree-and-proud-campaign-1386958.
+5
+of England’s chief economist proposed abolishing cash altogether to secure that option. There 16
+are also public finance motivations. Nobel prize-winning economist Joseph Stiglitz would also
+like to do away with cash in order to make tax evasion and other financial corruption more
+difficult and traceable. Still, critics must admit that cash has its uses. Former International 17
+Monetary Fund chief economist Kenneth Rogoff, whose gripes with paper money are plainly
+stated in the title of his book, The Curse of Cash, nevertheless agrees that “we need cash for
+privacy.”18
+This anti-cash trend is taking hold. Signs that read “no cash accepted” are an increasingly
+common sight at shops in Nordic countries. Even in countries like the UK where cash is still 19
+popular, some shops are going cash-free, and as Transport for London’s website will tell you, 20
+“You can’t use cash to pay for your bus fare.” On the Internet, cash has never been an option, 21
+and as commerce moves online, the proportion of intermediated payments grows
+concomitantly. Market research firm eMarketer estimates $2.3 trillion in global ecommerce
+sales in 2017. That is around 10 percent of the $22.6 trillion in all global retail sales, and a 22
+16 Chris Giles, “Scrap cash altogether, says Bank of England’s chief economist,” Financial Times (Sep. 18,
+2015) https://www.ft.com/content/7967908e-5ded-11e5-9846-de406ccb37f2.
+17 Ross Chainey, “The US should get rid of cash and move to a digital currency, says this Nobel Laureate
+economist,” World Economic Forum (Jan. 17, 2017)
+https://www.weforum.org/agenda/2017/01/the-us-should-get-rid-of-cash-and-become-a-digital-econo
+my-says-this-nobel-laureate-economist/. Stiglitz has elsewhere criticized the Indian government’s 2016
+demonetization experiment which aimed to achieve similar goals. Indian citizens complained about the
+waste and inefficiency of the process which stemmed little evasion. Cash demand in India has since
+returned to pre-demonetization levels. See: “Why Demonitisation Was Launched Will Remain A Mystery:
+Joseph Sitglitz,” Interview with NDTV (Jan. 26, 2018), https://www.youtube.com/watch?v=acgVZEhsjgo;
+Andy Mukherjee, “By a 99.3% Verdict, India’s Cash Ban Was a Farce,” Bloomberg Opinion (Aug. 30, 2018)
+https://www.bloomberg.com/opinion/articles/2018-08-30/india-s-cash-ban-was-a-farce-by-a-99-3-verdi
+ct.
+18 James Pethokoukis, “The problem with cash: A Q&A with economist Kenneth Rogoff,” AEIdeas, (Nov.
+10, 2016) http://www.aei.org/publication/the-problem-with-cash-a-qa-witheconomist-kenneth-rogoff/.
+19 Amanda Billner, “‘No Cash’ Signs Everywhere Has Sweden Worried It’s Gone Too Far,” Bloomberg (Feb.
+18, 2018)
+https://www.bloomberg.com/news/articles/2018-02-18/-no-cash-signs-everywhere-has-sweden-worried
+-it-s-gone-too-far.
+20 Patrick Jenkins, “‘We don’t take cash’: is this the future of money?” Financial Times (May 9, 2018)
+https://www.ft.com/content/9fc55dda-5316-11e8-b24e-cad6aa67e23e.
+21
+Transport for London website, https://tfl.gov.uk/modes/buses/cash-free-buses, accessed December 3,
+2018.
+22 Corey McNair, “Worldwide Retail and Ecommerce Sales: eMarketer’s Estimates for 2016-2021,”
+eMarketer Report (Jul. 18, 2018)
+https://www.emarketer.com/Report/Worldwide-Retail-Ecommerce-Sales-eMarketers-Estimates-2016202
+1/2002090.
+6
+24.8 percent increase from 2016’s $1.8 trillion in worldwide online sales. Online commerce will
+only grow.
+The growth of online retail necessarily requires a growth in online payments. Online
+transactions are therefore generally facilitated by new fintech services, credit or debit cards
+issued by traditional banking intermediaries, or some combination of these. This means that
+intermediaries have more information about our buying habits than ever before.
+Although some countries like Sweden are on a cashless path, it would be a mistake to conclude
+that people’s desire for cash has lessened globally. A report from the Bank for International 23
+Settlements (BIS) finds that cash demand, measured by proxy through cash in circulation,
+increased among most of the 46 national economies in its sample. The BIS also reports data on
+the substitution between cash payments and online payments, as estimated through card
+transactions, in 24 nations. Only two of them, Russia and Sweden, exhibit signs of 24
+substituting card payments for cash transactions. The other 22 nations exhibit increases in
+both online payments and cash demand, which suggest a lingering value placed on cash’s
+unique features.
+25
+While the death of cash is not imminent in countries like the United States, it is certainly 26
+visible on the horizon. Unfortunately the death of cash means the birth of perfect financial
+control.
+The Intermediated Society
+If cash is eliminated, then all transactions will necessarily be intermediated. This is because
+instead of relying on the physical scarcity of bearer instruments, we would have to rely on
+intermediaries to guarantee all transfers of value. To understand why remember what a
+23 John Williams and Claire Wang, “Reports of the Death of Cash are Greatly Exaggerated,” Federal
+Reserve Bank of San Francisco Blog (Nov. 20, 2017)
+https://www.frbsf.org/our-district/about/sf-fed-blog/reports-death-of-cash-greatly-exaggerated/.
+24 Morten Linnemann Bech, Umar Faruqui, Frederik Ougaard, and Cristina Picillo, “Payments are
+a-changin’ but cash still rules,” Bank for International Settlements Quarterly Review (Mar. 11,
+2018)https://www.bis.org/publ/qtrpdf/r_qt1803g.htm.
+25 The authors suggest a few explanations for lingering cash demand: expanded ATM infrastructure,
+which makes accessing cash easier; low interest rates, which lowers the opportunity cost of holding cash;
+and increased use of cash as a store of value, backed by empirical evidence of increased holding of higher
+note bills. Id.
+26 As noted earlier, most money in the United States is not physical. But around $1.6 trillion of it is, and
+that is not an insignificant amount. See Board of Governors of the Federal Reserve System, “Money Stock
+and Debt Measures - H.6 Release,” Data Report (Nov. 29, 2018)
+https://www.federalreserve.gov/releases/h6/current/h6.pdf.
+7
+physical cash transaction looks like. I take out a $100 bill and hand it to you, at which point you
+have it and I don’t, and we can verify this by looking at our hands. Physical scarcity, which was
+historically not available electronically, makes this possible. On the other hand, by keeping 27
+ledgers of accounts and recording transactions in those ledgers, intermediaries like banks make
+it possible for me to virtually “hand” you $100. After the transaction you will have the $100 not
+because I gave you a token that I no longer have, but because an intermediary made a record in
+their ledger deducting from my balance and adding to yours. As a result, bank-mediated
+electronic payments are not peer-to-peer. They replace the scarcity of peer-to-peer cash
+transactions with trust that the bank correctly records payments in their ledgers. This has
+several implications.
+First, it means that bank-mediated electronic payments are not permissionless in the same way
+as cash. To hold and transfer digital money, you must first secure an account from an
+intermediary. We do not tend to think in terms of “seeking permission” when we open an
+account with a bank or mobile payments app, but that is what we do. Those firms are not
+obligated to open an account for us. It is possible that you will be denied an account. In a
+cashless world, not having an account with which to receive and send money is essentially
+expulsion from society. This is very different from a cash system, exclusion from which is
+impossible.
+Even if you have an account, intermediaries have full control over whether they will faithfully
+execute your instructions to transfer money, and may therefore choose to reject (or be
+compelled by a government or other third party to reject) any particular transaction you
+request. As a result, digital money is not censorship-resistant like cash. For whatever reason
+(and there may be good reasons and bad reasons), your bank can decide not to allow you to
+transact with certain people, to buy certain things, or to give to certain causes.
+27 If we tried to do this same thing electronically, it would not work. First, I would have to have a digital
+representation of the money to take the place of the $100 bill. Let’s say it’s a $100 file on my computer.
+Then I would have to send you this $100 file electronically, perhaps by attaching it to an email the same
+way I would send you a photo or a text file. The problem is this: When you receive an email from me with
+a photo, you will have the photo—but what about me? Will I no longer have the photo? No. I will retain a
+perfect digital copy of any data that I send to you electronically. So, if I send you a $100 file, you’d get it,
+but I would retain a copy, which I could in turn send to a second and then a third person ad infinitum.
+Computer scientists refer to this limitation as “the double spending problem,” and it is the result of the
+inherent lack of scarcity in digital networks. To avoid the double spending problem and make electronic
+payments possible, we employ third-party intermediaries like banks or payments companies. Here is how
+it works: If I want to send you $100, I don’t send a message to you directly. Instead, I send a message to a
+third party (say, a bank) that we both trust and with which we each have accounts. I tell the bank to
+please deduct $100 from my account and to add it to yours. The bank, in turn, keeps a ledger of all
+account-holder balances and transactions, and it dutifully adds a ledger entry that records the
+subtraction and additions to our respective balances. In this way, we can easily send each other digital
+money.
+8
+Even seemingly pro-social or benign financial activities can have unintended consequences.
+Federal laws aimed at curbing money laundering and terrorist financing deputize banks to be
+vigilant about money sent to certain “high-risk” countries. Because of this, charities providing
+aid to war-torn areas or deprived populations have difficulty accessing reliable banking services
+and thus getting money to those most in need.
+28
+High-risk countries tend to be among those most in need of humanitarian aid, so charities
+understably focus their efforts there. When charities’ fund transfers are slowed and scrutinized,
+or their bank accounts are shut down, the potential human cost is significant. What is worse,
+banks’ appeals processes are opaque. One lawyer representing charities whose bank accounts
+had been closed told the Wall Street Journal, “There’s no no in explanation...no opportunity
+given to appeal. It’s adding to the problem in Syria and the Middle East.”29
+Second, mediated electronic payments are never private. An intermediary must always know
+the parties to, and the details of, a transaction in order to make the appropriate ledger entries.
+Unlike cash, there is always a third-party witness to every transaction. In a cashless world, your
+bank will know the exact time, amount, and counterparty to every transaction you engage in,
+and can build a thorough profile of you. This information, especially if combined with other 30
+data such as social network activity (see recent reports about Facebook and Google trying to
+reach a deal with banks), can be a formidable tool. Or, if fallen to wrong hands, it can be a 31
+powerful weapon.
+32
+28 Rob Barry and Rachel Louise Ensign, “Cautious Banks Hinder Charity Financing,” Wall Street Journal
+(Mar. 30, 2016), https://www.wsj.com/articles/cautious-banks-hinder-charity-financing-1459349551.
+29 Id.
+30 Institutions already hold detailed data-based profiles of many people. The New York Times recently
+investigated one woman’s use of several smartphone apps and found that companies were compiling a
+comprehensive profile of the woman—based in part by her trips to Planned Parenthood, Weight
+Watchers, and her ex-boyfriend’s house—to sell to advertisers and financial institutions. See: Jennifer
+Valentino-DeVries, Natasha Singer, Michael H. Keller, and Aaron Krolik, “Your Apps Know Where You
+Were Last Night, and They’re Not Keeping It Secret,” New York Times (Dec. 10, 2018)
+https://www.nytimes.com/interactive/2018/12/10/business/location-data-privacy-apps.html. 31 Emily Glazer, Deepa Seetharaman, and AnnaMaria Andriotis, “Facebook to Banks: Give Us Your Data,
+We’ll Give You Our Users,” Wall Street Journal (Aug. 6, 2018)
+https://www.wsj.com/articles/facebook-to-banks-give-us-your-data-well-give-you-our-users-153356404
+9.
+32 See, for example: Ben Sasse, “Senator Sasse: The OPM Hack May Have Given China a Spy Recruiting
+Database,” WIRED (Jul. 9, 2015)
+https://www.wired.com/2015/07/senator-sasse-washington-still-isnt-taking-opm-breach-seriously/;
+John R. Schindler, “China’s Spies Hit the Blackmail Jackpot With Data on 4 Million Federal Workers,” The
+Daily Beast (Jun. 11, 2015)
+https://www.thedailybeast.com/chinas-spies-hit-the-blackmail-jackpot-with-data-on-4-million-federal-
+9
+The bleeding edge of financial surveillance and profiling can be found in China. As the New
+York Times has noted, “China is systematically and rapidly doing away with paper money and
+coins.” Cash transactions are being replaced by mobile payments, which account for over $16 33
+trillion annually—over 100 times more than in the U.S. The move away from cash in China 34
+happened in just a few years. While cash accounted for 96 percent of payments in 2012, today 35
+that number is below 15 percent. As of 2018, more than one-half billion Chinese use mobile 36
+payments.
+37
+Tencent’s WeChat Pay and Alibaba’s AliPay are the dominant payment platforms in China, with
+a combined market share of 92 percent. These two companies have unprecedented visibility 38
+into almost all consumer transactions and are using the data they are gathering to develop
+credit scores for every consumer. The scores look not just at creditworthiness, but at social 39
+media and consumption behavior as well to determine “whether [the consumer’s] social
+behavior is healthy.”40
+workers.
+33 Paul Mozur, “In Urban China, Cash Is Rapidly Becoming Obsolete,” New York Times (Jul. 15, 2017)
+https://www.nytimes.com/2017/07/16/business/china-cash-smartphone-payments.html.
+34
+Id.; see also: Don Weinland and Sherry Fei Ju, “China’s Ant Financial shows cashless is king,” Financial
+Times (Apr. 13, 2018) https://www.ft.com/content/5033b53a-3eff-11e8-b9f9-de94fa33a81e; Jeppe
+Saarinen, “Mobile Payments in China: Why Foreign Businesses Should Adopt a Strategy,” China Briefing
+(Aug. 29, 2018)
+http://www.china-briefing.com/news/mobile-payments-china-foreign-businesses-china-adopt-strategy/
+.
+35 Paul Mozur, “In Urban China, Cash Is Rapidly Becoming Obsolete,” New York Times (Jul. 15, 2017)
+https://www.nytimes.com/2017/07/16/business/china-cash-smartphone-payments.html.
+36 Jeppe Saarinen, “Mobile Payments in China: Why Foreign Businesses Should Adopt a Strategy,” China
+Briefing (Aug. 29, 2018)
+http://www.china-briefing.com/news/mobile-payments-china-foreign-businesses-china-adopt-strategy/
+.
+37 Xiang Bo, “More than half billion Chinese pay by mobile phones: report,” XinhuaNet (Jul. 19, 2018)
+http://www.xinhuanet.com/english/2018-07/19/c_137335685.htm.
+38 Jeppe Saarinen, “Mobile Payments in China: Why Foreign Businesses Should Adopt a Strategy,” China
+Briefing (Aug. 29, 2018)
+http://www.china-briefing.com/news/mobile-payments-china-foreign-businesses-china-adopt-strategy/
+.
+39 Mara Hvistendahl, “Inside China’s Vast New Experiment in Social Ranking,” WIRED (Dec. 14, 2017)
+https://www.wired.com/story/age-of-social-credit/.
+40 Josh Horwitz, “China’s Tencent is quietly testing a ‘social credit score’ based on people’s online
+behavior,” Quartz (Aug. 8, 2017)
+10
+What counts as “healthy” behavior will be influenced by the Chinese government, which has
+encouraged and guided the development of Tencent and Alibaba’s scoring systems. Beijing sees
+them as the backbone of a Social Credit System to “rate each and every one of the nation's 1.3
+billion citizens by 2020 using metrics that include whether they pay their bills on time,
+plagiarize schoolwork, break traffic laws or adhere to birth-control regulations.”41
+Purchasing habits are noted by the financial intermediaries and can be used as an input to your
+Social Credit score. As an Alibaba executive told a Chinese magazine in 2015, the company 42
+judges the purchases consumers make. “Someone who plays video games for 10 hours a day, 43
+for example, would be considered an idle person, and someone who frequently buys diapers
+would be considered as probably a parent, who on balance is more likely to have a sense of
+responsibility.”44
+A high Social Credit score will earn a citizen certain privileges. Today that includes expedited
+permission to travel abroad and access to express lanes at airports, but in the future it could 45
+grant your children placement at desired schools. A low Social Credit score, however, will lead 46
+to punishment, according to official government policy, including, “slower internet speeds;
+restricted access to restaurants, nightclubs or golf courses; and the removal of the right to
+https://qz.com/1049669/chinas-tencent-hkg-0700-is-quietly-testing-a-social-credit-score-based-on-peo
+ples-online-behavior/.
+41 Julie Makinen, “China prepares to rank its citizens on ‘social credit,’” Los Angeles Times (Nov. 22, 2015)
+https://www.latimes.com/world/asia/la-fg-china-credit-system-20151122-story.html; Josh Horwitz,
+“China’s Tencent is quietly testing a ‘“social credit score’” based on people’s online behavior,” Quartz
+(Aug. 8, 2017)
+https://qz.com/1049669/chinas-tencent-hkg-0700-is-quietly-testing-a-social-credit-score-based-on-peo
+ples-online-behavior/; Sean O’Kane, “China will ban people with poor ‘social credit’ from planes and
+trains,” The Verge (Mar. 16, 2018)
+https://www.theverge.com/2018/3/16/17130366/china-social-credit-travel-plane-train-tickets.
+42 Amy Hawkins, “Chinese Citizens Want the Government to Rank Them,” Foreign Policy (May 24, 2017)
+https://foreignpolicy.com/2017/05/24/chinese-citizens-want-the-government-to-rank-them/; Julie
+Makinen, “China prepares to rank its citizens on ‘social credit,’” Los Angeles Times (Nov. 22, 2015)
+https://www.latimes.com/world/asia/la-fg-china-credit-system-20151122-story.html.
+43 Celia Hatton, “China 'social credit': Beijing sets up huge system,” BBC (Oct. 25, 2015)
+https://www.bbc.com/news/world-asia-china-34592186.
+44 Id.
+45 Rachel Botsman, “Big data meets Big Brother as China moves to rate its citizens,” WIRED UK (Oct. 20,
+2017) https://www.wired.co.uk/article/chinese-government-social-credit-score-privacy-invasion; Julie
+Makinen, “China prepares to rank its citizens on ‘social credit,’” Los Angeles Times (Nov. 22, 2015)
+https://www.latimes.com/world/asia/la-fg-china-credit-system-20151122-story.html.
+46 Maya Wang, “China’s Chilling ‘Social Credit’ Blacklist,” Wall Street Journal (Dec. 11, 2017)
+https://www.wsj.com/articles/chinas-chilling-social-credit-blacklist-1513036054.
+11
+travel freely abroad[.]” Already, over six million people are banned from taking flights, and 47
+another 1.65 million are not allowed to take trains.
+48
+Your score doesn’t just affect you, but your friends and family as well. If your friend’s score
+drops because of something she said or purchased, your score will be dragged down with hers as
+well. This means that not only will people have an incentive to watch what they say and buy, 49
+but to police their friends and family as well. Not only will there be peer pressure to conform to
+“healthy behavior,” but official government policy states that the “new system will reward
+those who report acts of breach of trust.” In tips for individuals looking to improve their 50
+ranking, Alibaba today warns about the downsides of friending people with low scores.
+51
+This kind of social control is made possible by intermediation. This kind of social control
+emerges naturally as the economy becomes increasingly dependent on dominant centralized
+intermediaries. These intermediaries, as a matter of course, surveil and record every action,
+which can then be judged and enforced algorithmically. The privacy and censorship resistance
+that permissionless cash affords serves as a check on such a systems of social control.
+Today, Alibaba’s and Tencent’s credit systems are technically voluntary, but in the near future
+(perhaps as early as 2020) they will be mandatory for everyone in China. Similarly, cash is 52
+currently still available, but in order for the Social Credit System to work optimally, the
+government has every incentive to eliminate cash and replace it with intermediated money.
+As should be clear, intermediation is not without consequence. An end to cash, a technology
+that we take for granted, will have an effect on liberties that we also take for granted. A cashless
+society cannot be an open society.
+47 Rachel Botsman, “Big data meets Big Brother as China moves to rate its citizens,” WIRED UK (Oct. 20,
+2017) https://www.wired.co.uk/article/chinese-government-social-credit-score-privacy-invasion.
+48 Id.; see also: Sean O’Kane, “China will ban people with poor ‘social credit’ from planes and trains,” The
+Verge (Mar. 16, 2018)
+https://www.theverge.com/2018/3/16/17130366/china-social-credit-travel-plane-train-tickets. 49 Rachel Botsman, “Big data meets Big Brother as China moves to rate its citizens,” WIRED UK (Oct. 20,
+2017) https://www.wired.co.uk/article/chinese-government-social-credit-score-privacy-invasion.
+50 Celia Hatton, “China 'social credit': Beijing sets up huge system,” BBC (Oct. 25, 2015)
+https://www.bbc.com/news/world-asia-china-34592186.
+51 Rachel Botsman, “Big data meets Big Brother as China moves to rate its citizens,” WIRED UK (Oct. 20,
+2017) https://www.wired.co.uk/article/chinese-government-social-credit-score-privacy-invasion.
+52 Julie Makinen, “China prepares to rank its citizens on ‘social credit,’” Los Angeles Times (Nov. 22, 2015)
+https://www.latimes.com/world/asia/la-fg-china-credit-system-20151122-story.html
+12
+The Open Society
+The opposite of an authoritarian state like China is an open society, the hallmark of which is a
+free competition of ideas that drives progress. In an open society, challenges to status quo 53
+thinking are not only tolerated, they are valued and protected. An open society eschews
+monism, “the ancient belief that there is a single harmony of truths into which everything, if it
+is genuine, in the end must fit” in favor of value pluralism, a celebration of variety and diversity
+within society.
+54
+An open society works only if individuals are free to engage in critical thinking to develop,
+communicate, critique, and accept or reject ideas. That, in turn, requires freedom of thought
+and expression and association, which is why open societies tend to be liberal democracies that
+guarantee civil liberties under the rule of law. The equality and dignity of individuals are also 55
+paramount values in liberal open societies. Persons are equal in worth and rights and should be
+treated by their government and their fellow citizens with dignity—i.e., not as means to an end,
+but as ends in themselves.
+56
+53 See, generally: Karl Popper, The Open Society and Its Enemies, New One-Volume Edition. Princeton, NJ:
+Princeton University Press (2013).
+54 Isaiah Berlin, “Isaiah Berlin on Privacy,” selection from “The First and the Last,” New York Review of
+Books, Vol. XLV, No. 8 (1998), available at https://www.cs.utexas.edu/users/vl/notes/berlin.html. 55 Benjamin Franklin (writing as “Silence Dogood,” one of his many pseudonyms) articulated this
+necessity when he wrote: “Without Freedom of Thought, there can be no such Thing as Wisdom; and no
+such Thing as publick Liberty, without Freedom of Speech; which is the Right of every Man, as far as by
+it, he does not hurt or controul the Right of another: And this is the only Check it ought to suffer, and the
+only Bounds it ought to know.” Silence Dogood, “No. 8,” The New-England Courant (Jul. 9, 1722) available
+at https://founders.archives.gov/documents/Franklin/01-01-02-0015. Franklin and the other American
+Founders were inspired by Enlightenment thinkers such as John Locke who articulated the contours of
+liberal governance based on the “natural state of...equality” inherent to man. Locke wrote: “The freedom
+then of man, and liberty of acting according to his own will, is grounded on his having reason, which is
+able to instruct him in that law he is to govern himself by, and make him know how far he is left to the
+freedom of his own will.” The liberal state is necessary only to the extent that it allows free individuals to
+fully exercise their will without interfering with others’ freedoms to do the same. See generally: John
+Locke, Two Treatises of Government. ed. Thomas Hollis. London: A. Millar et al. (1764) available at:
+https://oll.libertyfund.org/titles/locke-the-two-treatises-of-civil-government-hollis-ed
+56 Many people are familiar with the “categorical imperative” that guides the moral philosophy of
+Immanuel Kant: “Act only according to that maxim by which you can at the same time will that it
+should become a universal law.” Less well known is the philosopher’s alternative formulation of his core
+moral principle offered later in his Groundwork of the Metaphysics of Morals: “Act so that you treat
+humanity, whether in your own person or in that of another, always as an end and never as a means
+only.” See: James Rachels, “Kantian Theory: The Idea of Human Dignity,” from The Elements of Moral
+Philosophy. New York, NY: Random House Press (1986): pgs. 114-117, 122-123.
+13
+The case for an open society based on liberal democracy has been made well elsewhere, so we 57
+will not rehearse it here and will instead assume that the reader finds its relative merit
+uncontroversial. The case we will make, however, is that cash is a necessary condition for the
+existence of an open society. That is, that a cashless society cannot fully be an open society
+because, as we have seen, eliminating cash means that all transactions are necessarily
+intermediated, and intermediation undermines privacy and autonomy—two values necessary
+for the individual liberty and human dignity that undergird an open society.
+Privacy is essential to freedom of thought, speech, and association not only because it prevents
+would-be censors from discovering thoughtcrimes, but also because of the chilling effects that
+come from knowing one is being watched, especially by an authority. In his excellent history of
+the Third Reich, Thomas Childers explains how the German people were changed by the fear of
+being watched:
+The American novelist Thomas Wolfe, who had traveled widely in Germany during the
+Weimar years, was shocked on a return trip in the mid-1930s by the dramatic changes
+that Hitler had wrought. He could hardly recognize the country he thought he knew.
+“Here was an entire nation,” he wrote, “. . . infested with the contagion of an
+ever-present fear. It was a kind of creeping paralysis which twisted and blighted all
+human relations.” Yet, thinking back on day-to-day life in the Third Reich, most
+Germans did not recall being consciously afraid. Instead they lived with a subliminal
+fear; developing a sixth sense for survival; learning what to say, when, and to whom was
+essential in daily life. A quick, almost reflexive glance over the shoulder to see who
+might be watching or listening nearby was dubbed the “deutscher Blick,” the German
+glance. Martha Dodd, the daughter of the American ambassador, recalled that
+“whenever we wanted to talk, we had to look around corners and behind doors, watch
+for the telephone and speak in whispers.” Many were convinced that their telephone
+receivers were rigged to act as transmitters so that private conservations at home could
+be listened to by the authorities. One defense was to place a tea cozy over the telephone
+to muffle conversations. Berlin merchants couldn’t keep them on the shelves.
+58
+Additionally, without privacy—without the ability to control what one reveals to others about
+oneself—it is more difficult to avoid becoming an instrument in someone else’s design, to
+preserve one’s dignity. For example, consider this story published in the New York Times
+Magazine in 2012:
+57 Perhaps most famously by the United Nations’ Universal Declaration of Human Rights. Universal
+Declaration of Human Rights, G.A. Res. 217A (III), U.N. Doc. A/810 at 71 (1948), available at
+https://www.ohchr.org/EN/UDHR/Documents/UDHR_Translations/eng.pdf.
+58 Thomas Childers, The Third Reich: A History of Nazi Germany. New York, NY: Simon & Schuster (2017):
+pgs. 321-322.
+14
+[A] man walked into a Target outside Minneapolis and demanded to see the manager.
+He was clutching coupons that had been sent to his daughter, and he was angry,
+according to an employee who participated in the conversation.
+“My daughter got this in the mail!” he said. “She’s still in high school, and you’re
+sending her coupons for baby clothes and cribs? Are you trying to encourage her to get
+pregnant?”
+The manager didn’t have any idea what the man was talking about. He looked at the
+mailer. Sure enough, it was addressed to the man’s daughter and contained
+advertisements for maternity clothing, nursery furniture and pictures of smiling infants.
+The manager apologized and then called a few days later to apologize again.
+On the phone, though, the father was somewhat abashed. “I had a talk with my
+daughter,” he said. “It turns out there’s been some activities in my house I haven’t been
+completely aware of. She’s due in August. I owe you an apology.”59
+How did Target know that the girl was pregnant before she had told her father?
+When you shop at Target you are assigned a unique identifier that is used to track everything
+you buy. Target does not seek your consent to do this. Simply using a credit card is enough to
+let Target start identifying and profiling you. By statistically comparing the shopping habits of
+women who had voluntarily signed up for Target’s baby registry program (thus known to be
+pregnant) with those of the broader public, the retailer can predict not only who is pregnant,
+but “also estimate her due date to within a small window, so Target could send coupons timed
+to very specific stages of her pregnancy.”60
+It’s tempting to think, “So what?” Although the girl did not willingly reveal her pregnancy,
+Target gleaned the fact from her purchasing history, which is a history of voluntary
+interactions, even if the girl could not foresee what they would reveal. And it was indeed a fact,
+after all, that she was pregnant, and not something she would be able to keep from her father
+for long. There are deeper issues, however, and that is betrayed by how Target thinks about its
+surveillance program.
+Andrew Pole, the Target statistician who developed the pregnancy prediction program, had the
+task put to him by the marketing department this way: “If we wanted to figure out if a customer
+is pregnant, even if she didn’t want us to know, can you do that?”61
+59 Charles Duhigg, “How Companies Learn Your Secrets,” New York Times Magazine (Feb. 16, 2012)
+https://www.nytimes.com/2012/02/19/magazine/shopping-habits.html.
+60 Id.
+61 Id.
+15
+As the New York Times reported, “Using data to predict a woman’s pregnancy, Target realized
+soon after Pole perfected his model, could be a public-relations disaster. So the question
+became: how could they get their advertisements into expectant mothers’ hands without
+making it appear they were spying on them? How do you take advantage of someone’s habits
+without letting them know you’re studying their lives?” A Target executive explained the
+solution:
+“[W]e started mixing in all these ads for things we knew pregnant women would never
+buy, so the baby ads looked random. We’d put an ad for a lawn mower next to diapers.
+We’d put a coupon for wine glasses next to infant clothes. That way, it looked like all
+the products were chosen by chance.
+“And we found out that as long as a pregnant woman thinks she hasn’t been spied on,
+she’ll use the coupons. She just assumes that everyone else on her block got the same
+mailer for diapers and cribs. As long as we don’t spook her, it works.”
+Not only did Target seek to gather information about individuals even if the individuals did not
+want to give up the information, they also sought to hide what they were doing because they
+understood it would be seen as an affront to human dignity. They were right. In the particular
+case of the young woman, Target’s surveillance inadvertently robbed her of her ability to decide
+when and how to tell her father about her pregnancy.
+Other examples abound. Companies may not always divulge their targeted advertising
+campaigns like Target has, but much modern marketing relies on such impersonal data-driven
+methods.
+Firms assuage the public of the “creepiness factor” by pointing out that their datasets are
+de-individualized, which means that the advertising profiles they build for people are not
+directly connected to their name. Someone is merely “Potential Customer #46274, unmarried, 62
+high school student, with likely interests in baby items and frozen foods,” or whatever the case
+may be. However, since that profile is still tied to one’s identity, and used to try to affect their
+behavior, the fact that a literal name is not associated may be cold comfort.
+Companies pay for access to this data to try and coax people to behave the way they
+want—namely, by buying more of their product or services. When advertising merely broadcasts
+general price or product information to the public, it can be a helpful tip (or a minor
+62 See, for example: Mark Bergen and Jennifer Surane, “Google and Mastercard Cut a Secret Ad Deal to
+Track Retail Sales,” Bloomberg (Aug. 30, 2018)
+https://www.bloomberg.com/news/articles/2018-08-30/google-and-mastercard-cut-a-secret-ad-deal-totrack-retail-sales.
+16
+annoyance). But when marketing is driven by a comprehensive secret profile of imputed
+lifestyle attributes, it can become invasive and troubling.
+The case of a major retailer targeting pregnant women with a campaign to ensure future
+consumer loyalty is alarming. But not all behavioral marketing is necessarily sinister. The point
+is that a world without cash gives consumers less of an ability to voluntarily exit such schemes,
+since all of their purchases would be intermediated and therefore up for grabs to marketing
+profilers who may not respect our privacy and autonomy.
+Privacy’s fundamental relationship to human dignity must be emphasized. Samuel Warren 63
+and Louis Brandeis’s foundational article, “The Right to Privacy,” not only noted the physical
+and pecuniary harms dealt by privacy violations, but also “spiritual” wrongs, injuries to
+“estimates of [ourselves],” assaults upon our “own feelings,” and blows to our “inviolate
+personality”—that is, our human “dignity,” to which the authors directly refer in their
+conclusion. We do not desire privacy merely for its beneficial effects, the dignity it affords is a 64
+fundamental part of being human.
+Given that consumers don’t affirmatively consent to retail surveillance, what can one possibly
+do to avoid losing one’s privacy? The answer is to pay with cash; to transact anonymously.
+Cash serves as an escape valve in our increasingly intermediated and therefore surveilled world.
+It’s not that it should be the only option, or even the option one should choose most of the
+time. But it should be an option. Without it, there is no choice but to have one’s every purchase
+be watched and recorded and the information used without one’s consent. Without cash there
+is no exit—no chance for the kind of dignity-preserving privacy that undergirds an open
+society.
+Cash is also necessary to retain agency and autonomy. Autonomy can be understood as the
+power to make decisions for oneself without interference from others. It’s the ability to try
+things one’s way, to succeed and be rewarded, or to make mistakes and learn from them. As
+with personal privacy, without individual autonomy there can be no meaningful open society.
+The law surrounding prior restraint of publication in the United States is a good illustration of
+how an open society respects autonomy. It holds that while one may be held to account for
+one’s speech after the fact, censorship before publication is not allowed. This ancient rule of
+Anglo-American law was explained by English jurist William Blackstone this way:
+63 Edward J. Bloustein, “Privacy as an aspect of human dignity: an answer to Dean Prosser,” 39 N.Y.U. L.
+Rev. (1964): pgs. 962-1007, available at: https://heinonline.org/HOL/P?h=hein.journals/nylr39&i=974. 64 Samuel D. Warren and Louis D. Brandeis, “The Right to Privacy,” 9 Harv. L. Rev. 5 (1890), available at:
+http://www.gutenberg.org/files/37368/37368-h/37368-h.htm.
+17
+The liberty of the press is indeed essential to the nature of a free state; but this consists
+in laying no previous restraints upon publications, and not in freedom from censure for
+criminal matter when published. Every freeman has an undoubted right to lay what
+sentiments he pleases before the public; to forbid this, is to destroy the freedom of the
+press; but if he publishes what is improper, mischievous or illegal, he must take the
+consequence of his own temerity.
+65
+Even when the government might know that one is going to publish something potentially
+harmful or illegal, it is not allowed to prevent one from publishing it, though it may seek to
+punish one for it after the fact. That is, it must respect one’s autonomy. As the Supreme Court
+has put it, “If it can be said that a threat of criminal or civil sanctions after publication ‘chills’
+speech, prior restraint ‘freezes’ it at least for the time.”66
+The same logic that applies to speech is applicable to association and other freedoms valued by
+an open society. Respect for autonomy is how such freedoms are given meaning; a legal right is
+useless if one can be prevented from exercising it. The more intermediated a society is,
+however, the easier and more tempting it becomes to effect prior restraints on the free exercise
+of rights.
+In more liberal societies, censorship is typically not aimed at mainstream views, but rather at
+speech that is unpopular and controversial—that is, speech the protection of which is the
+hallmark of an open society. It’s therefore no surprise that a target of attempts to use financial
+intermediaries for prior restraint has been the National Rifle Association (NRA). The NRA may
+be a controversial organization, but it is certainly one rooted in the constitutional bedrock of
+our open society. After all, for good or ill, the NRA is a free association of individuals that exists
+to engage in speech to defend a constitutional right. The group is not just a legal and legitimate
+voice, it speaks for millions of Americans.
+Someone who values an open society and also disagrees with the NRA would seek to meet
+speech with speech and ideas with ideas; they would not, however, seek to silence the NRA
+from speaking at all. Preventing “unhealthy” views from being expressed is what you would
+expect to see in an authoritarian, closed society like China. Yet this is how a press release from
+the State of New York issued last year began:
+Governor Andrew M. Cuomo today directed the Department of Financial Services to
+urge insurance companies, New York State-chartered banks, and other financial services
+companies licensed in New York to review any relationships they may have with the
+National Rifle Association and other similar organizations. Upon this review, the
+65 William Blackstone. Commentaries on the Laws of England: A Facsimile of the First Edition of 1765-1769,
+Volume 4. Chicago: University of Chicago Press (1979): page 152.
+66 Nebraska Press Assn. v. Stuart, 427 U.S. 539 (1976).
+18
+companies are encouraged to consider whether such ties harm their corporate
+reputations and jeopardize public safety.
+67
+If the governor’s request was too subtle, Financial Services Superintendent Maria Vullo made it
+clear later in the same press release, stating, “DFS urges all insurance companies and banks
+doing business in New York to join the companies that have already discontinued their
+arrangements with the NRA[.]” This is remarkable. Governor Cuomo is telling financial 68
+intermediaries over which he has serious power that they must cut off one of his political
+opponents, not because that opponent broke any law, but because it engages in speech and
+advocacy at odds with the governor’s views.
+69
+While the governor cannot simply ban the NRA’s speech, he clearly feels less constrained to
+threaten intermediaries that he regulates and whose continued operations depend on
+permission from the state. Because New York is the world’s financial hub, the state has
+authority over just about every bank and fintech firm with operations in the country. As a
+result, losing access to New York-regulated financial intermediaries is practically a death
+sentence for any advocacy group. As the NRA put it in a suit filed against Cuomo, “If the NRA is
+unable to collect donations from its members, safeguard the assets endowed to it, apply its
+funds to cover media buys and other expenses integral to its political speech, and obtain basic
+corporate insurance coverage, it will be unable to exist as a not-for-profit or pursue its
+advocacy mission.”70
+This is not just a viewpoint-based prior restraint on one organization’s ability to speak; it is
+also a restraint on the autonomy of millions of citizens who wish to make perfectly legal and
+legitimate contributions, to engage in free association and collective speech. Such prior
+67 Office of Governor Andrew M. Cuomo, “Governor Cuomo Directs Department of Financial Services to
+Urge Companies to Weigh Reputational Risk of Business Ties to the NRA and Similar Organizations,”
+Press Release (Apr. 19, 2018)
+https://www.governor.ny.gov/news/governor-cuomo-directs-department-financial-services-urge-compa
+nies-weigh-reputational-risk.
+68 Id.
+69 The DFS went beyond idle threats. It fined two insurance companies, Lockton Companies and Illinois
+Union Insurance Company, $7 million and $1.3 million respectively for underwriting an NRA-branded
+insurance program called “carry guard.” See: New York Department of Financial Services, “DFS fines
+Lockton Companies $7 million for underwriting NRA-branded ‘carry guard’ insurance program in
+violation of New York insurance law,” Press Release (May 2, 2018)
+https://www.dfs.ny.gov/about/press/pr1805021.htm; New York Department of Financial Services, “DFS
+fines Chubb subsidiary Illinois Union Insurance Company $1.3 million for underwriting NRA-branded
+‘carry guard’ insurance program in violation of New York insurance law,” Press Release (May 7, 2018)
+https://www.dfs.ny.gov/about/press/pr1805071.htm.
+70 National Rifle Association of America v. Cuomo et al, No. 18-CV-00566-TJM-CFH (N.D.N.Y., Jul. 20,2018)
+available at https://drive.google.com/file/d/15Ld2KEw6SqsvhOYgKUl3SXFTDoz4J3IA/view.
+19
+restraint is only possible because of our dependence on financial intermediaries. While physical
+cash could serve as a last resort, it is not a practical alternative in our increasingly digital world.
+It is therefore the reliance on intermediaries that is at odds with individual autonomy, an
+important basis for an open society.
+The risk to autonomy posed by a dependence on financial intermediaries exists even if there
+were no egregious government actions like Cuomo’s. In an article published months before the
+governor’s edict, New York Times columnist Andrew Ross Sorkin made the case that the
+financial industry should, of its own accord, use its “leverage over the gun industry” to
+“effectively set new rules for the sales of guns in America[.]” If Mastercard were to bar 71
+customers from using their credit cards for certain gun purchases, he wrote, “assault weapons
+would be eliminated from virtually every firearms store in America because otherwise the
+sellers would be cut off from the credit card system.”72
+While one may not like guns or speech advocating for the right to bear arms, it is important to
+recognize that maintenance of an open society is not compatible with financial intermediaries
+having this much power. Dependence on intermediaries means not only constant and
+unavoidable surveillance, but also the power to thwart individual autonomy. Today it may be
+gun advocates that are targeted, but tomorrow it could be abortion providers that are dropped 73
+by financial intermediaries. Groups such as Muslim charities, sexual fetishist communities, 74 75
+71 Andrew Ross Sorkin, “How Banks Could Control Gun Sales if Washington Won’t,” New York Times (Feb.
+18, 2018) https://www.nytimes.com/2018/02/19/business/banks-gun-sales.html.
+72 Id.
+73 Meaghan Winter, “The Most Difficult Business You Could Run,” Bloomberg Businessweek (Feb. 24, 2016)
+https://www.bloomberg.com/features/2016-abortion-business/.
+74 Lawrence White, “Hundreds of UK charities hit by global crackdown on illegal funds,” The Independent
+(Jul. 27, 2017)
+https://www.independent.co.uk/news/business/news/uk-charities-illegal-fund-crackdown-money-hundr
+eds-oxfam-save-the-children-hsbc-a7862261.html.
+75 Jeremy Malcolm, “Payment Processors are Still Policing Your Sex Life, and the Latest Victim is
+FetLife,” Electronic Frontier Foundation (Mar. 15, 2017)
+https://www.eff.org/deeplinks/2017/03/payment-processors-are-still-policing-your-sex-life; Or even
+those misidentified as sexual fetishists: Violet Blue, “Why PayPal’s crackdown on ASMR creators should
+worry you,” Engadget (Sep. 14, 2018)
+https://www.engadget.com/2018/09/14/paypal-ban-asmr-sound-art-therapy/.
+20
+and socialist booksellers have already experienced such extralegal sanctioning. It’s no 76
+surprise that the American CIvil Liberties Union filed a brief in support of the NRA.
+77
+Cash and financial intermediaries both have important roles in an open society. Cash affords
+people with autonomy and privacy. Financial intermediaries provide convenience. Both
+structures, however, present challenges. Cash can be used to facilitate crimes or evade taxes.
+Financial intermediaries surveil our every transaction and can limit what we are allowed to do
+with our own funds, becoming de facto legislators, judges, and juries. The challenge for open
+societies is to allow both structures to co-exist while maintaining a legal system that
+proportionately addresses downsides.
+Another challenge for open societies is to ensure that, as more commerce is undertaken on the
+internet and via mobile devices, we maintain an escape valve that allows individuals to
+safeguard their privacy and autonomy. One way to do this is to foster the ongoing development
+of electronic cash.
+The Moral Case for Electronic Cash
+Cash is a bearer, peer-to-peer, permissionless, and privacy-preserving form of money. In a
+world without cash, all transactions are intermediated. That means that there is no way to
+engage in a transaction that is not recorded by a third party, and there is no way to engage in a
+transaction without the permission of a third party. Such complete intermediation is at odds
+with the essential values of an open society. Indeed, intermediation undergirds the systems of
+control employed by authoritarian states like China.
+Cash is essential to an open society. It is an escape valve that lets us protect our privacy,
+dignity, and autonomy. It is therefore imperative that we preserve our ability to use it. Yet that
+is not enough. As we move to an increasingly online world in which physical cash is not
+practical for many transactions, we must also develop and foster electronic cash.
+Electronic cash is exactly what it sounds like: a bearer, peer-to-peer, permissionless, and
+privacy-preserving form of money that is not paper or metal, but digital. Bitcoin, the world’s
+first cryptocurrency, was created to be that. While it is bearer, peer-to-peer, and
+permissionless, it is not yet completely privacy-preserving. The Bitcoin system still leaves a
+sufficient digital trail to make it traceable in a way that physical cash is not. For close to a 78
+decade, cryptographers and computer scientists have been working to improve on Bitcoin’s
+76 Cory Doctorow, “Paypal blacklists payments for a World Socialists pamphlet about the Iranian
+opposition,” BoingBoing (Mar. 29, 2018) https://boingboing.net/2018/03/29/oh-paypal.html.
+77 Brief for the ACLU as Amicus Curiae, NRA v. Cuomo (2018), available at
+https://www.aclu.org/legal-document/nra-v-cuomo-aclu-amicus-brief 78 Adam Ludwin, “How Anonymous is Bitcoin?” Coin Center (Jan. 20, 2015)
+https://coincenter.org/entry/how-anonymous-is-bitcoin.
+21
+design in order to build a cryptocurrency that is not only permissionless and
+censorship-resistant, as Bitcoin is, but also private. Today there are several privacy-preserving
+cryptocurrencies under development, including Beam, Dash, Grin, MobileCoin, Monero, and
+Zcash, which hold the promise of being true electronic cash. It is also likely that enhanced
+privacy will eventually be added to Bitcoin as well.
+Privacy is a notoriously difficult concept to define, but a useful definition was put forth by
+mathematician and computer scientist Eric Hughes: “Privacy is not secrecy. A private matter is
+something one doesn’t want the whole world to know, but a secret matter is something one
+doesn’t want anybody to know. Privacy is the power to selectively reveal oneself to the world.”79
+In this formulation, it is interesting to note that Hughes does not frame privacy as a right to be
+respected by others, but as a power to be exercised by individuals.
+Without denying conceptions of privacy as a right, which necessarily imposes duties on others
+and must be enforced by government, the case we make here is simply for the freedom to guard
+what one reveals about oneself to the world, and to build and use technology (like cash) to do
+so. Not only is that a more modest goal, but additionally if privacy is to be a check on
+government overreach, then its enforcement cannot depend on government. The conception of
+privacy we advance here is therefore something that can be exercised individually and does not
+depend on anyone else. Think of the $100 bill dropped anonymously into a church’s poor box.
+The donor’s privacy depends on no one but himself. The donor’s ability to retain his privacy,
+however, turns on the technology available to him.
+Physical cash—from seashells, to gold coins, to paper notes—is a technology that for millennia
+has allowed individuals to exercise autonomy and retain privacy. As we move to a world that is
+increasingly dematerialized, with all the attendant benefits and efficiencies, we must preserve
+the ability to transact autonomously and privately that physical cash has heretofore made
+possible. Cryptocurrency that is both permissionless and private is a technology that can allow
+individuals to continue to live in an open society even as life is increasingly digitized. It is a
+tool that can allow one to shop at physical or online stores alike and reduce the risk of being
+tracked. It is a tool that allows one to contribute to advocacy groups that have powerful
+political enemies. And it is a tool that dissidents can use to resist authoritarian states.
+Caring deeply about the freedom that cash engenders is part and parcel of the Western liberal
+tradition. While many Nordic and Asian countries seem to be racing towards adopting a
+cashless society, in Germany the trend is decidedly the opposite. Given their experience with
+two authoritarian regimes—one fascist and one communist—Germans seem to appreciate how
+cash helps protect their freedom, privacy, and autonomy. Germans use cash for 80 percent of all
+transactions, and proposals to move in a more cashless direction have been met with
+79 Eric Hughes, “A Cypherpunk’s Manifesto,” (1993)
+https://www.activism.net/cypherpunk/manifesto.html
+22
+widespread public protest. Germans also carry about twice as much cash as people in the U.S., 80
+and tens of thousands of restaurants and shops, from big to small, are cash only. In 81 82
+Germany, the major chains Aldi and Ikea did not begin accepting credit cards until two years
+ago.
+83
+“Cash, to me, is an important public good by which you measure the transparency and legal
+order of a society, and also the respect for the individual and the private sphere,” Max Otte, a
+German economist who leads Save Our Cash, a national campaign opposing restrictions on
+cash, has explained. “‘Why do Germans like cash?’ is the wrong question,” he told Bloomberg.
+Instead, Otte asks, “Why have others shifted to a cashless society so quickly?” Indeed, “cash is 84
+printed freedom” is a German expression. Unlike other polities that have taken for granted the 85
+freedom that cash confers on individuals, Germans understand that cash is an individual check
+on the kind of all-out state control that we see in China.
+Peer-to-peer electronic cash is at most 10 years old. Before that, all online transactions were
+necessarily intermediated. This means that there was a period of decades in which digital
+transactions were synonymous with intermediated transactions because there simply was no
+alternative. As a result, it may be that individuals, firms, and governments have come to see
+electronic transactions as inherently traceable and censorable. But there is nothing natural or
+fixed about such a state of the world; there is no reason it has to be that way. Indeed it may
+have been only a matter of time for individuals who value the capabilities that physical cash
+technology afford would successfully replicate it digitally. Those who build the technology and
+advocate for its use today share with the German people an understanding of the fragility of
+liberty and how technologies of individual empowerment are essential to retaining an open
+society.
+80 Matthew Campbell, “Germany is Still Obsessed With Cash,” Bloomberg Markets (Feb. 5, 2018)
+https://www.bloomberg.com/news/features/2018-02-06/germany-is-still-obsessed-with-cash; Mihret
+Yohannes, “German rallying cry is ‘cash only,’” USA Today (Jul. 16, 2015)
+https://www.usatoday.com/story/news/world/2015/07/16/germans-love-cash-and-suspicious--credit-deb
+t/30230061/.
+81 Matt Philips, “Why Germans pay cash for almost everything,” Quartz (Sep. 17, 2014)
+https://qz.com/262595/why-germans-pay-cash-for-almost-everything/.
+82 Matthew Campbell, “Germany is Still Obsessed With Cash,” Bloomberg Markets (Feb. 5, 2018)
+https://www.bloomberg.com/news/features/2018-02-06/germany-is-still-obsessed-with-cash.
+83 Id.
+84 Id.
+85 Id. See also: Hardy Graupner, “Should paper money be abolished?” Deutsche Welle (May 18, 2015)
+https://www.dw.com/en/should-paper-money-be-abolished/a-18456046.
+23
+An open society is not costless. Free speech is abused by demagogues and used to spread truly
+harmful ideas. Freedom of religion protects cultists. Freedom of movement is exploited by
+terrorists. Yet it would be ridiculous to do away with these freedoms and the benefits they
+bestow in order to eliminate their costs. The same is true about technologies that enable an
+open society. Cars are often used to rob banks, email to commit fraud, and web forums to post
+child pornography. We do not, and should not, restrict individuals’ right to use technologies
+solely because they can be misused.
+Without a doubt, electronic cash will be used by some in the course of breaking the law. That is
+an attendant cost to the benefits described above. If there was no electronic cash (or physical
+cash for that matter), and all transactions were surveilled and subject to control, then law
+enforcement might have an easier time prosecuting criminals—just as they would have an
+easier time spotting crime if all houses were made of glass. But that would not be a better
+world. It would therefore make no sense to seek to restrict the freedom of all citizens to use
+cash—to undermine the underpinnings of an open society—in order to make it easier to catch a
+minority of people who commit crimes. Justice Douglas was right when he wrote, “I am not yet
+ready to agree that America is so possessed with evil that we must level all constitutional
+barriers to give our civil authorities the tools to catch criminals.” The fact that criminals will 86
+exploit freedom and technology to break the law is the cost of living in an open society, but it is
+outweighed by the benefits. And, making a thing illegal will not necessarily stop criminals from
+using it.
+The good news is that over time we have developed an effective way to deal with the criminal
+use of cash. Financial institutions throughout the world are required to identify their
+customers, keep records, and report suspicious activities to government authorities. Among 87
+such suspicious activities are the withdrawal or deposit of large sums of cash or otherwise
+questionable transactions involving cash. There is no reason why the same reasonable 88
+regulatory regime that is applied to anonymous and untraceable physical cash could not be
+applied to electronic cash, and in almost all respects it is already. Doing so would allow law 89
+abiding individuals to withdraw and use electronic cash as a useful form of payment and
+86 California Bankers Assn. v. Shultz, 416 U.S. 21 (1974) available at
+https://caselaw.findlaw.com/us-supreme-court/416/21.html. 87 For example, the Financial Action Task Force (FATF), also known as the Groupe d’action financière
+(GAFI), is an international intergovernmental organization comprised of 38 members which develops and
+recommends policies to combat money laundering and other crimes. These policies are directed
+primarily at financial institutions because of the critical role that banks play in international money
+transfers. See: Kern Alexander, “The International Anti-Money-Laundering Regime: The Role of the
+Financial Action Task Force,” Journal of Money Laundering Control, Vol. 4, No. 3 (2001): pgs. 231-248,
+https://doi.org/10.1108/eb027276. 88 Id. 89 US Department of the Treasury, Financial Crimes and Enforcement Network, “Application of FinCEN’s
+Regulations to Persons Administering, Exchanging, or Using Virtual Currencies” Guidance
+FIN-2013-G001 (Mar. 18, 2013) http://fincen.gov/statutes_regs/guidance/html/FIN-2013
+-G001.html.
+24
+escape-valve from constant monitoring while ensuring that law enforcement has the ability to
+target the large scale and systematic criminal use of the technology. What this means in
+practice is that enforcing the law against some criminals, especially small-scale ones, will not
+be easy and will instead require the same kind of resource-intensive police work (often
+undercover) necessary to apprehend those who use physical cash. Those parts of a criminal
+enterprise that employ electronic cash on a larger scale will eventually interface with the
+regulated financial system, however, and at that point law enforcement should have the same
+tools at their disposal as they do with physical cash. Regulators can and should treat electronic
+cash the same as physical cash.
+Conclusion
+The U.S. is far from being a cashless society, and it has constitutional protections that should
+serve as a bulwark against overreach from an authoritarian state. But eternal vigilance is the
+price of liberty. While the likelihood that a China-style social credit system will be enacted in
+the U.S. is low, there are similar threats that citizens should be able to guard against. As we
+have seen, the more intermediated our financial lives become, the more tempted corporate
+entities and government officials will be to spy on individuals or take steps to restrict how
+individuals can transact—often with the best of intentions.
+In 2014, for example, the Transportation Security Administration sought bids from vendors to
+build a passenger screening system that would rely on “commercial data” including “wide
+ranging data such as purchase information.” The TSA did not explain what kinds of purchases 90
+could be deemed red flags, or as Chinese authorities might put it, “unhealthy.” More recently,
+online financial intermediaries like PayPal, Stripe, and Patreon have shut down the accounts of
+users on both of the political spectrum for the fringe views they espoused. And in 2014, J.P. 91
+Morgan lost to hackers the private financial records of over 100 millions customers.
+92
+Cash—and in an increasingly digital world, electronic cash—is a tool that law abiding private
+individuals can use to protect their privacy, autonomy, and ultimately their dignity. It should
+90 Tim Cushing, “The TSA Wants To Read Your Facebook Posts And Check Out Your Purchases Before It
+Will Approve You For PreCheck,” TechDirt (Jan 26, 2015)
+https://www.techdirt.com/articles/20150123/09423229792/tsa-wants-to-read-your-facebook-posts-chec
+k-out-your-purchases-before-it-will-approve-you-precheck.shtml.
+91 David Gilmour, “How Patreon stepped into a war between Antifa and the alt-right,” The Daily Dot (Aug.
+8, 2017) https://www.dailydot.com/layer8/patreon-antifa-altright-igd-lauren-southern/; Glenn Harlan
+Reynolds, “When Digital Platforms Become Censors,” Wall Street Journal (Aug. 18, 2018)
+https://www.wsj.com/articles/when-digital-platforms-become-censors-1534514122.
+92 Tanya Agrawal, David Henry, and Jim Finkle, “JPMorgan hack exposed data of 83 million, among
+biggest breaches in history,” Reuters (Oct. 2, 2014)
+https://www.reuters.com/article/us-jpmorgan-cybersecurity/jpmorgan-hack-exposed-data-of-83-million
+-among-biggest-breaches-in-history-idUSKCN0HR23T20141003.
+25
+not just be tolerated, but fostered and celebrated. Not only do its benefits outweigh its costs, it
+is check that individuals may wield over abusive intermediaries. It will help ensure we do not
+lose our open society.
+26

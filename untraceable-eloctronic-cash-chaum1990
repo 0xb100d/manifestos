@@ -1,0 +1,86 @@
+http://blog.koehntopp.de/uploads/chaum_fiat_naor_ecash.pdf
+
+Untraceable Electronic Cash t
+(Extended Abstract)
+David Chum Amos Fiat * Moni Nmr3
+Center for Mathematics and Computer Science
+Kruislaan 413, 1098 SJ Amsterdam, The Netherlands
+Tel-Aviv University
+Tel-Aviv, Israel
+IBM Almaden Research Center
+650 Harry Road, San Jose, CA 95120
+Introduction
+The use of credit cards today is an act of faith on the pat of all concerned. Each party
+is vulnerable to fraud by the others, and the cardholder in particular has no protection
+against surveillance.
+Paper cash is considered to have a significant advantage over credit cards with
+respect to privacy, although the serial numbers on cash make it traceable in principle.
+Chaum has introduced unconditionally untraceable electronic money( [C85] and [C88]).
+But what is to prevent anyone from making several copies of an electronic coin and
+using them at different shops? On-line clearing is one possible solution though a rather
+expensive one. Paper banknotes don't present this problem, since making exact copies
+of them is thought to be infeasible. Nor do credit cards, because their unique identity
+lets the bank take legal action to regain overdrawn balances, and the bank can add
+cards to a blacklist.
+Generating an electronic cash should be difficult for anyone, unless it is done in
+cooperation with the bank. The RSA digital signature scheme can be used to realize
+untraceable electronic money as proposed in [C85 and C88]. This money might be
+of the form (~,f(z>'/~ (mod n)) where n is some composite whose factorization is
+known only to the bank and f is a suitable one-way function. The protocol for issuing
+and spending such money can be summarized as follows:
+1. Alice chooses arandom z and T, and supplies the bank with B = y3f(z) (mod n)).
+t Work done while the second and third authors were at the University of California
+at Berkeley. The work of the second author was supported by a Weizmann Postdoctoral
+Fellowship and by NSF Grants DCR 84-11954 and DCR 85-13926. The work of the third
+author was supported by NSF Grants DCR 85-13926 and CCR 88-13632.
+S. Goldwasser (Ed.): Advances in Cryptology - CRYPT0 '88, LNCS 403, pp. 319-327, 1990.
+0 Springer-Verlag Berlin Heidelberg 1990 
+320
+2. The bank returns the third root of B modulo n: r . f(2)ll3 (mod n) and withdraws
+one dollar from her account.
+3. Alice extracts C = f(~)l/~ mod n from B.
+4. To pay Bob one dollar, Alice gives him the pair (z,~(z)'/~
+5. Bob immediately calls the bank, verifying that this electronic coin has not already
+(mod n)).
+been deposited.
+Everyone can easily verify that the coin has the right structure and has been signed by
+the bank, yet the bank cannot link this specific coin to Alice's account.
+Among other advantages, the new approach presented here removes the requirement
+that the shopkeeper must contact the bank during every transaction. If Alice
+uses a coin only once, her privacy is protected unconditionally. But if Alice reuses a
+coin, the bank can trace it to her account and can prove that she has used it twice.
+Our work is motivated by that on minimum disclosure ([CSS], [BCSSa], [BC86b]
+and [BCC]) and on zero-knowledge ([GMR], [GMWSSa] and [GMW86b]). Our scheme
+protects Alice's privacy unconditionally as is possible with the former, rather than
+computationally as in the latter. Using these very general results - which seem to be
+infeasible in practice - the security of the protocols presented here could be reduced to,
+say factoring (or any onw-way permutation if Alice's privacy is only computationally
+secure). Instead, We use the cut-and-choose methodology (first introduced in [R77])
+directly, yielding quite practical constructions.
+The next section presents our basic scheme, which guarantees untraceability, yet
+allows the bank to trace a "repeat spender". We then show how to modify the protocol
+so that the bank can supply incontestable proof that Alice has reused her money.
+Finally, we give a more efficient variant and briefly discuss further work.
+1. Untraceable Coins
+The bank initially publishes an RSA modulus n whose factorization is kept secret
+and for which 9(n) has no small odd factors. The bank also sets some security
+parameter k.
+Let f and g be two-argument collision-free functions; that is, for any particular
+such function, it is infeasible to find two inputs that map to the same point. We
+require that f be "similar to a random oracle". For unconditional untraceability we
+also require g to have the property that fixing the first argument gives a one-to-one (or
+c to 1) map from the second argument onto the range.
+Alice has a bank account numbered u and the bank keeps a counter v associated
+with it. Let @ denote bitwise exclusive or and 11 denote concatenation.
+To get an electronic coin, Alice conducts the following protocol with the bank: 
+1.
+2.
+3.
+4.
+5.
+321
+Alice chooses a;, c;, di and ri, 1 5 i 5 k, independently and uniformly at random
+from the residues (mod n).
+Alice forms and sends to the bank k blinded candidates (called B for mnemonic
+purposes)
+Bi=ri3.f(Zi,Yi)modn for I

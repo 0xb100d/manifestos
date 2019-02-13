@@ -1,0 +1,165 @@
+https://www.loundy.com/Roadside_T-Shirt.html
+
+Published in Roadside U.S.A., a "Community Area" (now defunct) on America Online, May, 1996.
+
+      
+Is Your T-Shirt a Lethal Weapon?
+Copyright 1996 by David Loundy
+
+I wanted to use a visual aid in a speech I was preparing on cryptography,
+but I realized to do so would be a mistake. Because my audience might have
+included foreign citizens, showing the visual aid could have made me an
+unlicensed munitions exporter -- subject to as much as $1,000,000 in fines
+and up to ten years in jail under United States law. This was not a fair
+gamble when the speech would have earned me only a free lunch.
+
+The visual aid was a T-shirt.
+
+
+
+To understand how wearing an article of clothing could make you an
+international arms dealer, it helps to take a look at the relevant laws and
+some illustrative incidents.
+
+
+
+The Arms Control Export Act (ACEA) gives the president the authority to
+designate certain items (such as battleships and land mines) as defense
+articles or defense services. These designated items make up the United
+States Munitions List. The ACEA further authorizes the International
+Traffic in Arms Regulations (ITAR), which list and control the import and
+export of designated defense articles and services.
+
+
+
+On the munitions list, sandwiched between laser targeting systems and
+particle beam weapons, is cryptographic software. Such software is defined
+as "components or software with the capability of maintaining secrecy or
+confidentiality of information or information systems."
+
+
+
+The ITAR further prohibits exporting cryptographic software (or technical
+data about cryptographic software) without a license from the U.S.
+Department of State. The definition of "export" includes disclosing or
+transferring technical data to a foreign person, either in the U.S. or
+abroad.
+
+
+
+PGP (Pretty Good Privacy) encryption software protects the privacy of
+information sent over unsecure communications channels, such as the
+Internet and online services. Despite governmental attempts to institute
+encryption technologies allowing for federal police surveillance, PGP has
+become the de facto world standard for personal encryption software.
+
+
+
+Only a short time ago the Justice Department dropped an over-two-year grand
+jury investigation against the author of PGP, Philip Zimmermann. Because
+encryption software is on the munitions list, the grand jury investigation
+proceeded on the theory that by posting PGP to an Internet Usenet group,
+Zimmermann became an international arms dealer.
+
+
+
+The conclusion of this investigation is hardly cause for relief. The
+Justice Department backed down only after Zimmerman, winner of a Chrysler
+Innovation in Design award for PGP, waged a protracted publicity battle
+against this assault on computing privacy.
+
+
+
+Moreover, the law remains the same. Without a final adjudication of the
+Zimmerman case on the relevant issues, other users of encryption software,
+including users of PGP, remain exposed to the same charges underlying --
+and the aggravation caused by -- the grand jury investigation.
+
+
+
+Another case involves the book "Applied Cryptography," by Bruce Schneier.
+When Phil Karn applied for a license to export this book (readily available
+in bookstores and libraries), the Office of Defense Trade Controls told him
+that the contents of the book were in the "public domain" and not subject
+to State Department licensing restrictions.
+
+
+
+A request to export a disk with the exact same source code as that printed
+in the book, however, was denied, appealed, and denied again. The State
+Department took the position that while the source code in the book is
+exportable, once that same code is put into a machine-readable form, it
+becomes a controlled munition. Karn's explanation of the relative ease of
+scanning and conversion of the printed source code into machine-readable
+form failed to move the State Department.
+
+
+
+The arbitrary regime under ITAR is now the subject of a full-blown
+constitutional challenge in a California federal court, where Daniel
+Bernstein, a graduate student in mathematics, has challenged the ACEA and
+ITAR as vague, overbroad and in violation of the First and Fifth
+Amendments.
+
+
+
+Bernstein contends that these regulations not only prohibit publication of
+his work in cryptography but also restrain discussion in situations where
+he cannot ascertain the nationality of all possible audience members and
+obtain a license for any foreigners. Bernstein alleges that the regulations
+constitute an impermissible prior-restraint on his First Amendment rights.
+
+
+
+Which brings us to the T-shirts ...
+
+
+Billed by promoters as a "classic example of civil disobedience," the shirt
+has some computer code printed on it. The code is an implementation of the
+"RSA" algorithm published by three M.I.T. professors.
+
+
+
+It is the same algorithm used in Philip Zimmermann's PGP software.
+
+
+
+To ensure the shirt will qualify as a non-exportable munition, the shirt
+even has machine-readable bar-code rendition of the software printed on it.
+To demonstrate the arbitrariness of the arms control regulations, only U.S.
+or Canadian citizens can order the shirt from the U.S. address, but since
+the algorithm is widely available, non-U.S. citizens can order the shirts
+from an address in England.
+
+
+
+Along with the sales pitch ("Now you, too, can become an international arms
+dealer for the price of a T-shirt") come warnings that if a non-U.S.
+citizen sees you wearing the shirt you may be classified as a criminal. (If
+you wear it inside-out, is it a concealed weapon?) If you are arrested, the
+promoters will refund the purchase price of the shirt.
+
+
+
+T-shirts are not the only item that might get you in trouble with the Feds.
+If you wish to have private communications over online services or wireless
+communications, you might have non-exempt encryption software on your
+laptop computer. But if you take that computer on an international flight
+without a temporary export license, you risk arrest as an arms dealer.
+Fortunately, bills have been recently intoduced in Congress to loosen this
+law.
+
+
+
+Cryptographic software is essential to development of commerce in
+information. If the U.S. restrains free development of such software, U.S.
+technology companies will be faced with a state-induced disadvantage.
+
+
+
+The World Trade Center bombers were caught when they tried to recover a
+deposit on the rental van they blew up along with the building. And the
+government has devices that can read the contents of your computer screen
+from outside your office. Given these realities, is it really necessary to
+prohibit discussing higher math with foreigners?
+

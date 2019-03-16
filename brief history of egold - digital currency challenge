@@ -1,0 +1,344 @@
+E-gold
+Abstract: The e-gold system emerged in 1996. For the
+first time in modern history, this system, backed by gold,
+functioned completely independent of conventional
+banking institutions. The e-gold software guaranteed a
+secure and efficient method for transmitting value and
+maintaining records of payment transaction information.
+Each digital gram of e-gold was backed by one physical
+gram of pure gold bullion held offline. E-gold transactions
+were instantaneous, could not be reversed, and cost much
+less than traditional bank payments. Founders of e-gold
+sought to create a private gold-based monetary system that
+included Internet-based transactions which would perform
+better than national currency. The e-gold system was
+believed to be operating outside of existing Bank Secrecy
+Act regulations from 1996 until 2005.
+Mullan, Carl P. The Digital Currency Challenge:
+Shaping Online Payment Systems through US Financial
+Regulations. New York: Palgrave Macmillan, 2014.
+DOI: 10.1057/9781137382559.0006.
+E-gold 
+DOI: 10.1057/9781137382559.0006
+The e-gold system was in operation more than a decade before the
+creation of Bitcoin and proved beyond a shadow of a doubt that it
+was indeed possible to create and operate a popular digital financial
+system completely independent of conventional banking institutions.
+Dr. Douglas Jackson recently presented this e-gold innovations time
+line.
+1996
+ e-gold.com online system was deployed in November.
+ From day one, e-gold had the capability of using a numeraire for
+specification of a Spend amount that differed from that of the
+settlement currency. For instance, it was possible to order a Spend
+of $10 USD worth of e-gold. Calculation of the actual quantity
+to convey was made using table of reference exchange rates
+maintained by company (manually, every few minutes during the
+day, every hour or two overnight). Reference exchange rate and
+calculation were displayed on Spend Preview.
+ Strong non-repudiation (finality of settlement) based on Real Time
+Gross Settlement (RTGS) and a strict debit rule.
+1997
+ The Examiner was deployed on the e-gold website. This showed
+an unprecedented real-time indicator of e-metals in circulation
+(liabilities) and detailed inventory of the underlying assets backing
+them. The bullion reserves data could be drilled down to see
+unique details of each bar including vault location, serial number,
+refiner, purity, and fine weight.
+1998
+ The Stats page was deployed showing details of system usage
+over previous 24-hour lookback period: it included the number
+of accounts, broken down by ranges of balance for each e-metal,
+and the number of spends, broken down by range of values and
+aggregated by range and total.
+2000
+ The currency exchange was separated from the core
+function of issuance and settlement of Spends. A few
+months after this separation multiple independent
+providers had emerged offering services on a competitive
+basis, differing by currencies and payment methods 
+ The Digital Currency Challenge
+DOI: 10.1057/9781137382559.0006
+supported, spreads, liquidity (size of exchanges supported and
+timeliness of execution).
+ The shopping cart and automation interfaces were deployed, the
+former allowing specification of an incoming Spend, the latter
+automatic entry of an outbound Spend instruction.
+ A Spend fee cap was implemented, initially at 50 cents US equivalent,
+which was later changed to 5 gold cents (0.05 g) for e-gold.
+2006
+ A sheriff-bot was deployed to monitor Spends in real-time to detect
+transactions with indices of illicit activity. The value would be
+arrested once it had left the payer account and the recipient account
+would be frozen; both would then be flagged as to the nature of the
+suspected activity, making a permanent discoverable record and
+facilitating seizure or forfeiture. This became so sophisticated that
+there were instances where the first Spend to or from an account
+would trigger the bot, with hardly any false positives (and these
+could be released).1
+Not included in this timeline, but very important, is the fact that e-gold
+permitted mobile fund transfers back in 1999, seven years before PayPal’s
+commercial mobile payments.2
+E-gold was a secure account-based monetary payment system which
+enabled the use of gold as money. The e-gold software guaranteed a
+secure efficient method for transmitting value and maintaining records
+of payment transaction information. Dr. Douglas Jackson is well known
+for having designed and written much of the code himself. The system
+operated over the Internet on a global scale completely outside of conventional
+banking systems.
+e-gold.com was the classic model of a digital gold currency system
+from the past decade. It was also the very first digital gold currency
+to operate online for public use. Gold & Silver Reserve, Inc. (G&SR),
+a Delaware corporation, developed and deployed the e-gold payment
+system in 1996 and at that time administered both the payment settlement
+and the currency exchange. The company also served as bailee
+for the inventory of gold bullion and precious metal held in allocated
+storage by third-party custodians. The payment system and website
+were both administered by G&SR under the name e-gold. The software
+was designed to facilitate both local and global transactions with 
+E-gold 
+DOI: 10.1057/9781137382559.0006
+the same payment convenience. G&SR also offered online e-silver,
+e-platinum, and e-palladium which all operated exactly like the digital
+gold currency. Every gram of digital metal, including gold, which
+circulated online was backed 100 percent, gram for gram, by physical
+precious metal. E-gold featured instantaneous settlement of all
+transactions at an extremely low cost. Unlike credit cards, payments
+across the e-gold system were impossible to reverse. Even in the case
+of a legitimate error, the payment remained in the receiver’s account.
+Consequently, merchants were happy to accept e-gold knowing that
+there was no charge back risk. The terms of use of the e-gold account
+very clearly stipulated that all “Spends” were final. In this respect, an
+e-gold transaction was very similar to a cash sale. In total contrast, a
+PayPal transfer is fully reversible and can be considered more like a
+credit card transaction.
+E-gold payments were highly divisible. G&SR’s computerized book
+entry system was organized using a transaction model that allowed
+payments as small as 0.0001 oz. Behind the customer interface, amounts
+of metal stored in the e-gold database tables were accurate to 15 digits.
+The recognized “Issuer” of the currency was e-gold Ltd., a Nevis W.I.
+Corporation. This offshore company was independently created to serve
+as the general contractor specifically responsible for the performance of
+the e-gold account user agreement. The e-metal system functioned to
+protect the online customer payment mechanism from the problems of
+conventional financial systems.
+All precious metal backing the digital currency was held by the e-gold
+Bullion Reserve Special Purpose Trust. This separate trust, which was
+formed and operated from Bermuda, existed for the purpose of collectively
+retaining all e-gold account holders’ bullion. After a few years
+of operation, all metal was held in the form of certified good delivery
+bars in allocated storage at repositories certified by the London Bullion
+Market Association.
+OmniPay was also owned and operated by Gold & Silver Reserve, Inc.
+It acted as the primary dealer of digital currency to the public marketplace.
+OmniPay was also the largest e-gold exchange operation in the
+world. The company exchanged national currency for digital currency,
+working between the issuer, e-gold Ltd., and all other third-party independent
+exchange agents. As primary dealer, OmniPay maintained both
+cash and digital currency liquidity at all times.
+ The Digital Currency Challenge
+DOI: 10.1057/9781137382559.0006
+As a move to further assure e-gold’s freedom from default risk and
+finality of settlement, the company structure changed in 2000 by
+separating the currency exchange business from the core functions of
+issuance and settlement of transactions. This move further dissociated
+the e-gold issuer from business risks relating to the exchange operations.
+Independent third-party exchange agents in various countries
+around the world performed transactions exchanging digital currency
+for national currency on behalf of retail customers. This retail customer
+group included additional third-party exchange agents. Since retail customer
+national currency transactions never occurred at the issuer’s level,
+in this classic model of a digital gold currency, the issuer e-gold Ltd. held
+no customer financial transaction records. All sales of digital metal from
+e-gold took place directly with OmniPay which in turn interacted with
+the public.
+While e-gold Ltd. maintained the online system, the company never
+accessed or handled any customer financial transactions. Financial
+transactions containing customer information were exclusively held
+by third-party agents. This helped e-gold to guard against the possible
+financial loss and risk which accompanies conventional bank products
+and practices. No financial transaction information on e-gold account
+holders, such as where a wire originated or the date on an outgoing
+check, was ever accessible to e-gold Ltd.
+An e-gold transaction, also known as a payment order, differed from
+bank-issued checks and credit card payments. A paper check is an order
+of withdrawal, which becomes a draft when endorsed by the recipient. A
+check pulls the payment from a bank account by someone other than the
+owner. Additionally, a credit card payment is the settlement of a prior
+approved amount withdrawn from the account by someone other than
+the account owner. Conventional bank products such as bank drafts
+and card payments both pull the payment from the user’s account. An
+e-gold payment did not work in this manner. It had to be pushed from
+the account by the account owner. No draft or prior approval could draw
+upon another person’s e-gold account. Only the e-gold account owner
+could initiate a payment which was also labeled a “spend.” This is an
+important distinction between e-gold transactions and conventional
+bank products.
+An Army veteran and graduate of Pennsylvania State University’s
+Medical School, in the mid 1990s, Dr. Douglas Jackson was a practicing
+oncologist in Melbourne, Florida. His career path and work 
+E-gold 
+DOI: 10.1057/9781137382559.0006
+experience did not include any positions in banking or commercial credit.
+Dr. Douglas Jackson is a libertarian, a fan of the gold standard, and critical
+of conventional banking systems. A 1998 text from the e-gold website,
+which was composed by Dr. Jackson, reflects some of the reasoning and
+goals behind the creation of e-gold.
+The Gold & Silver Reserve is founded on the conviction that gold and
+silver are superior (in the long run) to fiat legal tender. We have developed
+the e-metal System of Indirect Exchange; a privately administered transnational
+monetary system. It combines the enduring value and desirable
+monetary characteristics of gold and silver with the robust efficiency of
+digital technology.3
+Further evidence of “why” Dr. Jackson created e-gold is found in a quote
+from a 2006 interview with Brian Grow for BusinessWeek Magazine.
+Dr. Jackson is quoted as saying he believed the e-gold system would
+“advance the material welfare of mankind.”4
+ Today, with the e-gold
+system sidelined by US Regulations, Dr. Jackson confirms the quote
+was accurate but further describes his view from the early days of
+e-gold, “That element emphasizes the level playing field aspect of clear
+contractual constraints as opposed to a discretionary policy that leads to
+winners and losers.”5
+ He further states,
+I started e-gold as the outgrowth of my own private study and interpretation
+of historical events. It appeared to me that many of the worst real world
+calamities, wars in particular, could be causally traced back to economic
+dislocations—booms and busts—that in turn could be traced to monetary
+manipulations. Over time, with discretionary control over monetary policy,
+such interventions—which were supposed to attenuate destructive excesses
+of credit cycles—ignited and amplified them instead. While there were
+some glimmers of a rule-based system with the classical gold standard it too
+was fatally flawed and certain to be abrogated when it proved inconvenient.
+The system I envisioned was informed by analysis of historic and contemporary
+models, one consistent flaw of all of them being the impracticability
+of binding a sovereign to inconvenient obligations. Even if a seemingly
+airtight system could be devised, a successor regime would have no qualms
+about repudiating it. The courts never award damages to those injured
+when a state reneges on its monetary obligations. Only a private enterprise
+can truly be held accountable to contracts of that nature.6
+The creation of the e-gold system was more than a new business or
+money-making venture for Douglas Jackson. He felt it was his role to 
+ The Digital Currency Challenge
+DOI: 10.1057/9781137382559.0006
+release this digital currency system into the world. “The belief that it
+was now possible to develop and implement a system that could avoid
+the embedded flaws and contradictions which had undermined money
+since its earliest emergence carried with it a duty to try to accomplish
+it.”7
+ Unlike the development of other digital currencies during that
+time, such as WebMoney Transfer which targeted specific demographic
+consumer markets, Dr. Jackson stated that e-gold’s global target market
+from day one was all “people who use money.”8
+ E-gold was considered to
+be an alternative digital currency. The founders of e-gold sought to create
+a private gold-based monetary system that included Internet-based
+transactions which would perform better than national currency. This
+service was to be available for all users at every level of society around
+the world. The system operated as an alternative to national currency
+and was designed to directly compete with government-issued money.
+The term Better Money TM became a trademarked phrase featured on the
+website.
+Many digital gold currency and e-gold early adopters during the
+mid-to-late 1990s were advocates for a single gold standard currency.
+These users were often referred to as “Goldbugs” and viewed e-gold as
+a technically superior currency. They strongly believed that commodity
+money was a better solution than fiat currency. Other early users leaned
+toward laissez-faire economics and viewed e-gold as private competition
+for government money. People doing business with e-gold’s privately
+issued digital currency often viewed themselves as working to restore a
+natural economic system unrestricted by government. E-gold was seen
+as creating healthy competition in an otherwise government-controlled
+fiat currency world. Another segment of those early e-gold users was
+considered to be economic anarchists or those who believe in no government
+regulations. Today, some of the same groups using Bitcoin can
+be closely aligned with these original e-gold users.
+Until the mid-1990s, it was understood that banks had a tight control
+on the movement of funds around the world. During the 1990s, for
+anyone to stop using conventional banks and government-issued money
+in favor of a little known private digital gold currency circulating on
+the Internet required a strong personal conviction or an overwhelming
+desire to reform the monetary system. In all of these cases, during
+those early years, many e-gold users were viewed by the mainstream
+media as extreme. While much attention had been focused on e-gold
+early adopters, there were not many of them. Approximately two years 
+E-gold 
+DOI: 10.1057/9781137382559.0006
+into operation, in April 1998, there were fewer than nine hundred active
+e-metal/e-gold accounts.9
+In late 1999, a new product came into the digital currency marketplace
+which can now be seen as a contributor to e-gold’s popularity and
+growth in the years 2000–2005. This product was known as a High Yield
+Investment Program or HYIP. In reality this type of investment program
+is simply a Ponzi scheme, but the widespread popularity of these
+schemes ballooned using the e-gold payment platform. Online High
+Yield Investment Programs were a force in the growth and popularity of
+digital currency and e-gold.
+In hindsight, it is important to review certain statements expressed
+by e-gold’s management in the early years of operation. Because
+e-gold’s technology was developed far ahead of present day US financial
+regulations, the e-gold operators had provided some disclaimers
+and offered their viewpoint regarding existing government regulations.
+Since the defining act of banking is to circulate more demand
+claims to cash than there is cash in the bank, the e-gold operators
+made it clear e-gold was not a bank. From the early years through
+2005, Gold & Silver Reserve highlighted this fact. In several instances
+of text which had appeared on the e-gold website in both the FAQs
+and Terms of Service, e-gold operators published statements describing
+how digital gold was different from a bank or bank deposit. It
+was their opinion at the time that by operating outside conventional
+banking the e-gold system remained outside of existing Bank Secrecy
+Act regulations. Here are some examples of this sentiment, from the
+e-gold.com website in June 1998:
+It is important to note the difference between a digital currency balance and
+a bank deposit balance. Deposits in a bank are regarded legally as loans to
+the bank. A bank is permitted to make investments (loans) using the money
+belonging to their depositors. Metal entrusted to G&SR is not a deposit at
+all: it is held as a bailment (like grain in a grain elevator). G&SR may not
+allow any encumbrance or lien to be placed on customer metal. G&SR is
+not borrowing it from you but rather safeguarding it for you for a fee. The
+banking system in general, operates on a fractional reserve basis. This is
+perfectly natural and legitimate for money in a savings account or time
+deposit. You, as an individual, may do what amounts to the same thing;
+borrow money from some people and use it to make loans to other people.
+In our view, however, “checkable deposit” is a contradiction in terms. It is
+just like in the old days when banks issued more banknotes (purportedly
+redeemable in precious metal coin) than they had coins to back. In contrast, 
+ The Digital Currency Challenge
+DOI: 10.1057/9781137382559.0006
+any metal entrusted to the Gold and Silver Reserve constitutes a spendable
+bailment—every gram of e-gold and the other e-metals is backed 100 by
+physical metal.10
+Found in both the e-gold user agreement and the Terms of Service for
+OmniPay, e-gold’s primary dealer, were statements that e-gold’s operation
+was not a bank and did not hold deposits for customers. From the
+December 2001 e-gold user agreement, this paragraph is found under
+section 2.
+Conditions of Use
+User acknowledges that (i) the e-gold service and Issuer are not a bank
+(ii) e-gold accounts are not insured by any government agency and (iii) the
+e-gold service and Issuer are not subject to banking regulations.11
+This statement is found in the Terms of Service for Omnipay from
+February 2003. “User acknowledges that G&SR is not a bank, is not
+subject to banking regulations and does not hold any value on account
+for User.”12 It is unfortunate that these types of declarations are still being
+made today by some new companies in the virtual currency arena. Under
+US regulations, today’s virtual currency transactions are considered to
+be very similar to e-gold payments. The business of exchanging or transmitting
+value online, whether backed by national currency, gold bullion,
+or considered a substitute for currency, is a regulated US activity.
+Notes
+ D. Jackson (djackson@e-gold.com), 2013. E-gold History a Few More Questions.
+[email] Message to C. Mullan (carl@pdxcurrency.org). Sent September 15,
+2013.
+ C. Mullan, 2006. E-gold Mobile Payments 7 Years Before PayPal? Available at:
+http://www.everyjoe.com/2006/10/29/work/e-gold-mobile-payments-7-yearsbefore-paypal-162/
+(accessed: December 13, 2013).
+ Web.archive.org, 1998. Philosophy and Purpose. [online] Available at: https://
+web.archive.org/web/19980627133939/http://www.e-gold.com/unsecure/
+gsrvision.htm (accessed: December 13, 2013).
+ B. Grow, 2006. Gold Rush. [online] Available at: http://www.businessweek.
+com/stories/2006–01-08/gold-rush (accessed: November 18, 2013).
+ Jackson, E-gold History a Few More Questions.
+ Ibid.
+ Ibid.

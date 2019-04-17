@@ -1,0 +1,266 @@
+https://jpkoning.blogspot.com/2017/11/the-bootstrapping-of-thorne-magic-money.html
+jp koning
+
+Bitcoin boasts many technical achievements, but none is more interesting
+ to me than they way it was successfully bootstrapped. How did a small 
+group of cypherpunks—activists interested in widespread use of 
+cryptography and digital currency—manage to get an intrinsically 
+valueless token to have a consistently positive price? Hal Finney, a 
+cryptographer and early adopter of bitcoin, put it this way in 2009:
+
+
+
+
+"One immediate problem with any new currency is how to value it. Even 
+ignoring the practical problem that virtually no one will accept it at 
+first, there is still a difficulty in coming up with a reasonable 
+argument in favor of a particular non-zero value for the coins."
+The bootstrapping of bitcoin seems to have been achieved with some care. William Luther
+ has gone through old bitcoin message boards to show how early adopters,
+ including Finney and bitcon-creator Satoshi Nakamoto, coordinated to 
+'enter the network' at the same time, thus generating a positive value 
+for worthless bitcoin tokens. A token that is already valuable, perhaps 
+because it is useful for some non-monetary use like jewellery, or 
+because it is directly convertible into an already-existing money, is 
+much easier to launch than one that isn't already valuable. Bitcoin 
+didn't have the benefit of non-monetary usefulness.
+
+
+
+
+----- 
+
+
+
+By way of Timothy May's Cyphernomicon,
+ I recently discovered that bitcoin wasn't the first attempt by 
+cryptographers to launch an intrinsically worthless digital token into 
+positive-value space. Similar bootstrapping attempts occurred back in a 
+previous era of digital currency experimentation, the mid-1990s.
+
+
+
+In 1993 the extropians—a
+ group that believes in the technological possibility of immortality 
+(among other things)—set up an experimental market called the Hawthorne Exchange
+ where individuals could trade units of reputation. There seems to be 
+some crossover between extropians and cypherpunks with the reputations 
+of folks like Timothy May and Nick Szabo, both key contributors to the 
+Cypherpunks electronic mailing list, being listed on the Hawthorne 
+Exchange. Trades were made using the exchange's own native currency 
+called thorne, which had a fixed supply. Not only did the 
+extropians succeed in generating a positive price for twenty or thirty 
+reputation tokens, but by extension the native currency—thornes—was also
+ bootstrapped. 
+
+
+
+As part of the experiment, people began to sell stuff for thornes, including copies of digital cash papers and old books. They made bets in thornes and even established a U.S. dollar price for the nascent digital currency (it was somewhere between 100 and 1000 thornes per dollar).
+
+
+
+The problem with the whole endeavour is that—as Hal Finney would point out
+ not long after it had begun—the tokens were essentially worthless. By 
+convention each unit was supposed to represent a person's reputation, 
+but there was no independent force that could possibly make a token 
+correspond to a reputation:
+
+
+"It is important to understand that Thornes are not like dollars. Unless
+ HeX shares can be given a grounding other than the whim of their 
+owners, the market will surely collapse, because there is nothing to 
+support it."   
+Finney would be proven right, since the Hawthorne exchange was shut down sometime in 1994.
+
+
+
+
+----- 
+
+
+
+In their next effort the cypherpunks would bootstrap a set of play 
+currencies that had been created using a toolkit called Magic Money, a 
+digital cash system programmed by the pseudonymous Pr0duct Cypher and made available in February 1994. Here is Pr0duct Cypher in the introduction to the software:
+
+
+"Now, if you're still awake, comes the fun part: how do you introduce 
+real value into your digicash system? How, for that matter, do you even 
+get people to play with it?
+
+
+
+What makes gold valuable? It has some useful properties: it is a good 
+conductor, is resistant to corrosion and chemicals, etc. But those have 
+only recently become important. Why has gold been valuable for thousands
+ of years? It's pretty, it's shiny, and most importantly, it is scarce.
+
+
+
+Digicash is pretty and shiny. People have been talking about it for 
+years, but few have actually used it. You can make your cash more 
+interesting by giving your server a provocative name. Running it through
+ a remailer could give it an 'underground' feel, which would attract 
+people.
+
+
+
+Your digicash should be scarce. Don't give it away in large quantities. 
+Get some people to play with your server, passing coins back and forth. 
+Have a contest - the first person who (breaks this code, answers this 
+question, etc.) wins some digital money. Once people start getting 
+interested, your digital money will be in demand. Make sure demand 
+always exceeds supply." 
+From the cypherpunks mailing list we learn that over the course of the 
+next few months four or five unique tokens were created using Magic 
+Money, including Tacky Tokens, GhostMarks, DigiFrancs, and NexusBucks.
+ As in the earlier case of thornes, an attempt was made to sell goods 
+and services in these new currencies. One poster on the Cypherpunk 
+message board offered to pay coders to write software with NexusBucks, 
+and another tried to sell GIF art of tacky tokens. 
+
+
+
+After a flurry of activity, however, interest died off. "It appears that
+ the Magic Money/Tacky Token experiment is not succeeding in producing 
+an informal digital currency," wrote Hal Finney in May 1994. "People have offered services in exchange for this money but have had no takers." In a post entitled Why Digital Cash is Not Being Used,
+ Tim May blamed the failure of Magic Money on the lack of items to buy 
+with tokens and confusion about how to get them and send them. It's 
+worth a read.
+
+
+
+
+-----
+
+
+
+No sooner had the Magic Money experiment died when a new new opportunity for bootstrapping digital tokens emerged. David Chaum,
+ an early advocate of privacy, had established a company called Digicash
+ in 1989 to commercialize the use of blind signature technology in 
+electronic currency. In a trial that was first announced in July 1994, 
+Digicash offered the first 10,000 applicants one hundred free 
+cyberbucks, or e$, up to a maximum issue of one million cyberbucks. 
+
+
+
+Despite the fact that these tokens were intrinsically worthless—they had
+ neither commodity value nor could they be redeemed into U.S. 
+dollars—people soon began to transact with them. On its website, 
+DigiCash listed around 100 shops that accepted cyberbucks, including those that sold postcards and various types of information services. Zooko Wilcox-Hearn, who recently founded the anonymous cryptocurrency Zcash, offered to sell his PGP software for cyberbucks. A coding contest
+ by the omnipresent Hal Finney offered cyberbucks as a prize and Adam 
+Back, a cryptographer who is currently involved in administrating 
+bitcoin, sold "export-prohibited" cryptographic t-shirts for a price of e$250. In the same way that a pizza was the first good to be bought with bitcoin, Back's t-shirts may have been the first to be bought with cyberbucks:
+
+
+
+i guess those t-shirts were the first pizza. digicash coins however are 
+defunct- their SPOF failure is why B-money/bitgold/Bitcoin were p2p. pic.twitter.com/uJ2GIR3HU1
+
+— Adam Back (@adam3us) October 24, 2017
+
+
+
+
+To Digicash's surprise, several primitive financial markets emerged
+ to trade cyberbucks for genuine currency. On the Ecash Exchange Market,
+ which was hosted on the website of company called Firecloud Solutions, a
+ price of around five cents per e$1 was established (see image below), 
+effectively valuing the entire market capitalization of cyberbucks at 
+$50,000. 
+
+
+
+
+
+Source: A Common Currency System for Spontaneous Transactions on Public Networks
+
+
+
+
+
+
+For those with long memories, the above Ecash market looks very similar to New Liberty Standard's bitcoin-to-paypal market, the first bitcoin exchange that was established in 2009.
+
+
+
+The cyberbuck trial did not last. While there was plenty of discussion 
+about the topic in 1995, there are only a few mentions of cyberbucks on 
+the Cypherpunk mailing list in 1996, but almost nothing in 1997. When I 
+asked Zooko if he still had cyberbucks, he told me he had long since lost his. Who knows? They might still be worth a lot as collector's items.
+
+
+
+
+----- 
+
+  
+
+Like cyberbucks and the other mid-90s experiments, bitcoin began as a 
+mere play thing among a small coalition of technologists interested in 
+privacy. Why did bitcoin get successfully boostrapped while the others 
+failed? How did one form of monopoly money spread over the entire globe 
+while the others were never used by anyone other than a small band of 
+cypherpunks?
+
+
+
+One answer is luck. Perhaps nothing more than a fortuitous flap of a 
+butterfly's wings in Brazil set the whole thing off. Another is 
+experience. After three failed efforts to bootstrap electronic tokens, 
+perhaps the cypherpunk community had developed a better understanding of
+ what not to do to get the ball rolling. Hal Finney for one participated in all four digital currency experiments.
+
+
+
+The technology was different as well. Because it utilized David Chaum's 
+patented blind signature protocol, Magic Money was technically illegal, 
+and thus unlikely to spread to more timid adopters. As for cyberbucks, 
+once the trial was over the server running the software would have to be
+ shut off, at which point there would be no way to verify cyberbuck 
+transactions. Knowledge of this imminent shutdown would have handicapped
+ the ability of cyberbucks to propagate beyond the core group of 
+hobbyists. Bitcoin, on the other hand, used a decentralized (and 
+unpatented) method of verifying transactions, so the threat of winding 
+up the system was less salient.
+
+
+
+I'm not sure these technical factors were as important as the different 
+macroeconomic environments in which the various digital currencies were 
+issued. Cyberbucks, Magic Money, and thorne all appeared when the global
+ economy was humming along and interest rates were high. Owning these 
+zero-yielding tokens meant that users had to make a large sacrifice. In 
+2009, interest rates around the world had fallen to near zero, so 
+holding a digital currency like bitcoin did not involve forgoing much in
+ the way of interest income.
+
+
+
+If usage of an intrinsically worthless token is to spread beyond an 
+inner clique of hobbyists, a whole army of dreamers and speculators has 
+to be encouraged to jump onto the bandwagon. What better pool to recruit
+ from than the ranks of unemployed and underemployed in the wake of the 
+2008 financial crisis? This pool of downtrodden simply didn't exist in 
+the humming 1990s. Folks back then had no need for a bubble asset to get
+ them ahead—they enjoyed full-time jobs and plenty of opportunity.
+
+
+
+Perhaps we were all a bit innocent in the 1990s and didn't understand 
+how much our privacy could be invaded by governments and corporations. 
+Magic Money and cyberbucks, which promised  protection from these 
+threats, arrived too early. When bitcoin was finally introduced, it may 
+be that we had all become a bit wiser and thus more willing to endure 
+the hassles of switching some of our wealth into cludgy digital 
+currency.
+
+
+
+Lastly, people weren't upset with the finance establishment back when 
+thornes, Magic Money, and cyberbucks were being introduced to the world.
+ While recessions had hit in the early 1980s and 90s, they weren't 
+accompanied with large-scale financial meltdowns. But in 2009, the 
+credit crisis and bailouts were just in the rear-view mirror. Many were 
+furious with banksters, and justifiably so. Turning to bitcoin was a 
+protest vote. 

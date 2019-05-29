@@ -1,0 +1,1118 @@
+
+
+
+Toward A Private Digital Economy
+
+(Trusted transactions in an anonymous world)
+
+- Wavyhill -
+
+- Andre Goldman -
+
+4/22/04
+
+
+
+Abstract
+
+Currently available financial privacy tools have drawbacks arising from centralized ownership and control, and the limitations of presenting specific services. A better approach would be to construct a fully distributed environment for economic activity which mimics the way cash is used in the physical world but is private, anonymous, trusted, and indestructible. A key to this variety is the element of locale, which we will explain in some detail.
+
+We will introduce a 'Farmer's Market' model of anonymous commerce and expand it into a detailed functional description. We will explore business models viable in this environment and ways to connect them to the transparent banking world.
+
+An anonymous economy must resolve issues of trust and reputation to be practical. We show how properties of number can be used to derive an 'algebra of trust' and exploited to reduce risk in anonymous transactions. Once reduced to a number, trust, like any other asset, can be quantified, evaluated, commoditized and even used as a currency. Algorithms that distribute data storage can distribute risk and trust once they are reduced to data. These things may overcome some of the barriers to the wide adoption of a private digital economy.
+
+
+
+
+
+Contents
+
+Abstract.
+
+I - Introduction.
+
+II – The Farmer's Market Model.
+
+An Ideal Free Market.
+
+Locale, the Missing Ingredient.
+
+III - Merchants and Services.
+
+Cambist.
+
+Gov Insurance.
+
+The Transient Virtual Financial Service.
+
+File, Proxy, and Bond Co-ops.
+
+Trading Post.
+
+Bondsman.
+
+Escrow Agent
+
+Fair Witness.
+
+Arbiter.
+
+Reputation Server.
+
+The Kilkenny Cats.
+
+The Dark Side Merchant.
+
+Under the Radar.
+
+Ghost Walker.
+
+Bank of Oz
+
+Dark Side Storage.
+
+IV – Trust and Anonymity.
+
+V – Reputation.
+
+Definition and Significance.
+
+Evaluation and Propagation.
+
+Display.
+
+In the Farmer's Market.
+
+VI – Adoption.
+
+Incentives and Disincentives.
+
+Bootstrapping
+
+Four Strategies.
+
+VII - The Wind-up.
+
+References and Links.
+
+Sidebars (Expansions and Digressions).
+
+More About Users, Coins, and Locales
+
+Crypto Appliance.
+
+Just Like Chicken.
+
+Reputation as Capital.
+
+An Algebra of Trust.
+
+Trust as Currency.
+
+Use Case Walk-through.
+
+Notes
+
+
+
+I – Introduction.
+
+DMT (the Digital Monetary Trust due largely to J. Orlin Grabbe) is arguably the best example of a functioning financial privacy tool in vision, design, and construction[1]. It should be added that DMT has had serious operational issues. These have nothing to do with the technology, but with simple (mis)management. That being said, the system does suffer critical deficiencies due to centralized control, such as:
+
+There is only one 'bank' which must be trusted without accountability or guarantee.
+
+The bank is readily traced via its wire transfers and held accountable for its customers' visible activities. It is vulnerable to shutdown, subpoena, legal and physical coercion.
+
+Of the commodities and currencies traded in LESE, it is impossible to tell to what extent they represent real assets and to what extent they are fiat.
+
+Transferring value into and out of ALTA (the DMT storage and payment service) is slow, expensive, and subject to large minimums.
+
+There is very little you can buy with it directly.
+
+Other deficiencies in DMT are a consequence of the service-for-profit model:
+
+Only a small fixed set of asset types determined by the bank can be transacted.
+
+The quality and nature of services are likewise constrained.
+
+There is no competition for financial services within DMT with the limitations and disadvantages this implies.
+
+These problems don't exist in the cash economies of the physical world. The difference is found in the distinction between services and an economy, between application and environment. In an economy there is variety and freedom of action. Participants can transact goods and services without the intervention of a third party. The objects and form of transactions are determined by initiative and free market forces. Likewise are the types, details, and quality of services. If we approach financial privacy from the perspective of an environment for services, rather than of services, we can address most of these problems.
+
+[Contents]
+
+In following sections we will discuss ways to do this. First, however, we should be clear that our subject matter deals with creating an environment for commerce, not with actual services. At this level, there is no direct way to make money.
+
+Our object is to design a space that mimics the cash economies we are familiar with in the “real world”, but with more privacy, more trust, more freedom, and without privileged entities. This is a minimalist approach providing public and private ways to meet, a trusted medium to convey value, and safe places to keep it. There are simple, non-technical means for anyone to create, mint, issue, verify, reissue, and redeem a currency of their own authenticated type. This includes one-off 'coins' that represent specific assets. In this place, business is conducted conversationally in what we will call the 'Farmer's Market' model. Once this type of environment is available, individual users will be free to build more complex and specialized businesses by automating these conversations, without the need for great technical skill.
+
+Grabbe has written many articles on why encrypted financial privacy services are desirable or at least inevitable[3]. Likewise Davidson and Rees-Mogg[14].
+
+Section II draws an operational and functional picture. Section III gives examples of business models that could profit in this environment and are necessary for its success. Sections IV and V discuss issues of trust and reputation, and ways to address them. Section VI discusses forces that drive and inhibit large-scale adoption of such systems and ways to exploit them. We will refer to the world of know-your-customer, transparent banking, and coercive governments as the 'Dark Side'. In a minor rebellion against the Nazis of Political Correction, we will not employ trendy new pronouns in a futile attempt to deny the existence of a Y chromosome. If you are reading this as other than an HTML web document, an underlined number is a pointer to the “References and Links” section. Underlined text refers to a heading in the “Sidebars” section, or sometimes in the main body.
+
+[Contents]
+
+II -The Farmer's Market Model.
+
+The farmer's market is a place where producer and consumer may rendezvous and transact business informally, conversationally, without structure, without record. The key properties of our ideal Farmer's Market are:
+
+A known place where a class of service or product is sold.
+
+The location is wherever the buyers and sellers agree it is.
+
+Anyone can establish a presence, advertise goods, transact business.
+
+The seller may offer any prices and terms.
+
+The buyer may execute (or not) any transaction to which the seller agrees.
+
+There is a trusted currency through which goods and value are safely exchanged, and a safe means of storing it.
+
+There is a means of communication and advertisement.
+
+The disclosure of identities, assets, communications, and of the relationships among these things are under control of the owner.
+
+Coercion is not possible.
+
+How can we mimic this in software? Here is one example.
+
+We start with a fully distributed peer-to-peer network which contains our Farmer's Market. A node is an instance of this open-source software. There may be more than one instance per computer. Users connect to nodes over a secure channel from the same or any other host and there is no persistent relation between user and node. Peer-to-peer networks are hard to attack or control. Their use in the areas of privacy, anti-censorship, free speech, and anonymity is a hot topic. There have been, and are now, several projects of this type[8].
+
+[Contents]
+
+Inside this network there are only three things: locale, message, and user. The abstraction locale is key to the nature of this environment. Locales have some of the attributes of file system directories and domain names. They are accessed by name in a flat name space. Their names can be any string (theoretically anything of which one could take a hash, even a picture). A user may be present in one or more locales. A message may only be present in one. Access to messages is constrained by locale. Likewise by implication is asset transfer, that being simply and exchange of messages. The crucial function of rendezvous is just agreeing and presenting in some locale. When no users or messages are present at a locale, it becomes undefined. A locale can have one or more owners. Only owners can remove other users or their messages from the locale. A locale can have a 'door list'. If it does, only users on the list may be present there, and you must be present to add, view, or remove messages. Only owners can change the door list. A property important to privacy is that there is no list as such of locale names. If you don't know the name, you can't go there. If you can't go there, you can't listen in or participate in conversations, meetings, or exchanges that take place there. Locale is the distilled essence of what we call 'place' in the physical world.
+
+The network provides for communications in the form of real-time messages. A message must be present at one or more locales and visibility of its contents can be further restricted to a list of addressees. Only the owner can change its contents, locales, addressees, or owners. Transmission of a message consists of changing its locale and perhaps its owner or addressees. The message format is XML, therefore messages posted at a locale can contain HTML, making the locale, in effect, a website. When users or messages become present or absent, all users at a locale are signaled, making possible this conversational mode of interaction. The combination of locale and message meets the needs of public and private speech, immediate and deferred messages, bulletin boards, open or restricted gatherings, advertisement, and rendezvous.
+
+The network provides for creation of anonymous or pseudonymous identities. Identity is no more than a key pair and a name string, and can be freely created. They are not centrally stored. They only have existence as references to ownership, authentication, addressee and door lists.
+
+[Contents]
+
+There is provision for the management of coins: minting, storage, transfer, validation and redemption. Coins are just messages with a particular well-known format. They can represent money or anything else of value or interest. Anyone can mint them. They consist of at least a serial number, denomination, units, and amount, signed by the originating ID.
+
+The transaction model is based on transfer of coins. Terms are negotiated by conversation or convention. Transfer of ownership is voluntarily initiated by the owner, accomplished by the structured transmission of a message. Transactions can be performed manually (I give you a Ruble, you give me the potatoes, Thanks and See ya later), or automated by tools provided by the user or tool vendors. There is no explicit formalism for 'account'. Instead, there are locales with unadvertised names which contain coin-messages.
+
+The network must store locales and messages with safety and privacy. It is a fully distributed peer-to-peer network. Storage is likewise distributed, using a holographic model (as 'shares'). We will show how, based on this, trust and risk can also be distributed holographically.
+
+This functional design is far from perfect. Some unresolved issues are:
+
+Garbage collection of 'orphaned' locales and messages.
+
+Message, locale, and bandwidth 'flooding' attacks.
+
+Non-reciprocation of resources by 'selfish' nodes.
+
+These problems are indigenous to P2P networks. Some partial solutions are known, and this is an area of current research.
+
+Those who discover a problem are encouraged to contribute possible solutions. For those interested in more detail, they will find it in the sidebar “More About Users, Coins, and Locales”.
+
+This is not just an academic discussion. It's a practical, usable, buildable structure. To give a feel for how you might live with this on a day-to-day basis, see the sidebar “Use Case Walk-through”. We will refer to this Anonymous-Farmer's-Market/ model/ network/ environment thing several Sagans of times, so we need to give it some kind of smarmy name. Oz will do.
+
+[Contents]
+
+III - Merchants and Services.
+
+Because of the the absence of regulation, and the liquidity, automation, speed, and low cost of transactions, this environment creates a new class of business models and a new look at old ones. For one thing, narrow niches and thin profit margins become practical. For another, an enterprise can be factored into tiny fragments and distributed to the point of invisibility. To demonstrate how assets and services can be created and transacted at a profit here, consider these idealized examples:
+
+Cambist.
+
+This is another word for “currency exchange provider”. He keeps locales with moderate amounts denominated in the most popular coin types. He has lines of credit with sources of capital covering most of the currencies he's willing to carry, to deal with those inconvenient bursts of demand. He maintains websites on both WWW and Oz through a reverse proxy service with a commercial e-biz automation package to handle the routine transactions while he gets a nasty sunburn on St. Martins. The hotel there has WiFi, so he takes his laptop out on the beach and orders a “St. Martini” from the beach bar without leaving his chair. Every now and then his laptop dings and he has to sit up and do some actual work (someone wants to get gold Dinars from Georgian Lari, of all things). His profit margin is less than 2% but the volume is large and 24/7. He makes easily twice what he would 'doing' the same thing on the Dark Side. He has no office, no employees, no quarterlies, no time-clock, no itienerary. Life's a bitch.
+
+This is not as far-fetched as it may seem. We know of at least one person making a living like this today.
+
+Gov Insurance.
+
+The greatest risk of operating in a private digital economy is the risk of being “goved”, a civil or criminal attack from the Dark Side. Since there is a strong correlation on the Dark Side between justice and wealth, users pooling a portion of their wealth to protect victims of attack would be of mutual advantage. The manager of such a fund could reap the benefits of responsible investment. Many other forms of insurance could also be profitable.
+
+A distributed insurance firm with a more unusual structure is possible. It could work like this: The firm puts thousands of volunteers on a modest monthly retainer that comes with an obligation. From time to time you may be required to make a small contribution to the payoff of one of the firm's clients. The contract specifies a cap on your yearly liability. The size of the retainer depends on that cap such that in the long run you make a little money, at a rate competitive with other investments of similar risk. The insurer has distributed risk over a pool of paid providers, and sells the “negative risk” thus generated to his clients. Note that he also distributed his capital requirements over time, swapping them for a pay-as-you-go obligation. Think of it as 'just-in-time capital'.
+
+[Contents]
+
+The Transient Virtual Financial Service.
+
+Financial services will be the particular targets of legislators, tax collectors, divorce and tort lawyers, and other critters low on the evolutionary scale. A business' service load can be distributed not only across a group of nodes but over mobile ones, even a constantly changing pool. Visualize a class of nomads wandering around the planet between homes, hotels, trailer parks, campgrounds, libraries, and cyber-cafes, stopping for a while to plug into Oz and join such a pool. If WiFi continues to spread, you won't even have to stop, or plug in. You might as well be making some walking-around money from the old laptop as long as it's turned on, right? You don't even have to be aware of the process if you like. A formal agreement with the proprietor might not even be required, just the installation of publicly available software like the SETI screen saver which only uses your spare cycles. Small amounts of value flow into your private locale whenever you are connected. The enterprise has divided itself into thousands of tiny, constantly shifting pieces. A business operated in such a manner would be almost impossible to pin down. A brokerage managing, standarizing, and assuring this kind of distribution between enterprise and individual is another plausible revenue source.
+
+If a few million people and businesses were in Oz, you could conceivably make a living just by participating in enough hyper-distributed services like this without lifting a finger. You would be renting out your storage, cycles, identity, or capital, in small controled ways. If doing this became commonplace, what sort of economy would result? It beggars the imagination. The unforseen consequences of some obscure software trick like this can change the world; witness the Internet and the WWW itself.
+
+File, Proxy, and Bond Co-ops.
+
+Another possibility is the "storage-co-op", where a group of users may elect to share the data, trust, and hazards of distributed storage among themselves. It can also be operated as a for-profit enterprise selling performance, trust and availability. A variation on this is the proxy mesh co-op. The posting of bonds is a very important activity in anonymous commerce. A bond co-op could divide the cost among members, even make a profit.
+
+Trading Post.
+
+This service provider is rather like a Mall operator. He provides the service of bringing buyers and sellers together. Ebay and Amazon are working examples but they are prone to ripoffs and are restrictive in what may be traded. If you are wondering why a merchant wouldn't just join or start a less formal market in some locale, just consider the types of values added by Ebay et al.
+
+Here you can deal in stocks, drugs, weapons, organs, orgasm, assassination, anything no matter how profitable, controversial, or dangerous. The environment itself imposes no value judgments (though we would hope that users would). Some of you may be offended by this. That's too bad, but you simply cannot have a regulated free market. The environment can neither endorse nor regulate these things. There are other private and ethical means of dealing with unsavory businesses and people[15].
+
+[Contents]
+
+Bondsman.
+
+This is a special case of insurance but one that merits special treatment. An insurer sells safety. A bondsman sells trust, the most precious commodity in the anonymous world. He sells it in the form of a promise to pay for losses incurred by a third party due to the non-performance of his client. The client posts a bond, assets worth some fraction of the amount at risk, depending on the bondsman's perception of that risk. There will be a non-returnable fee for the service. Where does the bondsman get his stock in trade? Some of it comes from his track record. In this business, reputation is literally as good as gold. Risk and trust are two sides of the same coin. He can distribute his risk (and gain trust) by posting secondary bonds with other bondsmen. The promise of 10 people to cover an obligation conveys more trust than the promise of any one person, hence the value of co-signers to a loan, trust is additive. Others have used the term “web of trust”. We introduce a related concept, the “web of bonds”. A guild of bondsmen backing each other generates more trust than the sum of the parts, because trust is associative. A bondsman's profit margin must be relatively large, in proportion to his risk. In section V we show how that proportion can be formally derived.
+
+Escrow Agent.
+
+Escrow is another form of trust management, assets deposited with a neutral trusted third party to be delivered under contractually specified conditions. Like Bondsman, it is a service well-suited to the anonymous world because it can be transacted electronically. Like Bondsman, it is another way to rent trust, which may be acquired in the same ways. Escrow Agent doesn't pay as well as bondsman, because there is almost no risk.
+
+[Contents]
+
+Fair Witness.
+
+The professional witness sells truth, as a trusted reporter of fact. Unlike Heinlein's Fair Witness, an eidetic memory and hypnotically trained powers of observation are not required. Though a contract can be digitally signed in a non-repudiable way, the recording of it in a trusted neutral place has value. Likewise testimony about associated conditions and events not recorded in any contract (Johnny Carboncabin sent 12 threatening and intimidating messages to Clarke Kent after Clarke's whistle-blowing expose' was published). The Witness may verify Dark Side events, objects, conditions (Wolfie's Toy won today's trifecta, that 1909S VDB penny is in mint condition). There may be conditions on disclosure or limits on scope and audience. The witness may take the role of auditor: “I attest that on this date, 'The Anonymaker' proxy's logs were kept for no more than four hours. I reviewed their code and it was so configured. I probed their server and it was running the code I reviewed”. There is also the role of Notary: “I attest that the same individual signed both of these documents, though I can't disclose the content of the documents or the identity of the individual.”. Another valuable Witness service is putting a time stamp on identities, coins, messages, contracts, and so on. The Fair witnesses fee should be in proportion to the reputation of the Witness, and the amount or issue in contest.
+
+Arbiter.
+
+In Oz, justice is an important, competitive, commercial service. The Arbiter is an entity with a reputation for integrity, rationality, impartiality, intelligence, and perhaps specialized knowledge related to the contested issue. Expertise in the interpretation of contracts is specifically not required because an agreement unclear enough to require interpretation by an expert on contracts as such is flawed. In Oz, we will finally be rid of lawyers, a breed which, like government, is in the words of Robert LeFevre, “a disease masquerading as its own cure”. Expertise in the application of ethics is another matter. It might be argued that some legal structure is necessary, like the Common Economic Protocols[9]. But the CEP is not a system of law, it's an ethical tool included voluntarily by selective reference in some contracts. In Oz there can be no coercion, so both the need for Law and its application are impossible. An Arbiter may take the role of mediator, helping the parties to craft an acceptable agreement. He may be hired to render an advisory finding, or to make a judgment all parties commit to accept unconditionally in advance. In cases of violence or fraud the judgment may concern another party who may not agree to binding arbitration. In this case the Arbiter may be called upon to recommend or make ethical judgment of a response considered by the parties claiming injury. An Arbiter should be compensated in proportion to the difficulty of the case, the time required, and the magnitude of the stakes.
+
+[Contents]
+
+Reputation Server.
+
+This is the trusted manager of a reputation database, a place where personal opinions and experiences regarding the behavior of others may be recorded and rated in various kinds of trust and competency. The technology of reputation management is immature, but excellent work has been done in this area[7]. A very primitive example is the system operated by Ebay, a simple judgment of good/bad with the possibility of a descriptive note, and the option of a rebuttal note. A more sophisticated system could incorporate quantified multi-dimensional opinions with more detailed categories and qualifiers. In the evaluation of an individual, the reputations of those providing opinions can be taken into account recursively to form a 'web of reputation'. The provider of such a service should be paid by those posting opinions (to reduce frivolous or automated input). He should also be paid by those seeking an evaluation, because he has developed the information, information has value, and reputation is very valuable. In section V we dig into some theory of reputation and ways to evaluate or display it.
+
+Besides reputation itself, the Reputation Server can develop and sell other related information, such as number and distribution (by subject and value) of reports made by an ID, number of queries made to an ID, and so on. This will require some care. There is a thin line between selling socially or monetarily valuable data and violating privacy, particularly of reporters.
+
+The Kilkenny Cats.
+
+In Irish folklore the Kilkenny cats were locked in a barn and survived indefinitely by eating each other. None of the business models discussed so far actually produce or import anything. They all presume there is some other “real” commerce going on that would benefit from their services besides each other. We have so far a closed system with no “food” coming in and a bunch of cats trying to make a living off each other.
+
+[Contents]
+
+The Dark Side Merchant.
+
+But wait. Maybe there is a way for food to come in. The little ethnic grocery down the street starts preferring Oz payment, as long as it's gold grams from The Andrew Geltmiester First Cyberspace Bank. So does the guy who mows your lawn, then your daughter's math tutor, then several folks at the Saturday craft market. Now there's a guy somewhere in Alaska who will mail you a prepaid anonymous debit card in exchange for Oz currencies from several respected sources, and what you can't buy with it, you can buy with cash taken from it at the ATM. This becomes a phenomenon undergoing exponential growth (have you read ”A Lodging of Wayfaring Men[13]”?) Suddenly those cats have a real market to serve. Good thing too, we were getting tired of roast cat, boiled cat, cat-soup .... (But seriously, we love cats. They taste just like chicken).
+
+You notice some people at the flea market quote prices in dollars ... and Oz gold grams (at a discount). An awful lot of ads in the classifieds manage to refer to something like 'oz' or just 'z'. Web sites pop up for people seeking to barter in Oz. That math tutor? He prefers Oz, but if you give him cash, every two weeks or so he takes it to one of the three people in town that sell Oz coins for cash. She transfers a coin to the tutor's USB flash ROM key by plugging it into her PDA, or beams it to his PDA (see Crypto Appliance) on IR or Bluetooth or WiFi. He likes the PDA route because his 'bank' gave him a little app that can validate coins on the spot. When he's in range of a WAP, it can even reissue them to him on the spot, proofed against double-spend. Very progressive guy, that math tutor. In these ways, Dark Side goods and services can enter the system, and there are other ways as we shall see.
+
+[Contents]
+
+Under the Radar.
+
+Some kinds of Dark Side business fit very well into such a framework and would be difficult to identify, quantify, and prosecute. Most services like tutor, massage, carpet-cleaner, CPA, and so forth fall into this category. Businesses that are original producers of goods, like farmer, author, and glass-blower also work well. A great many businesses (maybe almost all businesses?) could work partially in the Dark Side, and partially in Oz.
+
+But there is a serious problem with many Dark Side businesses that would like to use a system like Oz. They are trapped in a pervasive web of surveillance [3] and control, because they depend on some resource that is metered or meterable by authorities, and which evidence the quantity of goods or services sold. The gas station, the department store, the book publisher, and the cola bottling plant have this problem. The problem goes away when the producers of those resources are themselves 'in the system', but this does bring up the bootstrapping issue, which we discuss later. The best they can do is to pay employees, suppliers, and so on partly by Oz, and many businesses today are too risk-averse to do this.
+
+Ghost Walker.
+
+Arguably, the agents most at risk of coercive attack are those providing in and out-transfer services, due to the non-anonymous half of their transactions. The person that math tutor took his cash to was a Ghost Walker. They have to keep a low profile, hence the name. A client purchases, with Dark Side assets, digital coins from the Ghost Walker, who transfers the coins to the client's private locale, or his flash key, or his PDA. The Ghost Walker may also provide the symmetrical service of redeeming coins for external assets or he'll build up a pile of fiat money and run out of coins. He sometimes engages in settlement with others of his kind who have a surplus of one thing or another. This incidentally reduces the value he has to traceably move across the boundary. His business bears a striking resemblance to the 'Hawala' informal funds transfer networks. It is another way real value can enter the system. The current crackdown on Hawala[3,16] is worth careful observation. It uses the same methods of attack, and for the same reasons, that would be applied to ghost-walkers.
+
+It turns out that this risk too can be distributed over nodes, transactions, and time. Transfers can be randomly distributed over a large pool of paid proxies. A guild or consortium of ghost-walkers could pool their transactions making the need to actually transfer value across the system boundary relatively small and infrequent for each one, thus distributing risk. One could set up a business with a network of agents, call it “Global Ghosts”, and do this efficiently and safely, an 'Oz Hawala'.
+
+The Ghost Walker provides other in and out-transfer services too. He will accept your direct-deposit paycheck or pay your electric bill. Anything that requires the transfer of value between Oz and the Dark Side without exposing your Dark Side ID.
+
+Where does he get his coins? Most Ghost Walkers will not have the global reputatation to back issuing their own currency. If he runs short of Oz coinage or national currencies, an alternative to forming a coop is dealing with an Oz bank. Oz banks will be the main source of currency coins, and makers of a market in those coins. For other ways to transfer value in and out of the system, see: Dark Side Storage, Bank of Oz, and Dark Side Merchant.
+
+[Contents]
+
+Bank of Oz.
+
+The environment of Oz itself provides to everyone the means to safely store and transfer value anonymously. There is no point in Oz banks offering checking or savings accounts. But they still have a crucial and profitable role, minting, buying, selling, borrowing, and loaning coins.
+
+Minting is literally making money, profiting from the issue of trusted currency. The bank accepts cash and other monetary instruments from Gost Walkers (or anyone) and issues (mints and sells) coins in return, less a small profit, called siegniorage. The Ghost Walker puts them into circulation by reselling them at retail. The bank keeps the cash and redeems coins back for it on demand (possibly less siegniorage again). Oz gives anyone the ability to mint authenticated coins, but imbueing them with value others will trust is another matter. By minting currency, the bank is really selling trust in yet another form.
+
+Another thing Oz banks do is rent out some of their stored money, taking a profit on the interest. This is called fractional reserve banking and Dark Side banks commonly do it. The Oz bank does this by issuing more coins than it receives in Dark Side or other currency. This profit comes at a risk beyond simple default of it's debtors. If everyone holding the bank's coins gets nervous about it or needs Dark Side cash at the same time, they all try to redeem their coins at once. This is called a "run on the bank", a catastrophe because the bank doesn't have enough cash to redeem them all, and a coin is a promise to pay on demand. If it has good relations with other banks, it can borrow the difference and keep it's reputation. The critical policy decision is what fraction of reserves to put at risk.
+
+Finally, the Oz bank can borrow coins from some at low interest, and profit from loaning those coins out to others at a higher rate. When Dark Side banks do this, they call it a 'savings account'. When Dark Side governments do this, they call it 'savings bonds'.
+
+[Contents]
+
+Dark Side Storage.
+
+Lazarus Long just bought a Ming vase from you in Oz. Now you have his $20,000 coin and he has .... a Ming-vase-coin? How does he know that coin really represents a vase, how could he get the vase, and where would he put it? Well, you left it in the care of a bonded physical storage business that caters to an Oz clientele. The operator gave you a Ming-vase-coin in exchange (kind of like a laundry ticket or a coat-check). He only has a $10,000 bond and a small, though positive, reputation. But he employs an on-call Fair Witness with a fat bond and a very hefty rep. You paid extra for a Ming-vase-coin signed by the Witness attesting it was there and able to verify that on demand. The coin was also signed by a well-known art dealer certifying authenticity. So your Ming-vase-coin has real value and not just “Beanz”. Lazarus can leave it where it is, or he can redeem coin for vase at the storage service and pick it up or have it shipped. Incidentally, this is another way real value can enter and leave the system.
+
+IV – Trust.
+
+Trust is a relation between entities in which the trustor has some expectation of performance by the trustee. Trust is an issue that could make or break Oz. Modern financial systems have relied mostly on reputation to create trust (though in some cases it has been coercion). Some work has been done on protocols that create trust in an unstructured environment[11] but they have limited application. Though we rarely think about it, most of the financial transactions we participate in are already predicated on trust in some form. TRW, Equifax, and friends are actually reputation servers. You trust the promise of some government that the scrip you got paid today can be exchanged for a beer tomorrow. This is the most common form of trust in the world, and it is frequently abused.
+
+Say someone presents to you a $1,000 USD coin. Where did it come from and why should you believe it's worth anything? Well, lots of people know and respect Daddy_Warbux. So, one day he decided to act like a bank. He minted a coin marked CREATOR: Warbux Bank, UNIT: USD, AMOUNT: 1000, and signed with a key created for "Warbux Bank", as well as his personal key. Someone gave Warbux $1,000 in US dollars to purchase this coin. It could have just as well been goats, gold, cheese, whatever. Now the coin only has value if you can go to Warbux, redeem it, and get some dollars (or goats) back. Whether you actually do so, or just pass it on in another transaction, is immaterial. Its worth is entirely based on trust. Warbux's rep is good enough that as an individual, you would trust him with $1,000 right now. $50,000 and you're going to think about it. A lot. $100,000 definitely not. Let's say he has no rep. How can he start a bank? He can post bonds with bondsmen or with other banks using popular, well-known currencies (see how central the bondsman's role is in this place?). He could buy insurance, like Dark Side banks use FDIC. There are several ways an insurance provider could distribute his risk and sell the negative risk thus generated. The bank could actually be a co-op of several thousand 'investors', each with an obligation of a few dollars each.
+
+
+
+In contrast to the institutional approach to building trust, it can also arise from the actions of a community. For example, the players in a locale could be required to enter only by recommendation (starting with a very small number of initial members, obviously), then requiring every initiate to take a small degree of responsibility for any new member they bring to the market. This form of reverse-accountability is precisely the sort of protective measure that springs up in unregulated markets. It is a function of people wanting to be careful about who they do business with. (For you technical types, it is the avoidance of one-shot prisoner's dilemma games). If you have something to lose by cheating me, you are safer to do business with. In application, this means I'll feel safe doing business with you if you are a business associate of my brother's. If you cheat me, you'll also lose my brother's business. Hence the old-boys' network and the clan-centeredness of ethnic groups trusting their own, but not outsiders. “Their own” will have to answer to people if they cheat.
+
+[Contents]
+
+The converse of trust is risk. But risk can be distributed too. Say you want to buy a car, and the dealer doesn't participate in Oz (actually he can't because know-your-customer and report-large-transactions laws have been extended even to car dealerships, at least in the US). You pass your $12,000 USD coin to an out-transfer service. The service has 2000 nobodies on retainer. They are paid a pittance to set up a bank account for the online use of 'Global Ghosts'. They are renting their Dark Side identities. Global uses them as a random distributed store and transmitter of Dark Side money. No single one shows enough activity to attract attention. But three of them wire a total of $12,000 to the car dealer and he is happy, if slightly puzzled. The operation of this is completely automated.
+
+The security of data is enhanced by distributed storage. We have shown that trust, risk, and accountability can likewise be distributed with a little ingenuity by converting them to data and applying associative, distributive, commutative properties in an algebra of trust. They can be spread out over users, over concurrent or serial transactions. This is a crucial concept because it has been little explored, except perhaps by money launderers, and has the potential to overcome one of the biggest obstacles to widespread adoption of anonymous financial environments. In a place where anyone can create coins and classes of coins, those coins could have no value without some way to address the issues of trust and risk.
+
+[Contents]
+
+You've heard the expression “If I could bottle that, I'd be rich”. Can we distribute and collect trust and treat it like a resource? Yes, we've shown how that can work. But can we take it one step further, quantify it, bind it to coins, and sell the pure stuff, or even use it as a currency in its own right? It turns out we can treat trust as a currency in useful ways. See “Trust as Currency”.
+
+Anonymity.
+
+The important difference between Oz and the Dark Side is the element of anonymity. For convenience we have referred to the popular term 'anonymous' when it's more technically correct to say 'pseudonymous', the distinction being the temporary as opposed to long-term persistence of an untraceable identity. Anonymity is transient; the absence of identity, the unlinkability of agents, events, and objects. There are different types and degrees of anonymity and more formal definitions are available[3]. A great deal of practical and theoretical material has been written on the subject[4].
+
+A pseudonym is a persistent, authenticated identity. It serves as a repository of trust and reputation. Others may have some basis for expectations when dealing with a pseudonym. A pseudonym has something to lose by betrayal, something to gain by cooperation. It can also serve to establish an authenticated relationship between events. Say Fat_Freddy has posted a lot of cogent material on e-gold and other DGC (Digital Gold Currency) lists. When he expresses an opinion about that, people will give it some credence. His persistent pseudonym has created a connection between those past posts and this current one. Still, no one knows his 'real' name or where he lives. The aggregate of things linkable to his pseudonym are not linkable to him.
+
+We have been making an unspoken assumption, that people have a right to privacy and freedom with respect to their property. This right has been taken from us, a bit at a time, until there is very little of it left. The primary purpose of Oz is to restore it, and make it difficult to take again. Anonymity is the key to doing this.
+
+[Contents]
+
+V – Reputation.
+
+Reputation is the set of attributes attached to an identity on which others agree. In our domain of interest, we could speak of the quantity of value one can be trusted with, and further break it down into quantities with respect to honesty, business acumen, managerial ability, and so on. Just as the converse of trust is risk, the converse of reputation is accountability.
+
+Without trust, there can be no anonymous commerce. Without reputation, there can be no trust. The more effectively reputation is measured, evaluated, displayed, and propagated, the more liquid anonymous commerce will be. Simple word-of-mouth is not enough. Lots of research has already been published on the subject of reputation management, and many reputation systems of varying complexity have been proposed and tried[7]. Slashdot, Kuro5hin, Ebay, Equifax, and Advogato are familiar examples. This could easily be an essay in its own right, but we will attempt to hit the high points, and relegate the rest to sidebars.
+
+What is the significance of reputation? What effect do we want it to have? We normally think of it as a figure-of-merit, an evaluation we might use in deciding to deal with someone, or in setting a bond requirement. But there are other useful ways to treat it. One of the most interesting of these is reputation-as-capital[5]. In this model, it is treated as a consumable, a resource which can be produced by activities, and expended by the consumption of other resources. See "Reputation as Capital"
+
+In considering how reputation can be evaluated and transferred, we have lots of options. Will it be cumulative or statistical? If cumulative, it is integrated over reports; value is raised or lowered every time someone registers an opinion. This is an event, and they can do so multiple times for different reasons as a consequence of your actions judged on a case by case basis. But if a statistic, it's integrated over reporters, a dynamic relation rather than an event. It could be viewed as an average (or median or mode) or as a distribution of opinions over the positive-negative spectrum.
+
+Reputation can be evaluated with a transitive property. If so, the effect of an opinion is weighted by the reputation of its source. If Steve Vai says "You rock", it means a lot more than when your little brother says you "play real good". In this way it can propagate through a network of people and add meaning to the numbers. This is how we create a 'Web of Reputation”[7]. The reputation of the trustee may depend not only on the reputation of the reporters, but also on paths between trustor and trustee. If George trusts Dick who trusts Wolfie, Dick's report about Wolfie has more weight than if George doesn't know Dick at all.
+
+[Contents]
+
+Reputation can have a distributive property. It can be derived from membership in a group or category. Let's say you belong to Greenpeace. Some will attach a negative value to that and slap it on the whole organization. Others will 'vote' positive. If militant elements of Greenpeace sink an Alaskan oil tanker, killing the crew and releasing 900,000 gallons of crude, the world will take a dim view, the rep of the organization will suffer, and so will yours, for having the poor judgment to endorse and be associated with such clowns.
+
+Aside from how reputation is calculated, consider the forms in which it could be displayed other than just as an unadorned number. It would be handy to know reputation among those with opinions similar vs. dissimilar to yours (Hmmm. Hang on a minute while we go take an option on some more Intel stock). What about the first and second derivatives of a reputation? How fast is it changing, which way, and is that rate of change itself increasing? Even more useful is to know where the change is coming from. A big change is likely some individual or group with lots of 'mojo' laying it on thick. And of course you want to view all the different categories of reputation you may have. You may be a great motorcycle mechanic, but take out my appendix? Know Weigh! Then too, you might be surprised to find out lots of people think you would make a good mayor, or crisis counselor, or whatever. The common use of reputation systems would have drastic social, political, and economic effects, especially systems based on reputation capital. Node reputation algorithms are increasingly used for resource and attack management in P2P networks[8].
+
+[Contents]
+
+As a practical matter, without getting into complex metrics, what reputation management system might we use for Oz? Just consider the reputation of “honesty with money”. It will be a figure-of-merit, a single unsigned value between 0.0 and 1.0 .To make it useful in decisions, the units will be probability that the trustee will perform as agreed per gram Ag at risk. How do you assign a trust value to someone? You could estimate how much money it would take to guarantee betrayal, their 'price', say 800 gm. This is like saying there is a probability of 1.0 he will betray you for 800 grams of gold. So that corresponds to a probability of .00125 he would do it for a gram (assuming it's a linear function, an admitted oversimplification). Conversely, the probability he will perform as agreed per gram is .99875 .
+
+Reputation will be based on a set of reports. They could be per-event (you trusted him with 1 Kgm Ag yesterday and he honored the contract). For this, we would use a Weighted Moving Average. The WMA is a smoothing function that is influenced more by recent reports than older ones.
+
+
+
+Where Sa is a constant controling the significance of age. Reports can be one per witness, a measure of the witnesses general trust of the trustee. This is simpler to evaluate, but deals with subjective reports. Combinations of the two metrics are possible. Reports will be per witness in our example, and recursively evaluated. This means that reports are weighted by the reputation of the witness, which in turn was weighted by the rep of his witnesses, and so on. This creates a web through which trust propagates. An empirical formula for the global reputation Tj of some trustee j over a set of reports Ri is:
+
+
+
+The constant Switness controls the significance of witness reputation. The factor of 0.5 arises because in the absence of information the probability becomes 50/50. The propagation of trust is achieved by evaluating for all trustees j, and doing so repeatedly until convergence (~8 iterations in our simulations). To bias the reputation relative to a specific trustor R (as in “who's asking”) we replace Twi with a term including the trustor's opinion of the witness where Sw controls the significance of his opinion:
+
+
+
+[Contents]
+
+There are many possible variations. Using the money-honesty-rep of the witness to weight the money-honesty report is a hack. It would be better to weight with the witnesses reputation for character judgment. The WMA assumes a monotonic interval between reports, but it would be better to use actual age. More complex metrics and algorithms for propagation are known[7].
+
+Note that the reputation value is not just an abstract 'score'. You can rely on it in making financial decisions. For example, a bondsman could use it to calculate how much of a fee to charge you over the refundable bond (insurance companies do this to set your premiums) like this:
+
+
+
+If your reputation is .9999, for a 10 Kgm Ag bond, he has to require 100% collateral to break even.
+
+VI – Adoption.
+
+(Some ramblings on how to make an Oz successful)
+
+Some have argued that widespread adoption would be a bad thing. Becoming a target for prosecution, and attracting unsavory forms of trade seem to be the common points. Looking at the two most successful examples of alternative currencies, e-gold and DMT, it is clear that their attraction with one or two exceptions is largely ideological, a minuscule market. The reason is also clear: there isn't much you can buy with them. What good is a currency only accepted by a relative few, offering even fewer goods and services, scattered all over the planet? How many DMT users do you think are within an hour's travel of you? Will you ever meet one? Have some reason to transact? This leads to the bootstrapping problem discussed below. As to unsavory trade, it should be a non-issue if you believe in free markets. Freedom from the coercion of others comes at the price of their freedom from yours. What a bargain.
+
+[Contents]
+
+Incentives and Disincentives.
+
+To develop strategies for success, we first must understand the forces that either drive or inhibit widespread use. Motivating forces that come to mind are:
+
+Privacy.
+
+Freedom from regulation.
+
+Productivity, profit from increased liquidity, speed, and lowered cost.
+
+New business models.
+
+Protection of property from theft by lawyer or tax.
+
+Eventual variety of goods and services available in the system.
+
+
+
+On the other side of the balance:
+
+Most people don't perceive a privacy problem.
+
+Inertia, fear of change, the unknown.
+
+Vested interest in the current system.
+
+Ideological opposition to free markets.
+
+Fear of government reprisals.
+
+Initial scarcity of available goods and services.
+
+Mistruct of the security and honesty of the system.
+
+Complexity of use compared to credit cards.
+
+It isn't enough just to develop such a system. If all you do is build it, they will not come. No one but a few technoids and radicals (ahem). A strategy for launching and bootstrapping it is required[12].
+
+[Contents]
+
+There is a critical point past which growth becomes exponential, and no further energy input is required. That point comes when a few 'ordinary' apolitical people start to use it, when it enters the mainstream. But initially, it will require serious promotion. With no vulnerable central point of control, there is less need to stay under the radar, and promotion can be more overt, as it must be. Skulking your way to popularity (the stated policy of DMT) is an absurd strategy.
+
+Individuals will be the first adopters, then small businesses. Large corporations will be last, if ever. Ultimately they must adapt or die from inability to compete with those whose assets flow in a low-viscosity medium[14].
+
+Boot strapping.
+
+There is a catch-22, a chicken/egg effect. After trust, it's the biggest barrier to growth. Without a significant customer base, there is no incentive for merchants to offer goods and services, or accept payment through financial privacy tools. Without the availability of goods and services, there is no incentive to attract a customer base.
+
+HDTV went nowhere (in the US) until government forced the highly regulated broadcast industry to start offering it. Then a couple of HD 'consumer' displays became available, at ridiculous prices. Now the HD monitor market is picking up, prices are ¼ what they were and falling. Real people are starting to buy them, and content providers are offering more HD programming. You can see where this is going. A similar process occurred with music CDs, but it went much faster, and required no push from the government (there's a valuable lesson somewhere in that). What can we do to overcome this barrier?
+
+There are a couple of things to be learned from the evolution of file sharing networks. One is that centrally controlled networks will be attacked and destroyed when they begin to have a noticeable effect on someone's bottom line. Holographic decentralization in P2P networks probably has that handled.
+
+[Contents]
+
+Strategy A.
+
+One promising strategy inspired by file sharing is for the network to initially offer some product or service very popular with the age 15-25 crowd. One could begin by promoting a relatively innocuous service targeted at a specific group. When it achieves some degree of popularity, the financial services capabilities could be 'discovered'. We call this tactic 'trojan marketing'. Thinking caps, children.
+
+Another variation on 'trojan marketing' is to promote this as a payment system to businesses where discretion is a value. Casinos, bookies, online and offline adult entertainment come to mind.
+
+Strategy B.
+
+It has been suggested that the growth of Massively Multiuser Online Role Playing Games, some with half a million users, offers an opportunity to introduce an Oz-like service to the masses. In these games, there is typically an economic system and a currency internal to the game. Players are now buying and selling assets from inside these games on Ebay for real money. For USD, you can buy weapons, palaces, magic, tools, businesses, and developed characters. This has lead to the appearance of online markets selling imaginary assets for real cash, and currency exchanges offering conversion between game currencies, even between game and 'real' currencies. Now you can take money you earned at the day job, transfer it into a game, and buy fantasy things from other players who can just as easily transfer it out of the game and into their bank accounts. This practice is growing despite being originally forbidden by game operators (that policy is showing signs of change). There is nothing to prevent them from tracking these transactions and disclosing them to a third party. Note that neither is there anything that prevents players from bypassing the commodity and just transferring payments.
+
+There are open-source decentralized P2P game engines being developed in several projects. Part of their purpose is to liberate players from the 'tyranny', regulation, and fees of game operators. There is no reason to record financial transactions in such a game. Players may discover the financial privacy advantages and exploit them. It's not much of a leap from such an MMOG economy to the kind of economic environment we are discussing here.
+
+[To contents]
+
+Notice that these players are free to do whatever they want with their money in the game. They frequently start solitary or collaborative businesses there, and not necessarily the ones game designers intended. They can walk around, meet at some agreed-upon place, have face-to-face conversations, whisper in your ear, step out (or in) for a private talk, shout to all within earshot, put up a shop sign for all passersby to see, and so on. This freedom of action, similar to that in the real world, is crucial to an effective, useful economy. Another interesting observation to make is that the players are anonymous (actually pseudonymous) to each other, though not with the operators. Not yet.
+
+What would you get if you stripped out the monsters, the magic, the weapons, and the fancy 3D rendering from one of these games? A pretty handy place for anonymous economic activity. Freedom and variety of action, locale, anonymity, currency, purses, rendezvous, public and private speech. It's all there, almost everything you need. Just add crypto, P2P, and stir well. It fits our Farmer's Market model perfectly.
+
+A very interesting player in the MMORPG world, Project Entropia with over 100,000 members, has pegged its currency to the US dollar, openly promotes transfer of value in and out of the game, and has recently been negotiating something with the government of Taiwan. Even more interestingly, they now offer smart cards and readers to selected players for an undisclosed purpose. You have to wonder ...
+
+Strategy C.
+
+PayPal has an interesting way to expand its customer base. It's a trick we might learn from. When you send money to someone who's not a registered customer, they get mail saying “Fred has sent you money through our system. Just join us and we'll send you the money right now”. This offer is very persuasive. Once you've gone to the trouble to register, and been positively reinforced for it, you are likely to use PayPal again.
+
+The lesson is obvious. Somebody gets mail saying “George sent you $50. Just run this well-known open-source digital wallet program (or start an anonymous account at this web page?) and you can get the money. And by the way, it also lets you send and receive money instantly to anyone, anywhere in the world, with complete privacy at no cost”. Tack on a few ads for popular goods and services. Offer a limited web interface, but suggest they download and install the node app. Offer check, wire, or ACH (Automated Clearing House, an inter-bank payment system) for payment.
+
+[Contents]
+
+Strategy D.
+
+One of the disincentives to adoption is the initial scarcity of goods and services in the system. To overcome this you must give merchants a way to accept Oz payments. There have been at least three failed attempts to market POS terminals that included DGC support. The 'smart-card' approach to digital cash, which also required purchase of special equipment, has so far failed.
+
+
+
+The reason is that to persuade merchants to accept payment through it, you must give them a convenient way to do so, as convenient as the ones they use now for cash and cards, one with almost no setup hassle and expense, and there must be some tangible payoff. The same arguments can be made for the customer.
+
+
+
+Enter the wireless web. Current cellphones have web browsing capability. So do WiFi-equipped PDAs. E-gold and DMT now have web site merchant interfaces, and that would be a reasonable third party app for Oz. The pieces are in place for Oz purchases at an on line store. What will it take to bring this to the brick-and-mortar counter top? The merchant needs:
+
+The availability of web sites with PDA and Cellphone compatible transaction interfaces to popular DGCs and payment systems. We are only talking about a slightly more sophisticated breed of Cambist here.
+
+To see the outcome of a payment. He needs to watch another page of the website on some PC or PDA. Many cash registers are PCs these days. More web programming work for the Cambist.
+
+To receive payments that were collected for him at the site. ACH or wire transfer to his commercial account would work. Yet more E-biz automation software at the Cambist.
+
+An optional way to record the payment in his cash register. He could treat it as a check but frank a hand note instead.
+
+The customer needs:
+
+A cell phone or PDA. Everybody's got one, or the merchant could lend his.
+
+An easy way to designate which merchant the payment is for. The merchant could be identified to the website by his visibly posted phone number, registered with the Cambist.
+
+The current crop of Java-friendly phones open an interesting possibility. 1) Merchant keys a charge amount into his. 2) Customer enters merchant phone number and connects. 3) Merchant's Java transmits the amount and merchant account numbers for the payment systems he supports. 4) Customer's Java asks cusomer for password, connects to a Cambist web site, and executes the transfer. 5) Merchant sees transaction result on his phone (which he has bolted to the countertop). Total hassle: merchant entered amount, customer entered password.
+
+
+
+The Privatization of Digital Commons.
+
+In many ways, the development of private digital markets has followed the predictions of property rights theory. (And likely will continue to do so.)
+
+Property rights theory states that common areas are converted to private use when the benefits of doing so outweigh the costs. Applied to our situation, we could project that areas of cyberspace will be converted to private (exclusive) use when the benefits of private commerce outweigh the costs of conducting private commerce.
+
+At present, the cost of putting up walls (exclusion costs) are low. PGP, SSL, etc. are our equivalents to city walls, and are embarrassingly cheap. Our real costs are the risk that the rulers will injure anyone they see going in or out of the new private 'city.' Whether a government has a true right to do this (and they really do not) does not matter, only the fact that they have the ability to do such things, and are believed willing to use it. By this theory, the first to wall-off private areas of cyberspace should be people who don't care about the risk, or people who the rulers would be willing to hurt anyway. (If they're already willing to hurt you, you incur roughly zero additional risk by walling off a locale.)
+
+And in actual fact, the first people to wall-off cyberspace have been exactly these. Freedom activists were first, and are now being followed by people who are gambling, hiding money from tax collectors, engaging in sex work, viewing pornography, and so on.
+
+Factors that will continue the growth of free locales in cyberspace will be more services and benefits, more risks in the commons, and better methods of sneaking in and out of private locales.
+
+The more that productive people find their way into our locales, the more commerce they will transact and the more services they will construct. Currently, available services are on an upward curve, and show no signs of slowing down. We may not be at 'critical mass' yet, but the movement is clearly in that direction.
+
+When the risks in the commons go up, the cost differential between private and common areas evens out. So, the more cyberspace is general is overrun with police looking to entrap people, to search every email for key words, to examine every photo for possible underaged naked people, the more the cost difference between being an obedient serf and joining a forbidden locale approaches zero.
+
+Finally, there are now methods to avoid being seen as you come and go from a private locale[17]. Thus the risk of retribution is substantially reduced.
+
+As costs fall (including relative risk) and as benefits gain, more people will convert the commons of cyberspace to private use. Eventually, all but the most fearful will join free cyber locales. Stalinist repression might be able to stop this process (and is still a possibility), but becomes more unlikely by the day, since unleashing such poison would pollute not only private cyberspace, but the cyber commons as well. These commons have grown so important that ruining them would probably bring down any government that tried. Most politicians will endure the indignity of reduced power rather than face the utter disgrace of having none. Thus broad repression is possible, but unlikely.
+
+[Contents]
+
+VII - The Wind-up.
+
+We have proposed a different approach to financial privacy tools based on total decentralization, and a flexible environment for services rather than of services, attempting to emulate the freedom and variety of action of a cash economy. We have described a peer-to-peer, open-ended alternative to DMT-style financial services with a somewhat different objective. It is incomplete and probably has holes, but will serve as an example of the approach. We described a basket of anonymous information-based business models that could prosper in these unique conditions. We made some general observations regarding trust, reputation, risk, and accountability in such a system, and proposed ways in which those issues may be addressed, by treating them algebraically (see "An Algebra of Trust"). Finally, we discussed factors that inhibit the widespread adoption of such systems and some strategies to deal with them.
+
+
+
+Our original intention was to develop a new take on privacy tools and the formal treatment of trust and reputation. The project took on a life of its own and grew to what was almost a blueprint for a free society. To those with the stamina to make it this far, we hope it was worth the effort, and we hope it will encourage you to create newer and better ideas of your own.
+
+We invite comment, correction, criticism, disagreement, contribution, involvement, anything but apathy. And please, throw money.
+
+
+
+Wavyhill@mailvault.com
+
+ALTA EGOLD 24D8A7C4140AC49F165CD4B7D0B925C2C7CF25AD2D
+
+ALTA USD DDF9F5F19C93A6EAB220E9F7F62C53A7545C4B73
+
+ALTA EURO 3909FDE46165BAF554EF14232515E91846F177351
+
+
+
+Andre Goldman: ICA@mailvault.com
+
+[Contents]
+
+
+
+About the Authors:
+
+Andre Goldman: Andre writes on law and philosophy. He works in the area of non-jurisdictional law, and was the primary author of The Common Economic Protocols.
+
+
+
+Wavyhill: { ... }
+
+
+
+
+
+References and Links.
+
+[1] User guides and architecture of J. Orlin Grabbe's DMT/ALTA/LESE financial privacy tools. www.orlingrabbe.com/dmt_guide.htm
+
+[2] “Anonymity, Unobservability, and Pseudonymity: A Proposal for Terminology”, by Andreas Pfitzmann and Marit Köhntopp. July 2000. www.onion-router.net/Publications/DISCEX-2000.pdf
+
+[3]“The End of Ordinary Money”, J. Orlin Grabbe. “A series explaining the use of the monetary system for government surveillance, and why the growth of the information superspyway will increasingly lead to a system of anonymous digital cash”. freedom.orlingrabbe.com/money_laundering/money_laundering_index.htm
+
+Digital cash, financial crypto, www.orlingrabbe.com/digital_index.htm
+
+Privacy and cryptology. www.orlingrabbe.com/privacy_crypto.htm
+
+[Contents]
+
+[4] R. Dingldine's vast anonymity bibliography. www.freehaven.net/anonbib/
+
+[5] “Earthweb”, Marc Stiegler, ISBN 0-671-57809-X. A futurists vision of a society based on reputation servers, reputation-as-capital, information markets, forecast markets, anonymity.
+
+“Down and Out in the Magic Kingdom”, Cory Doctorow, 2003. A reputation-only economy, and a great read. www.craphound.com/
+
+[6] Robert Hettingas excellent article series on Digital Bearer settlement and related financial cryptography topics). www.ibuc.com/pdfs/Geoecon.pdf
+
+An educational site “Promoting Digital Commerce, Financial Cryptography, Digital Bearer Settlement”. www.philodox.com, in particular “A Market Model for Digital Bearer Instrument Underwriting“
+
+[7] “Reputation in Privacy Enhancing Technologies” , Dingldine, Mathewson, Syverson, MIT , www.cfp2002.org/proceedings/proceedings/syverson.pdf
+
+The Reputation Research Network. databases.si.umich.edu/reputations/
+
+“The Beta Reputation System”, Roslan Ismail, Queenslan U. of Tech, Brisbane, June, 2002. (associative reputation engine based on the beta probability function). security.dstc.edu.au/papers/Jl2002-Bled.pdf
+
+“A Peer-to-Peer Reputation System”, Cat Okita, DefCon, 2003 www.geekness.net/tools/aura/aura.pdf
+
+“Trust and Reputation in Web-based Social Networks” trust.mindswap.org/links.shtml
+
+”Reputation in P2P Anonymity Systems”, by Roger Dingledine, Nick Mathewson, and Paul Syverson,June 2003. www.freehaven.net/doc/econp2p03/econp2p03.pdf
+
+“Circles of Trust”, W. Grosman, Scientific American August 2000.
+
+[Contents]
+
+[8] “An Excess-Based Economic Model for Resource Allocation in Peer-to-Peer Networks”, by Christian Grothoff., June 2003. www.ovmj.org/GNUnet/download/ebe.ps
+
+“GAP – Practical anonymous networking”,by Krista Bennett and Christian Grothoff. March 2003. www.ovmj.org/GNUnet/download/aff.ps
+
+“An Analysis of GNUnet and the Implications for Anonymous, Censorship-Resistant Networks”, by Dennis Kügler.March 2003. www.ovmj.org/GNUnet/papers/GNUnet_pet.pdf
+
+“Tarzan: A Peer-to-Peer Anonymizing Network Layer”,by Michael J. Freedman and Robert Morris. November 2002. www.pdos.lcs.mit.edu/papers/tarzan:iptps02/ tarzan:iptps02.pdf
+
+“A Pseudonymous Communications Infrastructure for the Internet”,by Ian Goldberg. December 2000. www.isaac.cs.berkeley.edu/~iang/thesis-final.pdf
+
+“Networks Without User Observability – Design Options”, by Andreas Pfitzmann and Michael Waidner, 1985 www.semper.org/sirene/publ/PfWa_86anonyNetze.html
+
+“The Free Haven Project: Design and Deployment of an Anonymous Secure Data Haven”, R. Dingldine, May 2000 www.freehaven.net/doc/freehaven.pdf
+
+A modest P2P and Trust bibliography. www.p2ptrust.org/bibliography.html
+
+[9] Contract registration, arbitration, The Common Economic Protocols. ica.citystateinc.com/
+
+[Contents]
+
+[10] SUN's open-source java-based P2P template. www.jxta.org/
+
+[11] “The Cocaine Auction Protocol: On the Power of Anonymous Broadcast”. Stagano and Anderson. (Protocols for negotiation among untrusted agents without an arbiter). www-lce.eng.cam.ac.uk/~fms27/cocaine/
+
+[12] “On the economics of Anonymity”, Acquisti, Dingldine, Syverson (A study of barriers to deployment of anonymous payment systems). www.freehaven.net/doc/fc03/econymics.pdf
+
+[13] “A Lodging of Wayfaring Men”, by Anonymous. The creation of an anonymous online market evolving from a MMORPG. The revolutionary social, economic, and political consequences. The very human and humane people involved. The acid test of a great story is when you wish you could live in it. We highly recommend this.
+
+Electronic: www.seanhastings.com/alowm.pdf
+
+Paper: http://tandempress.com/ALodgingOfWayfaringMen/
+
+[14] “The Sovereign Individual: Mastering the Transition to the Information Age”, Davidson and Rees-Mogg, August, 1999, ISBN: 684832720
+
+[15] The Common Economic Protocols”, Andre Goldman. A voluntary ethical framework for contracts.
+
+Also “Justice without Force”, Goldman, An essay on techniques of conducting business safely and resolving conflict fairly, using voluntary agreements in place of coercion.
+
+[16] http://www.interpol.int/Public/FinancialCrime/MoneyLaundering/hawala
+
+/default.asp
+
+[17] Providers of internet privacy services endorsed by the authors:
+
+http://metropipe.net
+
+http://privacy.li
+
+[Contents]
+
+
+
+Sidebars.
+
+These are expansions and digressions linked from the main thread like big footnotes. It would probably make more sense to click to them from the relevant context.
+
+More About Users, Coins, and Locales.
+
+Oz works for users, so what is a user? The simplest answer is: a public/private key-pair. This is what you use to access locales, sign messages, mint coins, everything. An identity can be abandoned but not destroyed. Oz runs on nodes, and nodes are the user's point of entry to the node network. Oz provides coin management, creating digital currency types, minting and redeeming coins, etc. It supports creating locales to store coins, and exchanging or transferring them. Users, and coins are digitally authenticated. There are no privileged users or services. The environment is defined to be as minimal and generalized as possible, to allow freedom of activity within a trusted medium for storage and transfer of value. Some very basic services are provided by all nodes for free, but these are not exposed to the average user. Business services are defined by the activities of users, just as on the Dark Side. As with any information-based currency, the type and amount of value denominated by a class of coin is determined by how it is sold and redeemed by its creator (anyone) and more importantly by what others agree it is worth, considering the reputation of the source.
+
+[Contents]
+
+As a trusted medium for storage of value, Oz must provide for reliable, indestructible, incorruptible data retention. It must not be possible to trace, locate, or obstruct access to the data. To this end, one of the several known algorithms for holographic distributed data storage via 'shares' is employed. The key properties of these algorithms are that out of a set of M nodes, a subset of at least N nodes must cooperate to recover a datum, and that any N nodes are capable of doing so. This secures account data from accidental loss, or intentional corruption or destruction, even by dishonest nodes. But just as importantly, since a given node can't be proven to contain or control the data, it can't be held accountable for doing so. At worst, it can only be accused of being in a Virtual Private Network where legitimate activities are possible, but where some nodes participate in unpopular activities. It may be difficult to establish even that much.
+
+The exact means of distribution, location, and retrieval is still to be selected. There are several working open source examples of P2P distributed file storage which could be adopted for this purpose[8] [10]. There are several open source generic platforms for P2P distributed applications available which also look attractive.
+
+[Contents]
+
+Users.
+
+All users are equal, in that they have the same capabilities. They will typically use a graphical application to connect over a secure channel to one of many Oz server nodes in the P2P distributed network. Nodes provide a means of manipulating coins, and locales, performing secure transactions, and doing these things privately. Alternately, they may run some application which creates a secure server connection and uses the basic Oz operations to create more sophisticated services or functions. Users can create locales, issue coins, define a new coin type, and give or exchange them with others. Any user may choose to provide financial and other services. The concept of bank in the old sense of the word, as a monolithic institution with huge capital and special powers sanctioned by the state is outdated. There are only roles chosen by users, and respected by other users. In this regard, it is a classical free market. Users are free to operate their own private financial services with any form of guarantee or oversight they feel is competitive.
+
+Identity is nothing more than a public/private key pair which can be used to sign and control access to locales and coins or messages. Private keys are pass-phrase protected in the standard ways. A name string is associated with an identity, but has a descriptive, as opposed to authenticating role.
+
+[Contents]
+
+Coins.
+
+Digital coins are cryptographically authenticated bearer instruments[6]. They can represent any concrete or abstract thing that can be owned: gold grams, US dollars, back rubs, cows. What they represent is determined by the issuer of the digital coins of that type via the form of payment and redemption she requires. They can even be fiat, not backed by any real asset, say Merlin Grey's pseudo-gold ounces. Certain properties are a constant, generated by some byzantine crypto:
+
+Only the creator of a given type of coin can mint more of them. He decides the type, units, and denomination.
+
+The type, units, and denomination of a coin can be authenticated.
+
+Each coin is created with a unique identifier, distinguished from all others created of its type.
+
+The continued uniqueness of a coin cannot be guaranteed since they can be copied. Similar to the DMT Digital Bearer Certificates, double spends can only be prevented by validating them against a public signature, and immediately exchanging them with the issuer for a new, guaranteed unique one (if you know of a way around this not compromising the other privacy properties, we are all earz).
+
+They are frangible (sort of). The issuer can give you change for that 1-cow coin in nano-cows. The inability to break up my own cow slightly compromises this frangibility (if you know of a way around this, etc).
+
+They are fungible (sort of). Every 1-gold-gram coin is probably equivalent to every other, give or take the reputation of the issuers. But 2 different Ming-vase-coins are not-at-all interchangeable.
+
+Coins are easily moved between worlds, since they're just data. They can be downloaded into a flash key or PDA, or emailed to a friend. So they can even be used as money on the Dark Side.
+
+In the world of Oz, coins are just another kind of message.
+
+A lot has been made of blinding digital coins. The theory is that by keeping records of who purchases, redeems, and validates coins, something can be learned about user identities and activities. Blinding prevents this analysis by preserving the anonymity of transactions with the bank. So unblinded coins, such as the DMT Digital Bearer Certificates, are criticized for providing a weaker grade of privacy.
+
+[Contents]
+
+Not to gore anyone's ox, but this may not be such a large issue after all. First, there has to be some trust of the bank involved in using its currency. Is any greater trust required to assure it will not keep such records? Second, how anonymous is anonymous enough? For some, anything less than perfect is unacceptable as a matter of principle. For the rest of us not involved in smuggling nuclear secrets or plotting violent revolution, privacy that is merely very good should suffice. Third, it is possible to preserve privacy regardless of what the bank does by applying other measures. One may transact with it though an anonymizing chain or mesh of proxies. If these proxies have the coins reissued or swap equivalent coins, then they can't be traced, blinded or not. Networks are currently being constructed that perform mesh anonymizing implicitly, below the transport layer, on all traffic.
+
+Locales.
+
+There is no built in thing in OZ called an 'account'. Instead, users create locales to which they restrict access. Since locale manipulation is performed solely by the owner, there is no need to trust another agent to do so honestly. The owners sole access to the contents can guaranteed by keeping the locale name a secret and further by making the owner the only one on the door list, and the only addressee of coin-messages kept there.
+
+The traditional concept of an account is like a box of ordered records, with a rigid role as part of a highly structured system for imposing control on cash flow in some entity, to check, cross-check, and record transactions. Here, it is nothing more than a safe place to store digital coins, safe in the sense of being difficult to surveil, damage, or block the owners access. It isn't necessary to keep your coins in an account. You can keep them on floppies in your drawer if you like, though we wouldn't recommend it. You could keep them PGP encrypted on a USB flash key. Better not loose it. A holographically distributed Oz account cannot be lost.
+
+[Contents]
+
+Transactions.
+
+The basic transaction is simply the transfer of a digital coin. Since a coin is just a message with particular contents, donating a coin is just sending a message. The donor adds the coin to a locale of the acceptor's choice, adds the acceptor to it's addressee list, then removes himself. The risk of non-reciprocation (you pay someone but they don't deliver) and of double-spends (you utter the same coin to two merchants) can be limited by distributing trust over transactions (or time).
+
+For example Lazarus wants to exchange with you a billion dollars for Rands, but there isn't a billion dollars worth of trust handy. However there is enough reputation at stake in almost any transaction to create a dollar's worth of trust. Anyway you can afford to pay a dollar to find out the other guy is dishonest. So you exchange your value a dollar at a time, in effect passing the trust back and forth, factoring the transaction into a billion smaller ones. The arithmetic operation of factoring has been applied to trust. Under these conditions it doesn't matter if he knows or trusts you. The transaction cost is so low and speed so high that a large transaction is easily broken into many smaller ones individually exchanged and validated. The liquidity engendered by fast, cheap small transactions will make businesses more productive, economic activity more profitable, and make possible a new class of business models. Of course, getting change for a billion dollar coin may be awkward since only the issuer can generate it. It might even take a few milliseconds for him to do so ... But you would have the same problem with a million dollar bill, assuming you could find one.
+
+It is at the user's option to maintain transaction records. Application software could perform it, or she can do it by other means. Another option is to employ some trusted service to hold and manage an account and keep such records.
+
+Built-in Proxy Services.
+
+At a low level, nodes can call for volunteers for some kinds of help they need, and all nodes are obligated to respond. The built-in proxy service merits special attention. In a proxy service, a node agrees to forward messages (optionally bidirectional) to a given address, over an encrypted channel. By creating nested messages, the user can construct a proxy chain. Depending on how this is done, the result can be onion-routing, cascade or random mix-routing, a tunnel, etc. A proxy can be requested to do anything that nodes do, making some interesting privacy structures possible. Note that users are anonymous, but nodes are not.
+
+[Contents]
+
+Another service important to trust is escrow. In escrow, both parties to an exchange transaction pass a specification of what coin they expect along with their payment. If both expectations match payments, the agent forwards the exchanged coins, otherwise he returns both payments. The agent has nothing to gain by deviating from the protocol, the coins are useless without a key, though they can be typed, etc. The risk of a randomly malicious node could be mitigated by breaking up and distributing the transaction over several escrow servers, or several serial transactions. In another variation, the escrow agent performs the coin re-issue operation to preclude double-spend (this time the agent must be trusted with a 'hot' coin).
+
+Nodes.
+
+Nodes are hosts which run (perhaps among other things) the open-source Oz server software and connect on a VPN. Nodes advertise their addresses, but not the addresses or identities of connected users. They provide the basic user operations of identity, locale, and coin management. They also provide the services of message forwarding, proxy, escrow, and distributed coin and message storage. All nodes must provide these functions and do so without charge. Users connect with nodes over a secure channel with a text interface. The node a user connects to may be on the same, or a different host.
+
+Users could access Oz by connecting to a node with a text-only client, but the text interface 'shell' would not be very convenient to use. More typical will be open-source apps run on the user's machine that layer a GUI over the text command protocol and automate common activities.
+
+One such tool could provide a GUI front-end to the basic text interface for the average user, including navigational and conversational functions, and a browser for html messages. Another would be a web service interface. A business would use this to connect buttons, forms, etc. on their page in the WWW to Oz. For example an ordinary web-based business could use this to accept Oz payments or offer Oz-based services to customers on the web. Another such tool would automate complex transactions using escrowed coin exchange, proxy structures, incremental exchange, reputation, bond, or insurance services. Another is a web server presenting pages at an Oz locale.
+
+[Contents]
+
+Crypto Appliance.
+
+Speaking of PDAs; Some of you cypherpunks out there should consider putting together apps that turn a PDA or cell phone into a cryptographic appliance; they are already web browsers. Using Oz coins (or others, like the DMT DBCs) it could become an electronic wallet, make or take IR, Bluetooth, USB payments on command, access your anonymous world accounts by WiFi, verify and reissue DBCs and other coins. You could prove you're the guy who posts as Wavyhill, that you have a driver's license (the Fair Witness signed a cert) or that you are RedHat certified without disclosing your Dark Side ID. We predict there will be a crypto appliance much like this in the near future, and many or even most mainstream people will be using it. You can already get well-integrated PGP for them. This is the sort of thing smart cards were supposed to do, but failed because there was no motivation for merchants to install the infrastructure (e.g. readers). The infrastructure for this already exists in the form of PDAs, cell phones, WiFi, and the WWW. Trojan marketing. Somebody's going to make a lot of money on this thing, might as well be you.
+
+Just Like Chicken.
+
+In point of fact, dogs have masters, cats have staff. I am in the service of two most excellent cats. They make perverse but affectionate masters. Sometimes they let me out to play at night (WH).
+
+Reputation as Capital.
+
+Say you win the Nobel prize, but instead of money, you get reputation capital. Now, you don't have to beg for grants, pay for a house, a car, a ready seat at fancy restaurants, it all is given to you because you are known to produce things of great value, but more importantly, because the contributors get some of your reputation for giving you resources. If you expend a lot of high living, research material and human resources without result, after a while the post-docs leave your projects, your lab space is reallocated to more reputable, deserving projects, someone drives off with your car because they can make better use of it. All your reputation capital has been consumed.
+
+[Contents]
+
+This is going to outrage many propertarians and free market capitalists, because it redefines the nature of property as more of a transient relation. But this is a decentralized, emergent, merit-based mechanism of resource allocation and it has its advantages. Maybe things like your dog, that picture of your grandmother, etc, would stay in your possession because their 'sentimental' value makes them more 'useful' to you than anyone else. Maybe the advantages could be retained in some sort of compromise. One could also argue that individuals who gain lots of wealth in a currency-based free market because of their honest efforts and talents, would likely end up with similar wealth in a properly functioning reputation-based system. And best of all, there is no mechanism for coercive governments to use in such a society.
+
+An Algebra of Trust.
+
+Trust comes in different flavors, but here we are dealing with money-trust. Let's start by quantifying it. It's not too hard to put a money value on trust. If Donald would trust you with $1,000, then he has given you $1,000 of his trust. There is potential trust (Donald can trust you with $x) and actual trust (he is now trusting you with $x). There is payment trust (he trusts you to loan him $x on demand), and borrow trust (he trusts you to return his $x).
+
+Where does it come from and where does it go? There is no conservation law for trust. It is a consequence of reputation (history and references) and perceived motivation. It can be created and destroyed by events. Lets say that u{v} is the trust that u gives to v. Since we can assign a numeric quantity to it, what other properties of number apply?
+
+[Contents]
+
+Relative:
+
+U{A} != V{A}
+
+Trust is not absolute. U does not necessarily trust A as much as V does. None of the properties below would hold true if there is more than one trustor.
+
+Reflexive, Symmetric, and Transitive Properties of Equality:
+
+U{A} = U{A}
+
+if U{A} = U{B} then U{B} = U{A}
+
+if U{A} = U{B} and U{B} = U{c} then U{A} = U{C}
+
+if A{B} = B{C} then A{B} = A{C} ... Not!
+
+The transitive property across trustees holds, but transitive across trustors fails because trust is relative.
+
+Additive:
+
+A{B,C} = A{B} + A{C}
+
+A's trust of a group equals the sum of A's trusts of the members.This assumes no relationships within the set {A,B}. If there are, then the whole is greater than the sum of the parts.
+
+Distributive:
+
+3 X A{B,C} = (3 X A{B})+(3 X A{C})
+
+If A trusts someone 3 times as much as he trusts the group {A,B}, then he trusts someone 3 times as much as he trusts A plus 3 times as much as he trusts B.
+
+Associative:
+
+A{B,C} + A{D} = A{B} + A{C,D}
+
+No matter how you structure subgroups, the total trust is the same.
+
+Commutative:
+
+A{B} + A{C} = A{C} + A{B}
+
+The order of a group is irrelevant to it's trust.
+
+[Contents]
+
+That's enough for now. The point is, for most algebraic and arithmetic properties of number there is an equivalence, or at least an analogy, in trust. It's relative nature is a significant exception. Now let's formalize how trust behaves in networks. Consider the borrow behavior of the system in the figure below with these trust potentials:
+
+A{C} = $1,000, B{C} = $400, C{D} = $2,000
+
+Customer D with a $2,000 line of credit seeks to borrow $1,200 from bank C which has potential investors A and B.
+
+B pays $400 to C, C gives up $400 of potential trust to B. Now B has $400 actual trust for C.
+
+A pays $800 to C, C returns $800 of trust. Now A has $800 actual trust for C, and C has only $200 of A's potential trust left.
+
+C pays $1,200 to D. Now C is actually trusting D for $1,200, and D has only $800 of C potential trust (line-of-credit) left.
+
+
+
+
+[Contents]
+
+The point of this is to show that trust can be treated as a number with similar algebraic properties, and as a quantifiable commodity, subject to bookkeeping as with money. How can we use this to solve practical trust and reputation problems in an anonymous marketplace? Here are a few examples. Others will likely discover more.
+
+Relative:
+
+Different people trust you to different degrees. So when you need some trust, use a reputation server to locate those that trust you the most.
+
+Additive, Transitive:
+
+Strictly speaking, the transitive property doesn't hold across trustors. But in practice, chains, trees, webs, and other trust structures can be built that utilize the trust others have for people you know, and so on. These structures can be used to amass tremendous quantities of trust not achievable by individuals, or by those without reputation. The simple case is just additive; trust is accumulated in a pool. In the 3-player example above, D was able to benefit from the trust of A and B indirectly, though their trust of him was nonexistent. C applied the additive principle to A and B. On the commitment of 1000 people to contribute $1 per month to some cause, the organizers can get a $10,000 loan from the bank. What if they each promise to enlist 3 friends? A by-referral travel co-op is formed where members agree to provide bed-and-breakfast for each other when they are way from home. When someone accepts a guest, they are applying transitive trust. Another example of this principal can be seen in the discusion of “entry by recommendation” in Section IV. There are many creative ways to apply these principles to address issues of trust. Some were discussed in Section III.
+
+[Contents]
+
+Distributive:
+
+This is working the additive principle in reverse. It is most effective in dealing with risk (the inverse of trust). The general idea is that where there is some unacceptable risk, you divide it into many small risks and distribute them over some domain. Out goes distributed risk. In comes additive safety. You package the safety and sell it in some fashion. One domain is people. It may be dangerous for someone to transfer $20,000 out of Oz, but split into $100 pieces and distributed over 200 people, the risk and consequences are almost nil. The same thing can be applied to services provided by the nodes themselves, like escrow and storage. If you are concerned about dishonest nodes running doctored code, distribute your transaction over many nodes in parallel. Another domain is time. Whereas a single large transaction carries a large risk that one party will not reciprocate, if it is broken into a time series of small transactions, the risk of any single one is much less. The distributive property is also a flexible and powerful risk mitigation technique, and there are many creative ways to apply it.
+
+Associative:
+
+One perspective on this property is that the benefits of membership in a group often extend to other individuals participating in the same activity. For example, if a group of users are utilizing a private facility for ordinary purposes, an individual using it for a less popular purpose will attract less undesirable attention. The private use of strong cryptography comes to mind. Likewise the use of an anti-censorship network like Freenet for music file sharing. Oz would do well to host and attract less controversial traffic to legitimize its existence.
+
+
+
+Here is a more concrete example applying associativity to a trust problem, that being “How do you transact with entities where you have no reputation?” We start with a bond co-op, a group of high-rep, or mutually familiar agents who each make a moderate refundable deposit, and receive in return the benefit of a much larger bond. If a member defaults they are ejected, the bond is paid, members must renew their contribution, and the group may seek remedies. Members can receive proceeds from investment of the capital, or let it compound.
+
+
+
+Along comes someone with a small rep, greater than or equal to zero. The fraction of their desired bond they must front is determined by a statistical risk equation that guarantees break-even in the long run, as a function of their rep. They do not receive investment return on their deposit, on the other hand they are not required to repeat it if someone defaults. With time and participation their rep builds and their deposit is incrementally refunded. When it equals or better a member's deposit, they receive member's (vs. associate's) terms. The risk equation might be something like this:
+
+
+
+where Reputation is the probability of honest performance per gold gram at risk. See Section V for a discussion of reputation and ways to measure it.
+
+[Contents]
+
+Trust as Currency
+
+At first glance it would appear difficult to put trust in a coin and exchange it as currency because honesty varies across trustees and is a subjective evaluation varying across trustors. Nevertheless, it has its uses. Consider this example:
+
+Condie, who has no rep good or bad, posts a $1,050 escrow bond. The bondsman mints $1,000 worth of “trust Condie” coins and exchanges them for Condie's money. Condie then offers to paint your house for $100. You agree on terms and chop a contract. She gives you a $100 “Trust Condie” coin to back up her commitment of “satisfaction guaranteed for 30 days or your money back”. If Condie does good work you pay her. A month later you return her coin. If she spills polka dot paint on your driveway or the house turns an ugly shade of puce you redeem the coin from the bondsman with a copy of the contract and a photo. The coin is your proof that Condie is bonded and has not overextended her bond. Likewise she can redeem them all herself at any time for her deposit less fee.
+
+This works because the currency is specific to the trustee. It's not the same as Condie giving you a $100 coin of more broadly negotiable currency. You can only redeem it from the bondsman and only with evidence of misconduct. There is more on how trust and reputation can be quantified, evaluated, and made into useful numbers in the sections on “An Algebra of Trust” and “Reputation”.
+
+Use Case Walk-through.
+
+It's hard to visualize how well this all fits together without seeing someone use it. These examples show several ways Oz transactions could be performed in the real world of gas stations and grocery stores.
+
+Some Generalities.
+
+In some of these scenarios, value is transferred on a web page (in either WWW or Oz) through an interface like you use at e-stores to pay by plastic. In others less formal, you just send coins. You may execute the transactions with a handy app on your desktop machine, or a PDA with IR/WiFi/Bluetooth, or the web browser in your cell phone. You keep your IDs, maybe even some coins, encrypted in a USB Flash Key (better keep backups). You have several IDs. One is how most of your friends, acquaintances, and associates know you. One is for shopping. One is for that forum you don't want even your friends to know you're in. One is for purchasing erotica, one for dealing with the Venusian agent you sell military secrets to, and so on. You use a well-known open-source Oz front-end that has handy buttons and dialogs for just about anything you often do, plus it works with cell phones and PDAs.
+
+[Contents]
+
+Pay from Oz for something seen on WWW at your desktop:
+
+A – The merchant site supports Oz but only at his WWW storefront.
+
+You plug in your key and select your 'shopping ID'.
+
+You click on the merchant's Oz option.
+
+It posts some mysterious stuff in a popup which you paste into Oz.
+
+In Oz, you select the pay option, account, enter amount, and click pay.
+
+The transfer and his reissue of your coins, all happens behind the scenes.
+
+He replies with a receipt which you stash in your shoebox locale for such.
+
+B – The merchant site wants plastic.
+
+You plug in a USB flash key and select your 'shopping ID'.
+
+You click to your Oz bank's locale, it sends their homepage (in an Oz message),
+
+Your browser pops the page, you select the 'debit card payment' service, and enter the amount.
+
+Your bank returns a Dark Side card number, account name, address, etc.
+
+You paste it into the merchant's page and complete the purchase normally.
+
+Purchase item at a Dark Side flea market:
+
+C – The seller accepts Oz, off line.
+
+You take out your PDA, scribble a graffiti pass-glyph.
+
+You select a shopping ID, pay option, account, and enter the amount.
+
+You select BEAM/IR, your coins transfer to his PDA or laptop.
+
+[This is about as much trouble as writing a check, and has similar risks for the seller, ie double-spend]
+
+D – The seller accepts Oz, WiFi Internet access is available, you are 'on the street'.
+
+You take out your PDA, scribble a graffiti pass-glyph.
+
+You select a shopping ID, pay option, account, and enter the amount.
+
+He beams his locale/ID from his PDA to yours.
+
+You hit PAY, he picks up your coin at his locale and has it reissued.
+
+You pick up the item, say thanks, and walk.
+
+E – The seller refuses Oz.
+
+You could use that anonymous stored-value card.
+
+You could use cash you got with it at the ATM.
+
+[Contents]
+
+Your employer pays your bi-weekly salary, you save some as gold:
+
+F – The employer supports Oz 'direct deposit' (Yippee!).
+
+He already has your locale/ID, he sends you an exact amount coin denominated in Euros.
+
+Later, you pick up his coin, pass to your bank for reissue and break into change.
+
+You go to a metals market locale, post an inquiry.
+
+A dozen vendors reply with price-quote sheets by http.
+
+You want Krugerands, but the vendor with the best deals didn't list them.
+
+You address a private message to his ID, he replies with a great quote.
+
+You query a rep server, he's not listed. His quote did not list references or bonds.
+
+The coins are advertised as signed by a local asset storage service,
+
+and a Fair Witness certifying authenticity.
+
+You chat with the vendor, and agree on an escrow service (the denomination and
+
+signature terms make automated escrow impossible).
+
+You both go to the service locale and chat with the agent.
+
+Terms and fees are agreed upon, the Krugerand coin-coins and payment are
+
+transferred to the agent, who verifies the payment and Krugerand signatures
+
+and completes the exchange.
+
+You now hold EU 1,200 (and change) in Krugerands.
+
+You create a Krugerand locale and put them there.
+
+G – The employer insists on W-2 deposit to a 'normal' bank.
+
+See (N).
+
+[Contents]
+
+An Oz purchase at the shoe store:
+
+H – The merchant has a WWW page with an Oz payment interface.
+
+You take out your cell phone and bring up the web browser.
+
+You surf to your own page, where you keep a payment tool.
+
+You login, select ID, select the payment option, enter the account and amount.
+
+You enter the merchant's posted payment locale and hit PAY.
+
+The clerk sees your payment go through on his own Oz merchant-side web interface.
+
+He thanks you and you leave.
+
+I – The merchant never heard of Oz.
+
+You present an anonymous stored value debit card bought from an Oz-friendly source.
+
+Or you could pay with cash taken from Oz via stored-value VISA and ATM.
+
+You shop, in Oz, for a used textbook:
+
+J – From your desktop at home:
+
+You fire up your favorite Oz GUI.
+
+You select one of your shopping Ids, maybe slotting a USB key first.
+
+You go to a famous index locale. It's rather like Yahoo, a tree of locales .
+
+4 hops and you're at a used textbook locale.
+
+You see the biggest bookstore on the planet has a presence there.
+
+There is a permanent public message containing HTML, which you open.
+
+You're in the 'store'.
+
+You find and select a copy you like.
+
+You go to the store 'checkout' locale.
+
+In the Oz GUI you select a payment option, account, and amount and hit PAY.
+
+You just bought a book.
+
+For the delivery address, you give that nearby Dark Side storage service.
+
+Later you drop by there and swap your book coin for the physical book.
+
+[Contents]
+
+Tipping the waiter:
+
+When the bill comes, it includes an Oz locale, his tip jar.
+
+You whip out the phone or PDA or whatever, and send some coins there.
+
+Later he will drop by, reissue his tips and move them to a less public place.
+
+Paying the water bill:
+
+K – The utility is stuffy about payment methods.
+
+You fire up the home PC and an Oz GUI, and put on an ID.
+
+You go the locale of a financial services mall (index) and find a payment service that looks good.
+
+Their storefront carries the logo of a well-known reputation server.
+
+You hop over to the rep server locale and enter an inquiry on the payment service.
+
+The report says they are two years old, have 712 positive reports, 5 negative, 2 of which were service related, 3 were payment disputes all successfully arbitrated.
+
+You check out the service complaints and see both are from the same ID, and that ID has recorded over 30 service complaints in the last year.
+
+You pay the rep server's modest fee and return to the payment service.
+
+There you enter the amount, payee and account info from the bill.
+
+If you are extra paranoid, you do this with a temporary ID.
+
+The service accepts your order and you send it the coin.
+
+They mail a check to the water company.
+
+[Contents]
+
+Get some walking-around money:
+
+L – From an ATM.
+
+Your only option is the stored value debit card you payed for in Oz.
+
+M – From an Oz-friendly merchant.
+
+Many merchants that accept Oz payment offer a currency exchange service on the side.
+
+At the counter, with PDA or phone, you pay him in Oz coin as in (H).
+
+He gives you cash less a small commission.
+
+You could have just as well given him cash to send Oz coin to your account.
+
+Or: you 'know someone', maybe even a neighbor, who does Oz exchange.
+
+
+
+N - Transfer between Oz and Dark Side bank:
+
+The payment service in (K) will do wire and ACH transfers with your bank.
+
+They will even take credit card payment for Oz coin, but that will cost you
+
+18% unless you are bonded, insured, or have a really golden rep in Oz-land.
+
+
+
+[Contents]
+
+
+
